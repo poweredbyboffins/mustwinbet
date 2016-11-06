@@ -1,1 +1,0 @@
-heroku pg:backups restore 'https://www.dropbox.com/s/z1nw3qf54etpym0/mwb.dump?dl=0' HEROKU_POSTGRESQL_VIOLET_URL -a radiant-hamlet-6599 --confirm radiant-hamlet-6599

@@ -1,2 +1,0 @@
-heroku pg:backups restore 'https://www.dropbox.com/s/vixtijix26uycui/gamepred.dump?dl=0' HEROKU_POSTGRESQL_CYAN_URL -a lit-basin-8962 --confirm lit-basin-8962
-
