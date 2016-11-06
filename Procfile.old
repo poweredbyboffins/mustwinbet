@@ -1,0 +1,1 @@
+web: python manage.py collectstatic --noinput;gunicorn mwb.wsgi --log-file --app lit-basin-8962;

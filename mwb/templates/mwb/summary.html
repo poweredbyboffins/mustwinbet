@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="{% static 'mwb/divtest.css' %}" /> -->
+
+<script src="{{ STATIC_URL }}mwb/jquery/dist/jquery.min.js"></script>
+<script src="{{ STATIC_URL }}mwb/divtest.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/d3bar5.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/pie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/pie2.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/bar.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/bar2.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/text1.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/text2.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/line.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/quad.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/notify.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}mwb/title.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+var tit=document.domain.split(".").slice(-2).join(".");
+document.title=tit;
+  cssId="#css1"
+  var site = window.location.hostname;
+  switch (site) {
+    case 'mustwinbet.com':
+         var head  = document.getElementsByTagName('head')[0];
+         var link  = document.createElement('link');
+         link.id   = cssId;
+         link.rel  = 'stylesheet';
+         link.type = 'text/css';
+         link.href = "{% static 'mwb/divtest.css' %}";
+         link.media = 'all';
+         head.appendChild(link);
+      break;
+    case 'intheknowbet.com':
+         var head  = document.getElementsByTagName('head')[0];
+         var link  = document.createElement('link');
+         link.id   = cssId;
+         link.rel  = 'stylesheet';
+         link.type = 'text/css';
+         link.href = "{% static 'mwb/divtest2.css' %}";
+         link.media = 'all';
+         head.appendChild(link);
+      break;
+    default:
+         var head  = document.getElementsByTagName('head')[0];
+         var link  = document.createElement('link');
+         link.id   = cssId;
+         link.rel  = 'stylesheet';
+         link.type = 'text/css';
+         link.href = "{% static 'mwb/divtest.css' %}";
+         link.media = 'all';
+         head.appendChild(link);
+              }
+});
+</script>
+
+    </head>
+
+    <body>
+
+{% autoescape off %}
+<script type="text/javascript">
+var obj = {{ obj_as_json }};
+
+d3bar5(obj);
+</script>
+<script>
+postdata=""
+</script>
+{% endautoescape %}
+<div class="belowbann">
+<!--<a class="betlink" href="/bet/data=" onclick="notifyMe(postdata)"> <img src="{{MEDIA_URL}}/place.jpg" \></a>-->
+<!-- <button class="betlink" onclick="notifyMe(arr_sort,betcomp)">Place Bet</button> -->
+<button type="button" onclick="notifyMe(arr_sort,betcomp)" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">PlaceBet</button> 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Selected Bets</h4>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="belowbann2">
+<dl id="betcomps" class="dropdown">
+        <dt><a href="#"><span>Please select your betting company</span></a></dt>
+        <dd>
+            <ul>
+                <li><a href="#">Betfair<img class="flag" src="{{MEDIA_URL}}/betfair.png" alt="" /><span class="value">Betfair</span></a></li>
+                <li><a href="#">Bet365<img class="flag" src="{{MEDIA_URL}}/bet365.png" alt="" /><span class="value">Bet365</span></a></li>
+
+                <li><a href="#">Sky Bet<img class="flag" src="{{MEDIA_URL}}/skybet.png" alt="" /><span class="value">skybet</span></a></li>
+                <li><a href="#">Ladbrokes<img class="flag" src="{{MEDIA_URL}}/ladbrokes.png" alt="" /><span class="value">Ladbrokes</span></a></li>
+                <li><a href="#">Coral<img class="flag" src="{{MEDIA_URL}}/coral.png" alt="" /><span class="value">coral</span></a></li>
+                <li><a href="#">Bet Victor<img class="flag" src="{{MEDIA_URL}}/betvictor.png" alt="" /><span class="value">betvictor</span></a></li>
+                <li><a href="#">Bet Fred<img class="flag" src="{{MEDIA_URL}}/betfred.png" alt="" /><span class="value">betfred</span></a></li>
+                <li><a href="#">William Hill<img class="flag" src="{{MEDIA_URL}}/williamhill.png" alt="" /><span class="value">williamhill</span></a></li>
+                <li><a href="#">Tote Sport<img class="flag" src="{{MEDIA_URL}}/totesport.png" alt="" /><span class="value">totesport</span></a></li>
+            </ul>
+        </dd>
+    </dl>
+
+    <span id="result"></span>
+</div>
+<div class="container">
+
+        {% with png=".png" %}
+        {% if gameinfo %}
+                {% for game in gameinfo%}
+<!-- {% if forloop.counter|add:"-1"  == 0%} -->
+<!-- <div class="row"> -->
+<!-- {% endif %} -->
+{% if forloop.counter|add:"-1"|divisibleby:"1" == True %}
+<div class="row">
+{% endif %}
+<div class="column">
+    <div class="expandable-panel" id="cp-1" >
+        <div class="expandable-panel-heading"> 
+            <h2>{{game.i}}. {{game.matchdate}} - Choose to Bet
+<input type="checkbox" name="Bet" value="{{game.hometeam}}_{{game.awayteam}}" class="sort" />
+</h2>
+
+             <div class="float">
+                 <img src="{{MEDIA_URL}}/{{game.hometeam.split|join:""|lower|add:png}}" height="100" width="100"> 
+             </div>
+              <div class="float">
+               <h2>vs</h2> 
+              </div>
+             <div class="float">
+                <img src="{{MEDIA_URL}}/{{game.awayteam.split|join:""|lower|add:png}}" height="100" width="100"> 
+              </div>
+              <span class="icon-close-open"></span
+     </div>
+     </div>
+
+<div class="expandable-panel-content">
+            <p class="left">
+            <div class="float">
+            <h4>{{game.commentary}}</h4>
+            </div>
+            <div class="column">
+               <img src="{{MEDIA_URL}}/{{game.hometeam}}_{{game.awayteam}}_c.png" title="Football Prediction Probability of Win Draw Lose" alt="Football Prediction of Probability of Wind Draw Lose using Poisson Probability">
+               <img src="{{MEDIA_URL}}/{{game.hometeam}}_{{game.awayteam}}_l.png" title="Football Prediction Display of Goals Scored and Conceded" alt="Football Prediction Goals and Conceded scored over 10,20 and 30 games indicates form and change in form">
+               <img src="{{MEDIA_URL}}/{{game.hometeam}}_{{game.awayteam}}_b.png" >
+            </div>
+               <script type="text/javascript">
+               //text1("Probability",{{game.id}});
+               //djdata={{game.id}};
+               //pienew({{game.winprob}},{{game.loseprob}},{{game.drawprob}}
+               //,{{game.homeformadj}},{{game.awayformadj}},{{game.pctwin}},{{game.pctnotwin}},djdata);
+               //quad({{game.winprob}},{{game.loseprob}},{{game.drawprob}}
+               //,{{game.homeformadj}},{{game.awayformadj}},{{game.pctwin}},{{game.pctnotwin}},djdata);
+               </script>
+               <!-- <h4>Form Sequence</h4>  -->
+               <!-- <a href="/indepth={{game.hometeam}}&{{game.awayteam}}">Indepth</a> -->
+
+            </p>
+</div>
+</div>
+</div>
+{% if forloop.counter|divisibleby:"1" == True %}
+</div>
+{% endif %}
+                {% endfor %}
+            </div>
+            </div>
+        {% else %}
+            <strong>There are no categories present.</strong>
+        {% endif %}
+        {% endwith %}
+
+<script type="text/javascript">
+$(document).ready(function(){
+    arr_sort = new Array();
+    betcomp = "";
+    $(".sort").change(function()
+    {
+    arr_sort = new Array();
+        $(".sort").each(function()
+        {
+            if( $(this).is(':checked') )
+            {
+                str=$(this).val();
+                str=str.replace("_"," vs ");
+                arr_sort.push(str);
+            }
+        $(".modal-body").html(arr_sort.join("<br>"));
+        });
+        //alert( arr_sort );
+    });
+
+    $(".betlink").click(function() {
+        postdata = arr_sort+ "&" + betcomp;
+        return postdata;
+        
+        });
+
+
+
+$(".dropdown img.flag").addClass("flagvisibility");
+    $(".dropdown dt a").click(function() {
+        $(".dropdown dd ul").toggle();
+    });
+
+    $(".dropdown dd ul li a").click(function() {
+        var text = $(this).html();
+        $(".dropdown dt a span").html(text);
+        $(".dropdown dd ul").hide();
+        betcomp=getSelectedValue("betcomps");
+        $("#result").html("Selected value is: " + betcomp);
+    });
+
+    function getSelectedValue(id) {
+        return $("#" + id).find("dt a span.value").html();
+    }
+
+    $(document).bind('click', function(e) {
+        var $clicked = $(e.target);
+        if (! $clicked.parents().hasClass("dropdown"))
+            $(".dropdown dd ul").hide();
+    });
+
+    $(".dropdown img.flag").toggleClass("flagvisibility");
+});
+</script>
+<!-- Trigger the modal with a button -->
+<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+
+
+
+    </body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83664861-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

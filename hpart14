@@ -1,0 +1,7 @@
+cp mwb/settings-heroku.py mwb/settings.py
+git commit -am "Reinitialize$$"
+heroku git:remote -a lit-basin-8962
+#heroku create --remote heroku-cedar-14 --stack cedar-14 mwb.14
+#heroku git:remote -a lit-basin-8962
+git push -f heroku master
+cp mwb/settings-local.py mwb/settings.py

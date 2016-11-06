@@ -1,0 +1,197 @@
+function d3bar5(obj)
+{
+
+var data = [];
+var res = 0;
+//var obj {};
+
+//alert("objects" + obj.length);
+
+
+
+for (var i=0; i < obj.length;i++)
+           {
+            var sq=i*i;   
+
+            data.push({ goals : obj[i].fields.hometeam,
+                    value : obj[i].fields.winprob
+                  });
+           }
+//alert("value" + sq);
+            console.log(JSON.stringify(data));
+/* data = [{year: 2006, value: 54},
+            {year: 2007, value: 43},
+            {year: 2008, value: 41},
+            {year: 2009, value: 44},
+            {year: 2010, value: 35}];
+
+*/
+
+var barWidth = 60;
+var width = (barWidth + 10) * data.length;
+var height = 100;
+var margin = {top: 20, right: 10, bottom: 20, left: 10};
+
+var x = d3.scale.linear().domain([0, data.length]).range([0, width]);
+var y = d3.scale.linear().domain([0, d3.max(data, function(datum) { return datum.value; })]).
+  rangeRound([0, height]);
+
+// add the canvas to the DOM
+var barDemo = d3.select("#c1").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+/*var barDemo = d3.select("#c1").
+  append("svg:svg").
+  attr("width", width).
+  attr("height", height);
+*/
+
+barDemo.selectAll("rect").
+  data(data).
+  enter().
+  append("svg:rect").
+  attr("x", function(datum, index) { return x(index); }).
+  attr("y", function(datum) { return height - y(datum.value); }).
+  attr("height", function(datum) { return y(datum.value); }).
+  attr("width", barWidth).
+  attr("fill", function(datum) { if (datum.value > 15) {return "red";} else { return "black"; } });
+
+barDemo.selectAll("text").
+  data(data).
+  enter().
+  append("svg:text").
+  attr("x", function(datum, index) { return x(index) + barWidth; }).
+  attr("y", function(datum) { return height - y(datum.value); }).
+  attr("dx", -barWidth/2).
+  attr("dy", "1.2em").
+  attr("text-anchor", "middle").
+  text(function(datum) { return datum.value;}).
+  attr("fill", "white");
+/*
+barDemo.selectAll("axis.line").
+  data(data).
+  enter().append("svg:text").
+  attr("x", function(datum, index) { return x(index) + barWidth; }).
+  attr("y", height).
+  attr("dx", -barWidth/2).
+  attr("text-anchor", "middle").
+  attr("style", "font-size: 12; font-family: Helvetica, sans-serif").
+  text(function(datum) { return datum.goals;}).
+  attr("transform", "translate(0, 18)")
+  attr("class", "axis");
+/*
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(10);
+
+svg.append("g")         // Add the X Axis
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+  ;
+
+svg.append("text")
+        .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.bottom) + ")")
+        .style("text-anchor", "middle")
+        .text("Goals");
+*/
+
+var axisScale = d3.scale.linear()
+                          .domain([0, 10])
+                          .range([0, 600]);
+
+//Create the Axis
+var xAxis = d3.svg.axis()
+                  .scale(axisScale)
+                  .orient("bottom").ticks(10);
+
+var xAxisGroup = barDemo.append("g")
+.attr("class", "axis")
+.attr("transform", "translate(0, 100)")
+                              .call(xAxis);
+
+
+var x = d3.scale.linear().domain([0, data.length]).range([0, width]);
+var y = d3.scale.linear().domain([0, d3.max(data, function(datum) { return datum.value; })]).
+  rangeRound([0, height]);
+
+// add the canvas to the DOM
+var barDemo = d3.select("#c2").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+/*
+d3.select("#c2").
+  append("svg:svg").
+  attr("width", width).
+  attr("height", height);
+*/
+
+barDemo.selectAll("rect").
+  data(data).
+  enter().
+  append("svg:rect").
+  attr("x", function(datum, index) { return x(index); }).
+  attr("y", function(datum) { return height - y(datum.value); }).
+  attr("height", function(datum) { return y(datum.value); }).
+  attr("width", barWidth).
+  attr("fill", function(datum) { if (datum.value > 15) {return "blue";} else { return "yellow"; } });
+
+barDemo.selectAll("text").
+  data(data).
+  enter().
+  append("svg:text").
+  attr("x", function(datum, index) { return x(index) + barWidth; }).
+  attr("y", function(datum) { return height - y(datum.value); }).
+  attr("dx", -barWidth/2).
+  attr("dy", "1.2em").
+  attr("text-anchor", "middle").
+  text(function(datum) { return datum.value;}).
+  attr("fill", "black");
+/*
+barDemo.selectAll("axis.line").
+  data(data).
+  enter().append("svg:text").
+  attr("x", function(datum, index) { return x(index) + barWidth; }).
+  attr("y", height).
+  attr("dx", -barWidth/2).
+  attr("text-anchor", "middle").
+  attr("style", "font-size: 8; font-family: Helvetica, sans-serif").
+  text(function(datum) { return datum.goals;}).
+  attr("transform", "translate(0, 18)")
+  attr("class", "axis");
+/*
+var xAxis = d3.svg.axis().scale(x)
+    .orient("bottom").ticks(5);
+
+svg.append("g")         // Add the X Axis
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+  ;
+
+svg.append("text")
+        .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.bottom) + ")")
+        .style("text-anchor", "middle")
+        .text("Goals");
+*/
+
+var axisScale = d3.scale.linear()
+                          .domain([0, 10])
+                          .range([0, 600]);
+
+//Create the Axis
+var xAxis = d3.svg.axis()
+                  .scale(axisScale)
+                  .orient("bottom").ticks(5);
+
+var xAxisGroup = barDemo.append("g")
+.attr("class", "axis")
+.attr("transform", "translate(0, 100)")
+                              .call(xAxis);
+
+
+}

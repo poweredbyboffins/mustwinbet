@@ -1,0 +1,950 @@
+1,Arsenal,WinsByOne,6,BY
+2,AstonVilla,WinsByOne,6,BY
+3,Cardiff,WinsByOne,6,BY
+4,Chelsea,WinsByOne,10,BY
+5,Crystal Palace,WinsByOne,9,BY
+6,Everton,WinsByOne,12,BY
+7,Fulham,WinsByOne,7,BY
+8,Hull City,WinsByOne,5,BY
+9,Liverpool,WinsByOne,10,BY
+10,Manchester City,WinsByOne,6,BY
+11,Manchester Utd,WinsByOne,5,BY
+12,Newcastle Utd,WinsByOne,9,BY
+13,Norwich City,WinsByOne,5,BY
+14,Southampton,WinsByOne,6,BY
+15,Stoke City,WinsByOne,9,BY
+16,Sunderland,WinsByOne,6,BY
+17,Swansea City,WinsByOne,2,BY
+18,Tottenham,WinsByOne,12,BY
+19,WestBrom,WinsByOne,5,BY
+20,WestHam,WinsByOne,2,BY
+21,Arsenal,WinsByTwo,13,BY
+22,AstonVilla,WinsByTwo,3,BY
+23,Cardiff,WinsByTwo,1,BY
+24,Chelsea,WinsByTwo,8,BY
+25,Crystal Palace,WinsByTwo,3,BY
+26,Everton,WinsByTwo,5,BY
+27,Fulham,WinsByTwo,1,BY
+28,Hull City,WinsByTwo,3,BY
+29,Liverpool,WinsByTwo,5,BY
+30,Manchester City,WinsByTwo,10,BY
+31,Manchester Utd,WinsByTwo,8,BY
+32,Newcastle Utd,WinsByTwo,2,BY
+33,Norwich City,WinsByTwo,3,BY
+34,Southampton,WinsByTwo,5,BY
+35,Stoke City,WinsByTwo,2,BY
+36,Sunderland,WinsByTwo,1,BY
+37,Swansea City,WinsByTwo,4,BY
+38,Tottenham,WinsByTwo,5,BY
+39,WestBrom,WinsByTwo,1,BY
+40,WestHam,WinsByTwo,7,BY
+41,Arsenal,WinsByThree,5,BY
+42,AstonVilla,WinsByThree,1,BY
+43,Cardiff,WinsByThree,0,BY
+44,Chelsea,WinsByThree,5,BY
+45,Crystal Palace,WinsByThree,1,BY
+46,Everton,WinsByThree,3,BY
+47,Fulham,WinsByThree,1,BY
+48,Hull City,WinsByThree,0,BY
+49,Liverpool,WinsByThree,5,BY
+50,Manchester City,WinsByThree,5,BY
+51,Manchester Utd,WinsByThree,4,BY
+52,Newcastle Utd,WinsByThree,3,BY
+53,Norwich City,WinsByThree,0,BY
+54,Southampton,WinsByThree,3,BY
+55,Stoke City,WinsByThree,2,BY
+56,Sunderland,WinsByThree,2,BY
+57,Swansea City,WinsByThree,4,BY
+58,Tottenham,WinsByThree,2,BY
+59,WestBrom,WinsByThree,1,BY
+60,WestHam,WinsByThree,2,BY
+61,Arsenal,WinsByFour,0,BY
+62,AstonVilla,WinsByFour,0,BY
+63,Cardiff,WinsByFour,0,BY
+64,Chelsea,WinsByFour,2,BY
+65,Crystal Palace,WinsByFour,0,BY
+66,Everton,WinsByFour,1,BY
+67,Fulham,WinsByFour,0,BY
+68,Hull City,WinsByFour,2,BY
+69,Liverpool,WinsByFour,6,BY
+70,Manchester City,WinsByFour,6,BY
+71,Manchester Utd,WinsByFour,2,BY
+72,Newcastle Utd,WinsByFour,1,BY
+73,Norwich City,WinsByFour,0,BY
+74,Southampton,WinsByFour,1,BY
+75,Stoke City,WinsByFour,0,BY
+76,Sunderland,WinsByFour,1,BY
+77,Swansea City,WinsByFour,1,BY
+78,Tottenham,WinsByFour,2,BY
+79,WestBrom,WinsByFour,0,BY
+80,WestHam,WinsByFour,0,BY
+81,Arsenal,Wins,24,STANDARD
+82,AstonVilla,Wins,10,STANDARD
+83,Cardiff,Wins,7,STANDARD
+84,Chelsea,Wins,25,STANDARD
+85,Crystal Palace,Wins,13,STANDARD
+86,Everton,Wins,21,STANDARD
+87,Fulham,Wins,9,STANDARD
+88,Hull City,Wins,10,STANDARD
+89,Liverpool,Wins,26,STANDARD
+90,Manchester City,Wins,27,STANDARD
+91,Manchester Utd,Wins,19,STANDARD
+92,Newcastle Utd,Wins,15,STANDARD
+93,Norwich City,Wins,8,STANDARD
+94,Southampton,Wins,15,STANDARD
+95,Stoke City,Wins,13,STANDARD
+96,Sunderland,Wins,10,STANDARD
+97,Swansea City,Wins,11,STANDARD
+98,Tottenham,Wins,21,STANDARD
+99,WestBrom,Wins,7,STANDARD
+100,WestHam,Wins,11,STANDARD
+101,Arsenal,Draws,7,STANDARD
+102,AstonVilla,Draws,8,STANDARD
+103,Cardiff,Draws,9,STANDARD
+104,Chelsea,Draws,7,STANDARD
+105,Crystal Palace,Draws,6,STANDARD
+106,Everton,Draws,9,STANDARD
+107,Fulham,Draws,5,STANDARD
+108,Hull City,Draws,7,STANDARD
+109,Liverpool,Draws,6,STANDARD
+110,Manchester City,Draws,5,STANDARD
+111,Manchester Utd,Draws,7,STANDARD
+112,Newcastle Utd,Draws,4,STANDARD
+113,Norwich City,Draws,9,STANDARD
+114,Southampton,Draws,11,STANDARD
+115,Stoke City,Draws,11,STANDARD
+116,Sunderland,Draws,8,STANDARD
+117,Swansea City,Draws,9,STANDARD
+118,Tottenham,Draws,6,STANDARD
+119,WestBrom,Draws,15,STANDARD
+120,WestHam,Draws,7,STANDARD
+121,Arsenal,Loses,7,STANDARD
+122,AstonVilla,Loses,20,STANDARD
+123,Cardiff,Loses,22,STANDARD
+124,Chelsea,Loses,6,STANDARD
+125,Crystal Palace,Loses,19,STANDARD
+126,Everton,Loses,8,STANDARD
+127,Fulham,Loses,24,STANDARD
+128,Hull City,Loses,21,STANDARD
+129,Liverpool,Loses,6,STANDARD
+130,Manchester City,Loses,6,STANDARD
+131,Manchester Utd,Loses,12,STANDARD
+132,Newcastle Utd,Loses,19,STANDARD
+133,Norwich City,Loses,21,STANDARD
+134,Southampton,Loses,12,STANDARD
+135,Stoke City,Loses,14,STANDARD
+136,Sunderland,Loses,20,STANDARD
+137,Swansea City,Loses,18,STANDARD
+138,Tottenham,Loses,11,STANDARD
+139,WestBrom,Loses,16,STANDARD
+140,WestHam,Loses,20,STANDARD
+141,Arsenal,LoseByOne,2,BY
+142,AstonVilla,LoseByOne,10,BY
+143,Cardiff,LoseByOne,5,BY
+144,Chelsea,LoseByOne,5,BY
+145,Crystal Palace,LoseByOne,7,BY
+146,Everton,LoseByOne,5,BY
+147,Fulham,LoseByOne,5,BY
+148,Hull City,LoseByOne,9,BY
+149,Liverpool,LoseByOne,3,BY
+150,Manchester City,LoseByOne,6,BY
+151,Manchester Utd,LoseByOne,7,BY
+152,Newcastle Utd,LoseByOne,9,BY
+153,Norwich City,LoseByOne,9,BY
+154,Southampton,LoseByOne,6,BY
+155,Stoke City,LoseByOne,8,BY
+156,Sunderland,LoseByOne,9,BY
+157,Swansea City,LoseByOne,12,BY
+158,Tottenham,LoseByOne,4,BY
+159,WestBrom,LoseByOne,8,BY
+160,WestHam,LoseByOne,9,BY
+161,Arsenal,LoseByTwo,1,BY
+162,AstonVilla,LoseByTwo,4,BY
+163,Cardiff,LoseByTwo,8,BY
+164,Chelsea,LoseByTwo,1,BY
+165,Crystal Palace,LoseByTwo,10,BY
+166,Everton,LoseByTwo,2,BY
+167,Fulham,LoseByTwo,11,BY
+168,Hull City,LoseByTwo,9,BY
+169,Liverpool,LoseByTwo,3,BY
+170,Manchester City,LoseByTwo,- ,BY
+171,Manchester Utd,LoseByTwo,2,BY
+172,Newcastle Utd,LoseByTwo,1,BY
+173,Norwich City,LoseByTwo,6,BY
+174,Southampton,LoseByTwo,3,BY
+175,Stoke City,LoseByTwo,2,BY
+176,Sunderland,LoseByTwo,7,BY
+177,Swansea City,LoseByTwo,4,BY
+178,Tottenham,LoseByTwo,1,BY
+179,WestBrom,LoseByTwo,6,BY
+180,WestHam,LoseByTwo,9,BY
+181,Arsenal,LoseByThree,2,BY
+182,AstonVilla,LoseByThree,5,BY
+183,Cardiff,LoseByThree,7,BY
+184,Chelsea,LoseByThree,0,BY
+185,Crystal Palace,LoseByThree,2,BY
+186,Everton,LoseByThree,0,BY
+187,Fulham,LoseByThree,5,BY
+188,Hull City,LoseByThree,3,BY
+189,Liverpool,LoseByThree,0,BY
+190,Manchester City,LoseByThree,0,BY
+191,Manchester Utd,LoseByThree,3,BY
+192,Newcastle Utd,LoseByThree,5,BY
+193,Norwich City,LoseByThree,3,BY
+194,Southampton,LoseByThree,3,BY
+195,Stoke City,LoseByThree,2,BY
+196,Sunderland,LoseByThree,2,BY
+197,Swansea City,LoseByThree,2,BY
+198,Tottenham,LoseByThree,1,BY
+199,WestBrom,LoseByThree,2,BY
+200,WestHam,LoseByThree,2,BY
+201,Arsenal,LoseByFour,2,BY
+202,AstonVilla,LoseByFour,1,BY
+203,Cardiff,LoseByFour,2,BY
+204,Chelsea,LoseByFour,0,BY
+205,Crystal Palace,LoseByFour,0,BY
+206,Everton,LoseByFour,1,BY
+207,Fulham,LoseByFour,3,BY
+208,Hull City,LoseByFour,0,BY
+209,Liverpool,LoseByFour,0,BY
+210,Manchester City,LoseByFour,0,BY
+211,Manchester Utd,LoseByFour,0,BY
+212,Newcastle Utd,LoseByFour,4,BY
+213,Norwich City,LoseByFour,3,BY
+214,Southampton,LoseByFour,0,BY
+215,Stoke City,LoseByFour,2,BY
+216,Sunderland,LoseByFour,2,BY
+217,Swansea City,LoseByFour,0,BY
+218,Tottenham,LoseByFour,5,BY
+219,WestBrom,LoseByFour,0,BY
+220,WestHam,LoseByFour,0,BY
+221,Arsenal,LeadAvg,36.1,AVERAGE
+222,AstonVilla,LeadAvg,14.2,AVERAGE
+223,Cardiff,LeadAvg,10.2,AVERAGE
+224,Chelsea,LeadAvg,33,AVERAGE
+225,Crystal Palace,LeadAvg,17.9,AVERAGE
+226,Everton,LeadAvg,24.9,AVERAGE
+227,Fulham,LeadAvg,14.4,AVERAGE
+228,Hull City,LeadAvg,19.6,AVERAGE
+229,Liverpool,LeadAvg,47.7,AVERAGE
+230,Manchester City,LeadAvg,50.2,AVERAGE
+231,Manchester Utd,LeadAvg,29.3,AVERAGE
+232,Newcastle Utd,LeadAvg,23.3,AVERAGE
+233,Norwich City,LeadAvg,12.3,AVERAGE
+234,Southampton,LeadAvg,25.6,AVERAGE
+235,Stoke City,LeadAvg,19,AVERAGE
+236,Sunderland,LeadAvg,20.2,AVERAGE
+237,Swansea City,LeadAvg,19.7,AVERAGE
+238,Tottenham,LeadAvg,24.1,AVERAGE
+239,WestBrom,LeadAvg,16.3,AVERAGE
+240,WestHam,LeadAvg,19.7,AVERAGE
+241,Arsenal,LevelAvg,38.2,AVERAGE
+242,AstonVilla,LevelAvg,48.8,AVERAGE
+243,Cardiff,LevelAvg,45.4,AVERAGE
+244,Chelsea,LevelAvg,47.9,AVERAGE
+245,Crystal Palace,LevelAvg,44.3,AVERAGE
+246,Everton,LevelAvg,49.4,AVERAGE
+247,Fulham,LevelAvg,46.1,AVERAGE
+248,Hull City,LevelAvg,41,AVERAGE
+249,Liverpool,LevelAvg,30.3,AVERAGE
+250,Manchester City,LevelAvg,32.9,AVERAGE
+251,Manchester Utd,LevelAvg,36.6,AVERAGE
+252,Newcastle Utd,LevelAvg,42,AVERAGE
+253,Norwich City,LevelAvg,44,AVERAGE
+254,Southampton,LevelAvg,43.1,AVERAGE
+255,Stoke City,LevelAvg,49.3,AVERAGE
+256,Sunderland,LevelAvg,34.2,AVERAGE
+257,Swansea City,LevelAvg,43.4,AVERAGE
+258,Tottenham,LevelAvg,41.3,AVERAGE
+259,WestBrom,LevelAvg,39.3,AVERAGE
+260,WestHam,LevelAvg,46.9,AVERAGE
+261,Arsenal,LoseAvg,15.6,AVERAGE
+262,AstonVilla,LoseAvg,26.9,AVERAGE
+263,Cardiff,LoseAvg,34.5,AVERAGE
+264,Chelsea,LoseAvg,9.1,AVERAGE
+265,Crystal Palace,LoseAvg,27.7,AVERAGE
+266,Everton,LoseAvg,15.6,AVERAGE
+267,Fulham,LoseAvg,29.5,AVERAGE
+268,Hull City,LoseAvg,29.4,AVERAGE
+269,Liverpool,LoseAvg,12,AVERAGE
+270,Manchester City,LoseAvg,6.9,AVERAGE
+271,Manchester Utd,LoseAvg,24.1,AVERAGE
+272,Newcastle Utd,LoseAvg,24.7,AVERAGE
+273,Norwich City,LoseAvg,33.8,AVERAGE
+274,Southampton,LoseAvg,21.3,AVERAGE
+275,Stoke City,LoseAvg,21.8,AVERAGE
+276,Sunderland,LoseAvg,35.7,AVERAGE
+277,Swansea City,LoseAvg,26.9,AVERAGE
+278,Tottenham,LoseAvg,24.5,AVERAGE
+279,WestBrom,LoseAvg,34.4,AVERAGE
+280,WestHam,LoseAvg,23.4,AVERAGE
+281,Arsenal,PctWinHT,39.5,AVERAGE
+282,AstonVilla,PctWinHT,18.4,AVERAGE
+283,Cardiff,PctWinHT,7.9,AVERAGE
+284,Chelsea,PctWinHT,42.1,AVERAGE
+285,Crystal Palace,PctWinHT,23.7,AVERAGE
+286,Everton,PctWinHT,28.9,AVERAGE
+287,Fulham,PctWinHT,15.8,AVERAGE
+288,Hull City,PctWinHT,28.9,AVERAGE
+289,Liverpool,PctWinHT,65.8,AVERAGE
+290,Manchester City,PctWinHT,65.8,AVERAGE
+291,Manchester Utd,PctWinHT,39.5,AVERAGE
+292,Newcastle Utd,PctWinHT,31.6,AVERAGE
+293,Norwich City,PctWinHT,13.2,AVERAGE
+294,Southampton,PctWinHT,34.2,AVERAGE
+295,Stoke City,PctWinHT,26.3,AVERAGE
+296,Sunderland,PctWinHT,28.9,AVERAGE
+297,Swansea City,PctWinHT,23.7,AVERAGE
+298,Tottenham,PctWinHT,26.3,AVERAGE
+299,WestBrom,PctWinHT,23.7,AVERAGE
+300,WestHam,PctWinHT,23.7,AVERAGE
+301,Arsenal,AvgGoalsHme,1.89,AVERAGE2
+302,AstonVilla,AvgGoalsHme,1.16,AVERAGE2
+303,Cardiff,AvgGoalsHme,1.05,AVERAGE2
+304,Chelsea,AvgGoalsHme,2.26,AVERAGE2
+305,Crystal Palace,AvgGoalsHme,0.95,AVERAGE2
+306,Everton,AvgGoalsHme,2,AVERAGE2
+307,Fulham,AvgGoalsHme,1.26,AVERAGE2
+308,Hull City,AvgGoalsHme,1.05,AVERAGE2
+309,Liverpool,AvgGoalsHme,2.79,AVERAGE2
+310,Manchester City,AvgGoalsHme,3.32,AVERAGE2
+311,Manchester Utd,AvgGoalsHme,1.53,AVERAGE2
+312,Newcastle Utd,AvgGoalsHme,1.21,AVERAGE2
+313,Norwich City,AvgGoalsHme,0.89,AVERAGE2
+314,Southampton,AvgGoalsHme,1.68,AVERAGE2
+315,Stoke City,AvgGoalsHme,1.42,AVERAGE2
+316,Sunderland,AvgGoalsHme,1.11,AVERAGE2
+317,Swansea City,AvgGoalsHme,1.74,AVERAGE2
+318,Tottenham,AvgGoalsHme,1.58,AVERAGE2
+319,WestBrom,AvgGoalsHme,1.26,AVERAGE2
+320,WestHam,AvgGoalsHme,1.32,AVERAGE2
+321,Arsenal,AvgConcHome,0.58,AVERAGE2
+322,AstonVilla,AvgConcHome,1.53,AVERAGE2
+323,Cardiff,AvgConcHome,1.84,AVERAGE2
+324,Chelsea,AvgConcHome,0.58,AVERAGE2
+325,Crystal Palace,AvgConcHome,1.21,AVERAGE2
+326,Everton,AvgConcHome,1,AVERAGE2
+327,Fulham,AvgConcHome,2,AVERAGE2
+328,Hull City,AvgConcHome,1.11,AVERAGE2
+329,Liverpool,AvgConcHome,0.95,AVERAGE2
+330,Manchester City,AvgConcHome,0.68,AVERAGE2
+331,Manchester Utd,AvgConcHome,1.11,AVERAGE2
+332,Newcastle Utd,AvgConcHome,1.47,AVERAGE2
+333,Norwich City,AvgConcHome,0.95,AVERAGE2
+334,Southampton,AvgConcHome,1.21,AVERAGE2
+335,Stoke City,AvgConcHome,0.89,AVERAGE2
+336,Sunderland,AvgConcHome,1.42,AVERAGE2
+337,Swansea City,AvgConcHome,1.37,AVERAGE2
+338,Tottenham,AvgConcHome,1.21,AVERAGE2
+339,WestBrom,AvgConcHome,1.42,AVERAGE2
+340,WestHam,AvgConcHome,1.37,AVERAGE2
+341,Arsenal,AvgGoalsAway,1.68,AVERAGE2
+342,AstonVilla,AvgGoalsAway,0.89,AVERAGE2
+343,Cardiff,AvgGoalsAway,0.63,AVERAGE2
+344,Chelsea,AvgGoalsAway,1.47,AVERAGE2
+345,Crystal Palace,AvgGoalsAway,0.79,AVERAGE2
+346,Everton,AvgGoalsAway,1.21,AVERAGE2
+347,Fulham,AvgGoalsAway,0.84,AVERAGE2
+348,Hull City,AvgGoalsAway,0.95,AVERAGE2
+349,Liverpool,AvgGoalsAway,2.53,AVERAGE2
+350,Manchester City,AvgGoalsAway,2.05,AVERAGE2
+351,Manchester Utd,AvgGoalsAway,1.84,AVERAGE2
+352,Newcastle Utd,AvgGoalsAway,1.05,AVERAGE2
+353,Norwich City,AvgGoalsAway,0.58,AVERAGE2
+354,Southampton,AvgGoalsAway,1.16,AVERAGE2
+355,Stoke City,AvgGoalsAway,0.95,AVERAGE2
+356,Sunderland,AvgGoalsAway,1.05,AVERAGE2
+357,Swansea City,AvgGoalsAway,1.11,AVERAGE2
+358,Tottenham,AvgGoalsAway,1.32,AVERAGE2
+359,WestBrom,AvgGoalsAway,1,AVERAGE2
+360,WestHam,AvgGoalsAway,0.79,AVERAGE2
+361,Arsenal,AvgConcAway,1.58,AVERAGE2
+362,AstonVilla,AvgConcAway,1.68,AVERAGE2
+363,Cardiff,AvgConcAway,2.05,AVERAGE2
+364,Chelsea,AvgConcAway,0.84,AVERAGE2
+365,Crystal Palace,AvgConcAway,1.32,AVERAGE2
+366,Everton,AvgConcAway,1.05,AVERAGE2
+367,Fulham,AvgConcAway,2.47,AVERAGE2
+368,Hull City,AvgConcAway,1.68,AVERAGE2
+369,Liverpool,AvgConcAway,1.68,AVERAGE2
+370,Manchester City,AvgConcAway,1.26,AVERAGE2
+371,Manchester Utd,AvgConcAway,1.16,AVERAGE2
+372,Newcastle Utd,AvgConcAway,1.63,AVERAGE2
+373,Norwich City,AvgConcAway,2.32,AVERAGE2
+374,Southampton,AvgConcAway,1.21,AVERAGE2
+375,Stoke City,AvgConcAway,1.84,AVERAGE2
+376,Sunderland,AvgConcAway,1.74,AVERAGE2
+377,Swansea City,AvgConcAway,1.47,AVERAGE2
+378,Tottenham,AvgConcAway,1.47,AVERAGE2
+379,WestBrom,AvgConcAway,1.68,AVERAGE2
+380,WestHam,AvgConcAway,1.32,AVERAGE2
+381,Arsenal,LoseHT,23.7,AVERAGE
+382,AstonVilla,LoseHT,31.6,AVERAGE
+383,Cardiff,LoseHT,50,AVERAGE
+384,Chelsea,LoseHT,10.5,AVERAGE
+385,Crystal Palace,LoseHT,31.6,AVERAGE
+386,Everton,LoseHT,23.7,AVERAGE
+387,Fulham,LoseHT,28.9,AVERAGE
+388,Hull City,LoseHT,34.2,AVERAGE
+389,Liverpool,LoseHT,15.8,AVERAGE
+390,Manchester City,LoseHT,10.5,AVERAGE
+391,Manchester Utd,LoseHT,34.2,AVERAGE
+392,Newcastle Utd,LoseHT,34.2,AVERAGE
+393,Norwich City,LoseHT,44.7,AVERAGE
+394,Southampton,LoseHT,23.7,AVERAGE
+395,Stoke City,LoseHT,23.7,AVERAGE
+396,Sunderland,LoseHT,44.7,AVERAGE
+397,Swansea City,LoseHT,31.6,AVERAGE
+398,Tottenham,LoseHT,28.9,AVERAGE
+399,WestBrom,LoseHT,52.6,AVERAGE
+400,WestHam,LoseHT,28.9,AVERAGE
+401,Arsenal,GoalsFor,68,STANDARD
+402,AstonVilla,GoalsFor,39,STANDARD
+403,Cardiff,GoalsFor,32,STANDARD
+404,Chelsea,GoalsFor,71,STANDARD
+405,Crystal Palace,GoalsFor,33,STANDARD
+406,Everton,GoalsFor,61,STANDARD
+407,Fulham,GoalsFor,40,STANDARD
+408,Hull City,GoalsFor,38,STANDARD
+409,Liverpool,GoalsFor,101,STANDARD
+410,Manchester City,GoalsFor,102,STANDARD
+411,Manchester Utd,GoalsFor,64,STANDARD
+412,Newcastle Utd,GoalsFor,43,STANDARD
+413,Norwich City,GoalsFor,28,STANDARD
+414,Southampton,GoalsFor,54,STANDARD
+415,Stoke City,GoalsFor,45,STANDARD
+416,Sunderland,GoalsFor,41,STANDARD
+417,Swansea City,GoalsFor,54,STANDARD
+418,Tottenham,GoalsFor,55,STANDARD
+419,WestBrom,GoalsFor,43,STANDARD
+420,WestHam,GoalsFor,40,STANDARD
+421,Arsenal,GoalsAgst,41,STANDARD
+422,AstonVilla,GoalsAgst,61,STANDARD
+423,Cardiff,GoalsAgst,74,STANDARD
+424,Chelsea,GoalsAgst,27,STANDARD
+425,Crystal Palace,GoalsAgst,48,STANDARD
+426,Everton,GoalsAgst,39,STANDARD
+427,Fulham,GoalsAgst,85,STANDARD
+428,Hull City,GoalsAgst,53,STANDARD
+429,Liverpool,GoalsAgst,50,STANDARD
+430,Manchester City,GoalsAgst,37,STANDARD
+431,Manchester Utd,GoalsAgst,43,STANDARD
+432,Newcastle Utd,GoalsAgst,59,STANDARD
+433,Norwich City,GoalsAgst,62,STANDARD
+434,Southampton,GoalsAgst,46,STANDARD
+435,Stoke City,GoalsAgst,52,STANDARD
+436,Sunderland,GoalsAgst,60,STANDARD
+437,Swansea City,GoalsAgst,54,STANDARD
+438,Tottenham,GoalsAgst,51,STANDARD
+439,WestBrom,GoalsAgst,59,STANDARD
+440,WestHam,GoalsAgst,51,STANDARD
+441,Arsenal,GoalsDiff,27,STANDARD
+442,AstonVilla,GoalsDiff,-22,STANDARD
+443,Cardiff,GoalsDiff,-42,STANDARD
+444,Chelsea,GoalsDiff,44,STANDARD
+445,Crystal Palace,GoalsDiff,-15,STANDARD
+446,Everton,GoalsDiff,22,STANDARD
+447,Fulham,GoalsDiff,-45,STANDARD
+448,Hull City,GoalsDiff,-15,STANDARD
+449,Liverpool,GoalsDiff,51,STANDARD
+450,Manchester City,GoalsDiff,65,STANDARD
+451,Manchester Utd,GoalsDiff,21,STANDARD
+452,Newcastle Utd,GoalsDiff,-16,STANDARD
+453,Norwich City,GoalsDiff,-34,STANDARD
+454,Southampton,GoalsDiff,8,STANDARD
+455,Stoke City,GoalsDiff,-7,STANDARD
+456,Sunderland,GoalsDiff,-19,STANDARD
+457,Swansea City,GoalsDiff,0,STANDARD
+458,Tottenham,GoalsDiff,4,STANDARD
+459,WestBrom,GoalsDiff,-16,STANDARD
+460,WestHam,GoalsDiff,-11,STANDARD
+461,Arsenal,Pts,79,STANDARD
+462,AstonVilla,Pts,38,STANDARD
+463,Cardiff,Pts,30,STANDARD
+464,Chelsea,Pts,82,STANDARD
+465,Crystal Palace,Pts,45,STANDARD
+466,Everton,Pts,72,STANDARD
+467,Fulham,Pts,32,STANDARD
+468,Hull City,Pts,37,STANDARD
+469,Liverpool,Pts,84,STANDARD
+470,Manchester City,Pts,86,STANDARD
+471,Manchester Utd,Pts,64,STANDARD
+472,Newcastle Utd,Pts,49,STANDARD
+473,Norwich City,Pts,33,STANDARD
+474,Southampton,Pts,56,STANDARD
+475,Stoke City,Pts,50,STANDARD
+476,Sunderland,Pts,38,STANDARD
+477,Swansea City,Pts,42,STANDARD
+478,Tottenham,Pts,69,STANDARD
+479,WestBrom,Pts,36,STANDARD
+480,WestHam,Pts,40,STANDARD
+481,Arsenal,Attendance,60013,FANS
+482,AstonVilla,Attendance,36080,FANS
+483,Cardiff,Attendance,27429,FANS
+484,Chelsea,Attendance,41481,FANS
+485,Crystal Palace,Attendance,24637,FANS
+486,Everton,Attendance,37731,FANS
+487,Fulham,Attendance,24977,FANS
+488,Hull City,Attendance,24116,FANS
+489,Liverpool,Attendance,44656,FANS
+490,Manchester City,Attendance,46948,FANS
+491,Manchester Utd,Attendance,74394,FANS
+492,Newcastle Utd,Attendance,50395,FANS
+493,Norwich City,Attendance,26910,FANS
+494,Southampton,Attendance,30211,FANS
+495,Stoke City,Attendance,26137,FANS
+496,Sunderland,Attendance,40117,FANS
+497,Swansea City,Attendance,20406,FANS
+498,Tottenham,Attendance,35808,FANS
+499,WestBrom,Attendance,25193,FANS
+500,WestHam,Attendance,34196,FANS
+501,Arsenal,LeagueTitles,13,HISTORY
+502,AstonVilla,LeagueTitles,7,HISTORY
+503,Cardiff,LeagueTitles,0,HISTORY
+504,Chelsea,LeagueTitles,4,HISTORY
+505,Crystal Palace,LeagueTitles,0,HISTORY
+506,Everton,LeagueTitles,9,HISTORY
+507,Fulham,LeagueTitles,0,HISTORY
+508,Hull City,LeagueTitles,0,HISTORY
+509,Liverpool,LeagueTitles,18,HISTORY
+510,Manchester City,LeagueTitles,4,HISTORY
+511,Manchester Utd,LeagueTitles,20,HISTORY
+512,Newcastle Utd,LeagueTitles,4,HISTORY
+513,Norwich City,LeagueTitles,0,HISTORY
+514,Southampton,LeagueTitles,0,HISTORY
+515,Stoke City,LeagueTitles,0,HISTORY
+516,Sunderland,LeagueTitles,6,HISTORY
+517,Swansea City,LeagueTitles,0,HISTORY
+518,Tottenham,LeagueTitles,2,HISTORY
+519,WestBrom,LeagueTitles,0,HISTORY
+520,WestHam,LeagueTitles,0,HISTORY
+521,Arsenal,FACups,11,HISTORY
+522,AstonVilla,FACups,7,HISTORY
+523,Cardiff,FACups,1,HISTORY
+524,Chelsea,FACups,7,HISTORY
+525,Crystal Palace,FACups,0,HISTORY
+526,Everton,FACups,5,HISTORY
+527,Fulham,FACups,0,HISTORY
+528,Hull City,FACups,0,HISTORY
+529,Liverpool,FACups,7,HISTORY
+530,Manchester City,FACups,5,HISTORY
+531,Manchester Utd,FACups,11,HISTORY
+532,Newcastle Utd,FACups,6,HISTORY
+533,Norwich City,FACups,0,HISTORY
+534,Southampton,FACups,1,HISTORY
+535,Stoke City,FACups,0,HISTORY
+536,Sunderland,FACups,2,HISTORY
+537,Swansea City,FACups,0,HISTORY
+538,Tottenham,FACups,8,HISTORY
+539,WestBrom,FACups,5,HISTORY
+540,WestHam,FACups,3,HISTORY
+541,Arsenal,WCUP,13,PLAYERS
+542,AstonVilla,WCUP,2,PLAYERS
+543,Cardiff,WCUP,0,PLAYERS
+544,Chelsea,WCUP,17,PLAYERS
+545,Crystal Palace,WCUP,1,PLAYERS
+546,Everton,WCUP,5,PLAYERS
+547,Fulham,WCUP,0,PLAYERS
+548,Hull City,WCUP,2,PLAYERS
+549,Liverpool,WCUP,12,PLAYERS
+550,Manchester City,WCUP,10,PLAYERS
+551,Manchester Utd,WCUP,14,PLAYERS
+552,Newcastle Utd,WCUP,5,PLAYERS
+553,Norwich City,WCUP,0,PLAYERS
+554,Southampton,WCUP,6,PLAYERS
+555,Stoke City,WCUP,4,PLAYERS
+556,Sunderland,WCUP,1,PLAYERS
+557,Swansea City,WCUP,4,PLAYERS
+558,Tottenham,WCUP,7,PLAYERS
+559,WestBrom,WCUP,2,PLAYERS
+560,WestHam,WCUP,0,PLAYERS
+561,Arsenal,TOPSCORE,12,PLAYERS
+562,AstonVilla,TOPSCORE,10,PLAYERS
+563,Cardiff,TOPSCORE,0,PLAYERS
+564,Chelsea,TOPSCORE,4,PLAYERS
+565,Crystal Palace,TOPSCORE,1,PLAYERS
+566,Everton,TOPSCORE,6,PLAYERS
+567,Fulham,TOPSCORE,2,PLAYERS
+568,Hull City,TOPSCORE,0,PLAYERS
+569,Liverpool,TOPSCORE,17,PLAYERS
+570,Manchester City,TOPSCORE,2,PLAYERS
+571,Manchester Utd,TOPSCORE,13,PLAYERS
+572,Newcastle Utd,TOPSCORE,11,PLAYERS
+573,Norwich City,TOPSCORE,1,PLAYERS
+574,Southampton,TOPSCORE,2,PLAYERS
+575,Stoke City,TOPSCORE,1,PLAYERS
+576,Sunderland,TOPSCORE,1,PLAYERS
+577,Swansea City,TOPSCORE,0,PLAYERS
+578,Tottenham,TOPSCORE,2,PLAYERS
+579,WestBrom,TOPSCORE,2,PLAYERS
+580,WestHam,TOPSCORE,9,PLAYERS
+581,Arsenal,ARRESTS,53,FANS
+582,AstonVilla,ARRESTS,51,FANS
+583,Cardiff,ARRESTS,26,FANS
+584,Chelsea,ARRESTS,92,FANS
+585,Crystal Palace,ARRESTS,31,FANS
+586,Everton,ARRESTS,44,FANS
+587,Fulham,ARRESTS,9,FANS
+588,Hull City,ARRESTS,25,FANS
+589,Liverpool,ARRESTS,36,FANS
+590,Manchester City,ARRESTS,95,FANS
+591,Manchester Utd,ARRESTS,145,FANS
+592,Newcastle Utd,ARRESTS,175,FANS
+593,Norwich City,ARRESTS,12,FANS
+594,Southampton,ARRESTS,23,FANS
+595,Stoke City,ARRESTS,32,FANS
+596,Sunderland,ARRESTS,38,FANS
+597,Swansea City,ARRESTS,44,FANS
+598,Tottenham,ARRESTS,32,FANS
+599,WestBrom,ARRESTS,10,FANS
+600,WestHam,ARRESTS,67,FANS
+601,Arsenal,BANNING,59,FANS
+602,AstonVilla,BANNING,44,FANS
+603,Cardiff,BANNING,121,FANS
+604,Chelsea,BANNING,110,FANS
+605,Crystal Palace,BANNING,31,FANS
+606,Everton,BANNING,27,FANS
+607,Fulham,BANNING,4,FANS
+608,Hull City,BANNING,47,FANS
+609,Liverpool,BANNING,39,FANS
+610,Manchester City,BANNING,48,FANS
+611,Manchester Utd,BANNING,91,FANS
+612,Newcastle Utd,BANNING,58,FANS
+613,Norwich City,BANNING,12,FANS
+614,Southampton,BANNING,23,FANS
+615,Stoke City,BANNING,26,FANS
+616,Sunderland,BANNING,38,FANS
+617,Swansea City,BANNING,44,FANS
+618,Tottenham,BANNING,56,FANS
+619,WestBrom,BANNING,25,FANS
+620,WestHam,BANNING,65,FANS
+621,Arsenal,NETSPEND,-4,SPEND
+622,AstonVilla,NETSPEND,86,SPEND
+623,Cardiff,NETSPEND,37,SPEND
+624,Chelsea,NETSPEND,282,SPEND
+625,Crystal Palace,NETSPEND,11,SPEND
+626,Everton,NETSPEND,-12,SPEND
+627,Fulham,NETSPEND,23,SPEND
+628,Hull City,NETSPEND,47,SPEND
+629,Liverpool,NETSPEND,89,SPEND
+630,Manchester City,NETSPEND,479,SPEND
+631,Manchester Utd,NETSPEND,138,SPEND
+632,Newcastle Utd,NETSPEND,-45,SPEND
+633,Norwich City,NETSPEND,21,SPEND
+634,Southampton,NETSPEND,59,SPEND
+635,Stoke City,NETSPEND,91,SPEND
+636,Sunderland,NETSPEND,49,SPEND
+637,Swansea City,NETSPEND,18,SPEND
+638,Tottenham,NETSPEND,-2,SPEND
+639,WestBrom,NETSPEND,14,SPEND
+640,WestHam,NETSPEND,30,SPEND
+641,Arsenal,BUY,188,SPEND
+642,AstonVilla,BUY,179,SPEND
+643,Cardiff,BUY,53,SPEND
+644,Chelsea,BUY,436,SPEND
+645,Crystal Palace,BUY,21,SPEND
+646,Everton,BUY,63,SPEND
+647,Fulham,BUY,62,SPEND
+648,Hull City,BUY,56,SPEND
+649,Liverpool,BUY,309,SPEND
+650,Manchester City,BUY,640,SPEND
+651,Manchester Utd,BUY,267,SPEND
+652,Newcastle Utd,BUY,93,SPEND
+653,Norwich City,BUY,22,SPEND
+654,Southampton,BUY,75,SPEND
+655,Stoke City,BUY,99,SPEND
+656,Sunderland,BUY,159,SPEND
+657,Swansea City,BUY,48,SPEND
+658,Tottenham,BUY,310,SPEND
+659,WestBrom,BUY,50,SPEND
+660,WestHam,BUY,85,SPEND
+661,Arsenal,SELL,192,SPEND
+662,AstonVilla,SELL,93,SPEND
+663,Cardiff,SELL,16,SPEND
+664,Chelsea,SELL,154,SPEND
+665,Crystal Palace,SELL,9,SPEND
+666,Everton,SELL,75,SPEND
+667,Fulham,SELL,39,SPEND
+668,Hull City,SELL,8,SPEND
+669,Liverpool,SELL,220,SPEND
+670,Manchester City,SELL,160,SPEND
+671,Manchester Utd,SELL,128,SPEND
+672,Newcastle Utd,SELL,138,SPEND
+673,Norwich City,SELL,1,SPEND
+674,Southampton,SELL,16,SPEND
+675,Stoke City,SELL,8,SPEND
+676,Sunderland,SELL,109,SPEND
+677,Swansea City,SELL,29,SPEND
+678,Tottenham,SELL,313,SPEND
+679,WestBrom,SELL,36,SPEND
+680,WestHam,SELL,54,SPEND
+681,Arsenal,HOMEGROWN,5,PLAYERS
+682,AstonVilla,HOMEGROWN,14,PLAYERS
+683,Cardiff,HOMEGROWN,16,PLAYERS
+684,Chelsea,HOMEGROWN,5,PLAYERS
+685,Crystal Palace,HOMEGROWN,14,PLAYERS
+686,Everton,HOMEGROWN,7,PLAYERS
+687,Fulham,HOMEGROWN,11,PLAYERS
+688,Hull City,HOMEGROWN,15,PLAYERS
+689,Liverpool,HOMEGROWN,8,PLAYERS
+690,Manchester City,HOMEGROWN,8,PLAYERS
+691,Manchester Utd,HOMEGROWN,12,PLAYERS
+692,Newcastle Utd,HOMEGROWN,9,PLAYERS
+693,Norwich City,HOMEGROWN,11,PLAYERS
+694,Southampton,HOMEGROWN,13,PLAYERS
+695,Stoke City,HOMEGROWN,11,PLAYERS
+696,Sunderland,HOMEGROWN,11,PLAYERS
+697,Swansea City,HOMEGROWN,8,PLAYERS
+698,Tottenham,HOMEGROWN,10,PLAYERS
+699,WestBrom,HOMEGROWN,13,PLAYERS
+700,WestHam,HOMEGROWN,15,PLAYERS
+701,Arsenal,SETPIECE,8,STYLE
+702,AstonVilla,SETPIECE,8,STYLE
+703,Cardiff,SETPIECE,13,STYLE
+704,Chelsea,SETPIECE,15,STYLE
+705,Crystal Palace,SETPIECE,8,STYLE
+706,Everton,SETPIECE,12,STYLE
+707,Fulham,SETPIECE,14,STYLE
+708,Hull City,SETPIECE,10,STYLE
+709,Liverpool,SETPIECE,26,STYLE
+710,Manchester City,SETPIECE,20,STYLE
+711,Manchester Utd,SETPIECE,11,STYLE
+712,Newcastle Utd,SETPIECE,8,STYLE
+713,Norwich City,SETPIECE,4,STYLE
+714,Southampton,SETPIECE,12,STYLE
+715,Stoke City,SETPIECE,7,STYLE
+716,Sunderland,SETPIECE,13,STYLE
+717,Swansea City,SETPIECE,9,STYLE
+718,Tottenham,SETPIECE,11,STYLE
+719,WestBrom,SETPIECE,6,STYLE
+720,WestHam,SETPIECE,10,STYLE
+721,Arsenal,FANBASE,113,FANS
+722,AstonVilla,FANBASE,3,FANS
+723,Cardiff,FANBASE,0.3,FANS
+724,Chelsea,FANBASE,135,FANS
+725,Crystal Palace,FANBASE,0.4,FANS
+726,Everton,FANBASE,4,FANS
+727,Fulham,FANBASE,0.3,FANS
+728,Hull City,FANBASE,0.3,FANS
+729,Liverpool,FANBASE,71,FANS
+730,Manchester City,FANBASE,18,FANS
+731,Manchester Utd,FANBASE,365,FANS
+732,Newcastle Utd,FANBASE,6,FANS
+733,Norwich City,FANBASE,0.2,FANS
+734,Southampton,FANBASE,0.6,FANS
+735,Stoke City,FANBASE,0.7,FANS
+736,Sunderland,FANBASE,2,FANS
+737,Swansea City,FANBASE,0.5,FANS
+738,Tottenham,FANBASE,11,FANS
+739,WestBrom,FANBASE,0.5,FANS
+740,WestHam,FANBASE,1,FANS
+741,Arsenal,RICHLIST,154,SPEND
+742,AstonVilla,RICHLIST,127,SPEND
+743,Cardiff,RICHLIST,45,SPEND
+744,Chelsea,RICHLIST,163,SPEND
+745,Crystal Palace,RICHLIST,54,SPEND
+746,Everton,RICHLIST,81,SPEND
+747,Fulham,RICHLIST,90,SPEND
+748,Hull City,RICHLIST,36,SPEND
+749,Liverpool,RICHLIST,145,SPEND
+750,Manchester City,RICHLIST,172,SPEND
+751,Manchester Utd,RICHLIST,180,SPEND
+752,Newcastle Utd,RICHLIST,135,SPEND
+753,Norwich City,RICHLIST,17,SPEND
+754,Southampton,RICHLIST,109,SPEND
+755,Stoke City,RICHLIST,63,SPEND
+756,Sunderland,RICHLIST,118,SPEND
+757,Swansea City,RICHLIST,9,SPEND
+758,Tottenham,RICHLIST,136,SPEND
+759,WestBrom,RICHLIST,18,SPEND
+760,WestHam,RICHLIST,72,SPEND
+761,Arsenal,YELLOW,53,DISC
+762,Aston Villa,YELLOW,78,DISC
+763,Chelsea,YELLOW,57,DISC
+764,Everton,YELLOW,55,DISC
+765,Liverpool,YELLOW,54,DISC
+766,Manchester City,YELLOW,72,DISC
+767,Manchester Utd,YELLOW,66,DISC
+768,Newcastle Utd,YELLOW,53,DISC
+769,Southampton,YELLOW,60,DISC
+770,Stoke,YELLOW,72,DISC
+771,Sunderland,YELLOW,69,DISC
+772,Swansea,YELLOW,55,DISC
+773,Tottenham,YELLOW,66,DISC
+774,WestBrom,YELLOW,67,DISC
+775,West Ham,YELLOW,62,DISC
+776,Arsenal,RED,4,DISC
+777,Aston Villa,RED,0,DISC
+778,Chelsea,RED,3,DISC
+779,Everton,RED,1,DISC
+780,Liverpool,RED,1,DISC
+781,Manchester City,RED,1,DISC
+782,Manchester Utd,RED,3,DISC
+783,Newcastle Utd,RED,6,DISC
+784,Southampton,RED,0,DISC
+785,Stoke,RED,5,DISC
+786,Sunderland,RED,7,DISC
+787,Swansea,RED,3,DISC
+788,Tottenham,RED,4,DISC
+789,WestBrom,RED,0,DISC
+790,WestHam,RED,5,DISC
+791,Arsenal,POSS,13.8,STYLE
+792,Aston Villa,POSS,11.3,STYLE
+793,Chelsea,POSS,18.2,STYLE
+794,Everton,POSS,14.8,STYLE
+795,Liverpool,POSS,17.1,STYLE
+796,Manchester City,POSS,17.7,STYLE
+797,Manchester Utd,POSS,13.8,STYLE
+798,Newcastle Utd,POSS,15.2,STYLE
+799,Southampton,POSS,14.1,STYLE
+800,Stoke,POSS,11.2,STYLE
+801,Sunderland,POSS,12.9,STYLE
+802,Swansea,POSS,13.0,STYLE
+803,Tottenham,POSS,15.4,STYLE
+804,WestBrom,POSS,12.8,STYLE
+805,WestHam,POSS,11.1,STYLE
+806,Arsenal,PASS,86.0,STYLE
+807,Aston Villa,PASS,73.9,STYLE
+808,Chelsea,PASS,83.1,STYLE
+809,Everton,PASS,83.7,STYLE
+810,Liverpool,PASS,84.5,STYLE
+811,Manchester City,PASS,86.1,STYLE
+812,Manchester Utd,PASS,84.4,STYLE
+813,Newcastle Utd,PASS,80.0,STYLE
+814,Southampton,PASS,81.4,STYLE
+815,Stoke,PASS,77.6,STYLE
+816,Sunderland,PASS,78.4,STYLE
+817,Swansea,PASS,85.2,STYLE
+818,Tottenham,PASS,81.8,STYLE
+819,WestBrom,PASS,77.8,STYLE
+820,West Ham,PASS,73.9,STYLE
+821,Arsenal,SPG,13.8,STYLE
+822,Aston Villa,SPG,11.3,STYLE
+823,Chelsea,SPG,18.2,STYLE
+824,Everton,SPG,14.8,STYLE
+825,Liverpool,SPG,17.1,STYLE
+826,Manchester City,SPG,17.7,STYLE
+827,Manchester Utd,SPG,13.8,STYLE
+828,Newcastle Utd,SPG,15.2,STYLE
+829,Southampton,SPG,14.1,STYLE
+830,Stoke,SPG,11.2,STYLE
+831,Sunderland,SPG,12.9,STYLE
+832,Swansea,SPG,13.0,STYLE
+833,Tottenham,SPG,15.4,STYLE
+834,WestBrom,SPG,12.8,STYLE
+835,West Ham,SPG,11.1,STYLE
+836,Arsenal,STP,1995,FANS
+837,Aston Villa,STP,580,FANS
+838,Chelsea,STP,1200,FANS
+839,Everton,STP,575,FANS
+840,Liverpool,STP,780,FANS
+841,Manchester City,STP,745,FANS
+842,Manchester Utd,STP,950,FANS
+843,Newcastle Utd,STP,717,FANS
+845,Stoke,STP,599,FANS
+846,Sunderland,STP,525,FANS
+847,Swansea,STP,499,FANS
+848,Tottenham,STP,1825,FANS
+849,WestBrom,STP,499,FANS
+850,West Ham,STP,850,FANS
+851,Liverpool,PENSF,12,DISC
+852,Chelsea,PENSF,7,DISC
+853,Manchester City,PENSF,7,DISC
+854,Crystal Palace,PENSF,6,DISC
+855,Tottenham,PENSF,6,DISC
+856,Sunderland,PENSF,6,DISC
+857,Stoke City,PENSF,5,DISC
+858,Manchester Utd,PENSF,5,DISC
+859,Aston Villa,PENSF,4,DISC
+860,Swansea City,PENSF,4,DISC
+861,Arsenal,PENSF,3,DISC
+862,Everton,PENSF,3,DISC
+863,Newcastle Utd,PENSF,3,DISC
+864,Fulham,PENSF,3,DISC
+865,Hull City,PENSF,3,DISC
+866,Southampton,PENSF,3,DISC
+867,WestBrom,PENSF,2,DISC
+868,WestHam,PENSF,2,DISC
+869,Norwich City,PENSF,2,DISC
+870,Cardiff,PENSF,1,DISC
+871,Liverpool,PENSA,4,DISC
+872,Chelsea,PENSA,1,DISC
+873,Manchester City,PENSA,1,DISC
+874,Crystal Palace,PENSA,6,DISC
+875,Tottenham,PENSA,5,DISC
+876,Sunderland,PENSA,2,DISC
+877,Stoke City,PENSA,7,DISC
+878,Manchester Utd,PENSA,4,DISC
+879,Aston Villa,PENSA,6,DISC
+880,Swansea City,PENSA,3,DISC
+881,Arsenal,PENSA,6,DISC
+882,Everton,PENSA,6,DISC
+883,Newcastle Utd,PENSA,5,DISC
+884,Fulham,PENSA,4,DISC
+885,Hull City,PENSA,4,DISC
+886,Southampton,PENSA,4,DISC
+887,WestBrom,PENSA,7,DISC
+888,WestHam,PENSA,6,DISC
+889,Norwich City,PENSA,4,DISC
+890,Cardiff,PENSA,2,DISC
+891,Manchester Utd,ALL,547,HISTORY
+892,Arsenal,ALL,460,HISTORY
+893,Chelsea,ALL,448,HISTORY
+894,Liverpool,ALL,422,HISTORY
+895,Tottenham,ALL,336,HISTORY
+896,Everton,ALL,309,HISTORY
+897,Aston Villa,ALL,302,HISTORY
+898,Newcastle Utd,ALL,303,HISTORY
+899,Blackburn,ALL,262,HISTORY
+900,Manchester City,ALL,261,HISTORY
+901,WestHam,ALL,225,HISTORY
+902,Leeds Utd,ALL,189,HISTORY
+903,Southampton,ALL,174,HISTORY
+904,Middlesbrough,ALL,160,HISTORY
+905,Fulham,ALL,150,HISTORY
+906,Bolton,ALL,149,HISTORY
+907,Sunderland,ALL,131,HISTORY
+908,Coventry,ALL,99,HISTORY
+909,SheffWed,ALL,101,HISTORY
+910,wigan,LOCAL,65,FANS
+911,Norwich City,LOCAL,61,FANS
+912,Southampton,LOCAL,51,FANS
+913,Reading,LOCAL,49,FANS
+914,Swansea,LOCAL,48,FANS
+915,Stoke City,LOCAL,46,FANS
+916,Aston Villa,LOCAL,37,FANS
+917,Newcastle Utd,LOCAL,35,FANS
+918,Fulham,LOCAL,34,FANS
+919,WestBrom,LOCAL,29,FANS
+920,Sunderland,LOCAL,24,FANS
+921,QPR,LOCAL,23,FANS
+922,WestHam,LOCAL,23,FANS
+923,Everton,LOCAL,19,FANS
+924,Arsenal,LOCAL,14,FANS
+925,Tottenham,LOCAL,14,FANS
+926,Manchester City,LOCAL,13,FANS
+927,Chelsea,LOCAL,13,FANS
+928,Liverpool,LOCAL,11,FANS
+929,Manchester Utd,LOCAL,9,FANS
+930,Manchester Utd,EUC,5,HISTORY
+931,Liverpool,EUC,11,HISTORY
+932,Arsenal,EUC,2,HISTORY
+933,Chelsea,EUC,5,HISTORY
+934,Everton,EUC,1,HISTORY
+935,Tottenham,EUC,3,HISTORY
+936,Aston Villa,EUC,3,HISTORY
+937,Manchester City,EUC,2,HISTORY
+938,Newcastle Utd,EUC,2,HISTORY
+939,Notts Forest,EUC,2,HISTORY
+940,Leeds Utd,EUC,2,HISTORY
+941,WestHam,EUC,2,HISTORY
+942,Fulham,EUC,1,HISTORY
+943,Southampton,YTH,10,PLAYERS
+944,Manchester Utd,YTH,9,PLAYERS
+945,WestHam,YTH,8,PLAYERS
+946,Liverpool,YTH,7,PLAYERS
+947,Arsenal,YTH,6,PLAYERS
+948,Everton,YTH,5,PLAYERS
+949,Manchester City,YTH,4,PLAYERS
+950,Aston Villa,YTH,3,PLAYERS
+951,Crystal Palace,YTH,2,PLAYERS

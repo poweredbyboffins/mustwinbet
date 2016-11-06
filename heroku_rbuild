@@ -1,0 +1,6 @@
+rm -rf .git
+git init
+git add .
+git commit -am "Reinitialize$$"
+heroku create --stack cedar
+git push heroku master

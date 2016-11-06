@@ -1,0 +1,2 @@
+cp models.py models$$.py
+python manage.py inspectdb > models.py

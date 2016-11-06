@@ -1,0 +1,139 @@
+h2, p, ol, ul, li {
+    margin:0px;
+    padding:0px;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.head {
+padding-left: 50px;   
+}
+
+ 
+.container {
+padding-left: 200px;   
+  padding-right: 150px;
+    margin-top:10px;
+    display: table;
+}
+
+.tab {
+display: table;
+}
+
+.left {text-align: left;}
+
+.float {float: left;}
+
+.row {
+	display: table-row;
+}
+
+.column {
+	display: table-cell;
+}
+ 
+
+/* --------- COLLAPSIBLE PANELS ----------*/
+ 
+.expandable-panel {
+    width:100%;
+    position:relative;
+    min-width:600px;
+    min-height:200px;
+    overflow:auto;
+    margin-bottom: 10px;
+    border:1px solid #999;
+}  
+.expandable-panel-heading {
+    width:100%;
+    cursor:pointer;
+    min-height:30px;
+    clear:both;
+    background-color:#E0F8E6;
+    position:relative;
+}
+.expandable-panel-heading:hover {
+    color:#666;
+}
+.expandable-panel-heading h2 {
+    padding:14px 10px 9px 15px;
+    font-size:18px;
+    line-height:20px;
+}
+.expandable-panel-content {
+    padding:0 15px 0 15px;
+    margin-top:-999px; 
+    align:centre;
+}
+.expandable-panel-content p {
+    padding:4px 0 6px 0;
+}
+.expandable-panel-content p:first-child  {
+    padding-top:10px;
+}
+.expandable-panel-content p:last-child {
+    padding-bottom:15px;   
+}
+.icon-close-open {
+    width:20px;
+    height:20px;
+    position:absolute;
+    background-image:url(icon-close-open.png);
+    right:15px;
+}
+.expandable-panel-content img {
+    float:right;
+    padding-left:12px;
+}
+.header-active {
+    background-color:#D0D7F3;
+}
+#header {
+    background-color: #E8E8E8;
+    padding: 52px 0px;
+}
+#logo {
+    display:inline-block;
+    width: 177px;
+    height: 109px;
+    border:1px dotted black;
+    position:relative;
+}
+#menu {
+    position: absolute;
+    color: #FFFFFF;
+    right: 0;
+    top: 15px;
+    display:none;
+}
+#nav {
+    list-style: none;
+    padding: 0;
+    color: #FFFFFF;
+    display: inline-block;
+}
+#nav.vertical {
+    display: block;
+    padding-left: 20px;
+}
+#nav.vertical li {
+    display: list-item;
+    line-height: 40px;
+}
+#nav li {
+    display:inline-block;
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+#nav li:last-child {
+    padding-right: 0;
+}
+@media screen and (max-width: 800px) {
+    #menu {
+        display: inline-block;
+    }
+    #nav {
+        display: none;
+    }
+}

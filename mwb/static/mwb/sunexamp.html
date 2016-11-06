@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+path {
+  stroke: #fff;
+}
+
+</style>
+<body>
+<canvas id="canvas" width="1000px" height="600px"></canvas> 
+<script src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="http://gabelerner.github.io/canvg/rgbcolor.js"></script> 
+<script type="text/javascript" src="http://gabelerner.github.io/canvg/StackBlur.js"></script>
+<script type="text/javascript" src="http://gabelerner.github.io/canvg/canvg.js"></script> 
+<script type="text/javascript">
+window.onload = function() {
+  //load '../path/to/your.svg' in the canvas with id = 'canvas'
+  canvg('canvas', 'test.svg')
+
+  //load a svg snippet in the canvas with id = 'drawingArea'
+  canvg(document.getElementById('drawingArea'), '<svg>...</svg>')
+
+  //ignore mouse events and animation
+  canvg('canvas', 'file.svg', { ignoreMouse: true, ignoreAnimation: true }) 
+}
+</script>
+<script>
+
+var width = 960,
+    height = 700,
+    radius = (Math.min(width, height) / 2) - 10;
+
+var formatNumber = d3.format(",d");
+
+var x = d3.scale.linear()
+    .range([0, 2 * Math.PI]);
+
+var y = d3.scale.sqrt()
+    .range([0, radius]);
+
+var color = d3.scale.category20c();
+
+var partition = d3.layout.partition()
+    .value(function(d) { return d.size; });
+
+var arc = d3.svg.arc()
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x + d.dx))); })
+    .innerRadius(function(d) { return Math.max(0, y(d.y)); })
+    .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
+
+var svg = d3.select("#canvas").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
+
+var root=d3.json("data.json",function(root) {
+
+  svg.selectAll("path")
+      .data(partition.nodes(root))
+    .enter().append("path")
+      .attr("d", arc)
+      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+      .on("click", click)
+    .append("title")
+      .text(function(d) { return d.name + "\n" + formatNumber(d.value); });
+});
+
+function click(d) {
+  svg.transition()
+      .duration(750)
+      .tween("scale", function() {
+        var xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
+            yd = d3.interpolate(y.domain(), [d.y, 1]),
+            yr = d3.interpolate(y.range(), [d.y ? 20 : 0, radius]);
+        return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
+      })
+    .selectAll("path")
+      .attrTween("d", function(d) { return function() { return arc(d); }; });
+}
+
+d3.select(self.frameElement).style("height", height + "px");
+
+</script>
+<script>
+d3.select("body")
+    .append("button")
+    .html("Export")
+    .on("click",svgToCanvas);
+
+var w = 960, // or whatever your svg width is
+    h = 700;
+
+// Create the export function - this will just export 
+// the first svg element it finds
+function svgToCanvas(){
+    // Select the first svg element
+    var svg = d3.select("svg")[0][0],
+        img = new Image(),
+        serializer = new XMLSerializer(),
+        svgStr = serializer.serializeToString(svg);
+
+    //img.src = 'data:image/svg+xml;base64,'+window.btoa(svgStr);
+
+    // You could also use the actual string without base64 encoding it:
+    img.src = "data:image/svg+xml;utf8," + svgStr;
+
+    var canvas = document.createElement("canvas");
+    document.body.appendChild(canvas);
+
+    canvas.width = w;
+    canvas.height = h;
+    canvas.getContext("2d").drawImage(img,0,0,w,h);
+    // Now save as png or whatever
+};
+</script>

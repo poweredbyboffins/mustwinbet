@@ -1,0 +1,111 @@
+<html>
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'mwb/divtest.css' %}" />
+<!-- <link rel="stylesheet" type="text/css" href="{% static 'mwb/bootstrap/css/bootstrap.css' %}" /> -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<style>
+html { 
+background: url({{MEDIA_URL}}/mwbbeach.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body { background-color: transparent; }
+.custom {
+    width: 250px !important;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ff1a66 !important;
+}
+.jumbotron { min-height: 100px !important; }
+</style>
+<script src="{{ STATIC_URL }}mwb/jquery/dist/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+$("#btn").click(function(){
+      $("#c").load("/summary/page=1");
+  }); 
+  }); 
+</script>
+
+<script src="https://use.fontawesome.com/f43f9f953c.js"></script>
+<nav class="navbar navbar-default" style="background-color:#ff1a66">
+  <div class="container-fluid" >
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="color:white">Professional Betting Analytics for Everybody</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">Football Betting Analytics Powered by Boffins <img src="{{MEDIA_URL}}/boffin.jpg"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container " id="c" style="color:white">
+    <div class="row">
+    <div class="col-sm-4">
+ <a class="btn btn-primary custom" href="prediction-accumulator" role="button" > 
+<i class="fa fa-money fa-3x" aria-hidden="true"></i>
+Acca Bet
+</a>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+<a class="btn btn-primary custom" href="prediction-shocks" role="button" > 
+<i class="fa fa-bolt fa-3x" aria-hidden="true"></i>
+Shocks</a>
+    </div>
+    </div>
+    <div class="row">
+    <br>
+    </div>
+    <div class="row">
+    <br>
+    </div>
+    <div class="row">
+    <div class="col-sm-4">
+<a class="btn btn-primary custom" href="prediction-goals" role="button" >
+<i class="fa fa-futbol-o fa-3x" aria-hidden="true"></i>
+Goal Analysis</a>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+<a class="btn btn-primary custom" href="prediction-exact-score" role="button" >
+<i class="fa fa-line-chart fa-3x" aria-hidden="true"></i>
+Exact Goal Predictions</a>
+  </div>
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83664861-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

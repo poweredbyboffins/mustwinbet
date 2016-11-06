@@ -1,0 +1,25 @@
+{
+ "name": "Home Win",
+ "children": [
+  {
+   "name": "Probability",
+   "children": [
+    {
+     "name": "Skills",
+     "children": [
+      {"name": "Goals 2.3", "size": 3938},
+      {"name": "Defence 0.9", "size": 3812},
+      {"name": "Tactics 1.2", "size": 6714},
+      {"name": "Confidence 3", "size": 743}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "Form", "size": 12000}
+     ]
+    }
+   ]
+  }
+]
+}

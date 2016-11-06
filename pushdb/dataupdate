@@ -1,0 +1,15 @@
+#echo "DROP VIEW public.predview;" > mwb.sql
+pg_dump --clean --table=pred mustwinbet > mwb.sql
+#pg_dump --clean --table=gamepredresult mustwinbet >> mwb.sql
+#pg_dump --clean --table=predview mustwinbet >> mwb.sql
+
+#$ heroku config | grep HEROKU_POSTGRESQL
+
+# example
+# postgres://user3123:passkja83kd8@ec2-117-21-174-214.compute-1.amazonaws.com:6212/db982398
+#and restore the table in the remote database, using the information retrieved from Heroku.
+
+#psql -h ec2-117-21-174-214.compute-1.amazonaws.com -p 6212 -U user3123 db982398
+#HEROKU_POSTGRESQL_CYAN_URL: postgres://exaqwcigvsvyri:PyJyJwhm1eEwAeIqHrk3M9POJv@ec2-107-22-161-155.compute-1.amazonaws.com:5432/do8niudtu8599
+export PGPASSWORD=PyJyJwhm1eEwAeIqHrk3M9POJv
+psql -h ec2-107-22-161-155.compute-1.amazonaws.com -p 5432 -U exaqwcigvsvyri do8niudtu8599 < mwb.sql

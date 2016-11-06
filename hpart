@@ -1,0 +1,3 @@
+git commit -am "Reinitialize$$"
+heroku git:remote -a lit-basin-8962
+git push -f heroku master

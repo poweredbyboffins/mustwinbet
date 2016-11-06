@@ -1,0 +1,1906 @@
+commit ea885c5cd4a297b978a509ce6763404b933bbb47
+Author: andybnsn <andybnsn@gmail.com>
+Date:   Sun Oct 30 15:45:44 2016 +0000
+
+    Reinitialize6781
+
+ delete mode 100644 mwb/media/AFC Wimbledon_Bolton_b.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Bolton_c.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Bolton_l.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Chesterfield_b.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Chesterfield_c.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Chesterfield_l.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Gillingham_b.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Gillingham_c.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Gillingham_l.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Swindon_b.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Swindon_c.png
+ delete mode 100644 mwb/media/AFC Wimbledon_Swindon_l.png
+ delete mode 100644 mwb/media/Accrington_Blackpool_b.png
+ delete mode 100644 mwb/media/Accrington_Blackpool_c.png
+ delete mode 100644 mwb/media/Accrington_Blackpool_l.png
+ delete mode 100644 mwb/media/Accrington_Cheltenham_b.png
+ delete mode 100644 mwb/media/Accrington_Cheltenham_c.png
+ delete mode 100644 mwb/media/Accrington_Cheltenham_l.png
+ delete mode 100644 mwb/media/Arsenal_Bournemouth_c.png
+ delete mode 100644 mwb/media/Arsenal_Chelsea_b.png
+ delete mode 100644 mwb/media/Arsenal_Chelsea_c.png
+ delete mode 100644 mwb/media/Arsenal_Chelsea_l.png
+ delete mode 100644 mwb/media/Arsenal_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Arsenal_Leicester_c.png
+ delete mode 100644 mwb/media/Arsenal_Man City_b.png
+ delete mode 100644 mwb/media/Arsenal_Man City_c.png
+ delete mode 100644 mwb/media/Arsenal_Middlesbrough_b.png
+ delete mode 100644 mwb/media/Arsenal_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Arsenal_Middlesbrough_l.png
+ delete mode 100644 mwb/media/Arsenal_Newcastle_c.png
+ delete mode 100644 mwb/media/Arsenal_Norwich_c.png
+ delete mode 100644 mwb/media/Arsenal_Southampton_b.png
+ delete mode 100644 mwb/media/Arsenal_Southampton_c.png
+ delete mode 100644 mwb/media/Arsenal_Southampton_l.png
+ delete mode 100644 mwb/media/Arsenal_Sunderland_b.png
+ delete mode 100644 mwb/media/Arsenal_Sunderland_c.png
+ delete mode 100644 mwb/media/Arsenal_Swansea_b.png
+ delete mode 100644 mwb/media/Arsenal_Swansea_c.png
+ delete mode 100644 mwb/media/Arsenal_Swansea_l.png
+ delete mode 100644 mwb/media/Arsenal_Tottenham_b.png
+ delete mode 100644 mwb/media/Arsenal_Tottenham_c.png
+ delete mode 100644 mwb/media/Arsenal_Watford_c.png
+ delete mode 100644 mwb/media/Arsenal_West Brom_c.png
+ delete mode 100644 mwb/media/Aston Villa_Arsenal_b.png
+ delete mode 100644 mwb/media/Aston Villa_Arsenal_c.png
+ delete mode 100644 mwb/media/Aston Villa_Bournemouth_c.png
+ delete mode 100644 mwb/media/Aston Villa_Brentford_b.png
+ delete mode 100644 mwb/media/Aston Villa_Brentford_c.png
+ delete mode 100644 mwb/media/Aston Villa_Brentford_l.png
+ delete mode 100644 mwb/media/Aston Villa_Chelsea_c.png
+ delete mode 100644 mwb/media/Aston Villa_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Aston Villa_Everton_c.png
+ delete mode 100644 mwb/media/Aston Villa_Leicester_c.png
+ delete mode 100644 mwb/media/Aston Villa_Liverpool_c.png
+ delete mode 100644 mwb/media/Aston Villa_Man City_b.png
+ delete mode 100644 mwb/media/Aston Villa_Man City_c.png
+ delete mode 100644 mwb/media/Aston Villa_Newcastle_b.png
+ delete mode 100644 mwb/media/Aston Villa_Newcastle_c.png
+ delete mode 100644 mwb/media/Aston Villa_Newcastle_l.png
+ delete mode 100644 mwb/media/Aston Villa_Norwich_c.png
+ delete mode 100644 mwb/media/Aston Villa_Rotherham_b.png
+ delete mode 100644 mwb/media/Aston Villa_Rotherham_c.png
+ delete mode 100644 mwb/media/Aston Villa_Rotherham_l.png
+ delete mode 100644 mwb/media/Aston Villa_Southampton_c.png
+ delete mode 100644 mwb/media/Aston Villa_Tottenham_c.png
+ delete mode 100644 mwb/media/Aston Villa_Watford_b.png
+ delete mode 100644 mwb/media/Aston Villa_Watford_c.png
+ delete mode 100644 mwb/media/Aston Villa_West Ham_b.png
+ delete mode 100644 mwb/media/Aston Villa_West Ham_c.png
+ delete mode 100644 mwb/media/Aston Villa_Wolves_b.png
+ delete mode 100644 mwb/media/Aston Villa_Wolves_c.png
+ delete mode 100644 mwb/media/Aston Villa_Wolves_l.png
+ delete mode 100644 mwb/media/Barnet_Accrington_b.png
+ delete mode 100644 mwb/media/Barnet_Accrington_c.png
+ delete mode 100644 mwb/media/Barnet_Accrington_l.png
+ delete mode 100644 mwb/media/Barnet_Exeter_b.png
+ delete mode 100644 mwb/media/Barnet_Exeter_c.png
+ delete mode 100644 mwb/media/Barnet_Exeter_l.png
+ delete mode 100644 mwb/media/Barnet_Leyton Orient_b.png
+ delete mode 100644 mwb/media/Barnet_Leyton Orient_c.png
+ delete mode 100644 mwb/media/Barnet_Leyton Orient_l.png
+ delete mode 100644 mwb/media/Barnsley_Blackpool_c.png
+ delete mode 100644 mwb/media/Barnsley_Bury_c.png
+ delete mode 100644 mwb/media/Barnsley_Coventry_c.png
+ delete mode 100644 mwb/media/Barnsley_Derby_b.png
+ delete mode 100644 mwb/media/Barnsley_Derby_c.png
+ delete mode 100644 mwb/media/Barnsley_Derby_l.png
+ delete mode 100644 mwb/media/Barnsley_Doncaster_c.png
+ delete mode 100644 mwb/media/Barnsley_Fulham_b.png
+ delete mode 100644 mwb/media/Barnsley_Fulham_c.png
+ delete mode 100644 mwb/media/Barnsley_Fulham_l.png
+ delete mode 100644 mwb/media/Barnsley_Millwall_c.png
+ delete mode 100644 mwb/media/Barnsley_Newcastle_b.png
+ delete mode 100644 mwb/media/Barnsley_Newcastle_c.png
+ delete mode 100644 mwb/media/Barnsley_Newcastle_l.png
+ delete mode 100644 mwb/media/Barnsley_Port Vale_c.png
+ delete mode 100644 mwb/media/Barnsley_Rochdale_c.png
+ delete mode 100644 mwb/media/Barnsley_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Barnsley_Sheffield United_c.png
+ delete mode 100644 mwb/media/Barnsley_Southend_c.png
+ delete mode 100644 mwb/media/Barnsley_Wigan_c.png
+ delete mode 100644 mwb/media/Birmingham_Blackburn_b.png
+ delete mode 100644 mwb/media/Birmingham_Blackburn_c.png
+ delete mode 100644 mwb/media/Birmingham_Blackburn_l.png
+ delete mode 100644 mwb/media/Birmingham_Bolton_c.png
+ delete mode 100644 mwb/media/Birmingham_Brentford_c.png
+ delete mode 100644 mwb/media/Birmingham_Brighton_c.png
+ delete mode 100644 mwb/media/Birmingham_Burnley_c.png
+ delete mode 100644 mwb/media/Birmingham_Cardiff_c.png
+ delete mode 100644 mwb/media/Birmingham_Charlton_c.png
+ delete mode 100644 mwb/media/Birmingham_Fulham_c.png
+ delete mode 100644 mwb/media/Birmingham_Huddersfield_c.png
+ delete mode 100644 mwb/media/Birmingham_Hull_c.png
+ delete mode 100644 mwb/media/Birmingham_Ipswich_c.png
+ delete mode 100644 mwb/media/Birmingham_Leeds_c.png
+ delete mode 100644 mwb/media/Birmingham_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Birmingham_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Birmingham_Preston_c.png
+ delete mode 100644 mwb/media/Birmingham_Rotherham_b.png
+ delete mode 100644 mwb/media/Birmingham_Rotherham_c.png
+ delete mode 100644 mwb/media/Birmingham_Rotherham_l.png
+ delete mode 100644 mwb/media/Birmingham_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Blackburn_Birmingham_c.png
+ delete mode 100644 mwb/media/Blackburn_Brentford_c.png
+ delete mode 100644 mwb/media/Blackburn_Brighton_c.png
+ delete mode 100644 mwb/media/Blackburn_Bristol City_c.png
+ delete mode 100644 mwb/media/Blackburn_Fulham_c.png
+ delete mode 100644 mwb/media/Blackburn_Huddersfield_c.png
+ delete mode 100644 mwb/media/Blackburn_Hull_c.png
+ delete mode 100644 mwb/media/Blackburn_Ipswich_b.png
+ delete mode 100644 mwb/media/Blackburn_Ipswich_c.png
+ delete mode 100644 mwb/media/Blackburn_Ipswich_l.png
+ delete mode 100644 mwb/media/Blackburn_Leeds_c.png
+ delete mode 100644 mwb/media/Blackburn_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Blackburn_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Blackburn_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Blackburn_Preston_c.png
+ delete mode 100644 mwb/media/Blackburn_QPR_c.png
+ delete mode 100644 mwb/media/Blackburn_Rotherham_c.png
+ delete mode 100644 mwb/media/Blackburn_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Blackpool_Bradford_c.png
+ delete mode 100644 mwb/media/Blackpool_Bury_c.png
+ delete mode 100644 mwb/media/Blackpool_Carlisle_b.png
+ delete mode 100644 mwb/media/Blackpool_Carlisle_c.png
+ delete mode 100644 mwb/media/Blackpool_Carlisle_l.png
+ delete mode 100644 mwb/media/Blackpool_Coventry_c.png
+ delete mode 100644 mwb/media/Blackpool_Doncaster_c.png
+ delete mode 100644 mwb/media/Blackpool_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Blackpool_Gillingham_c.png
+ delete mode 100644 mwb/media/Blackpool_Oldham_c.png
+ delete mode 100644 mwb/media/Blackpool_Peterboro_c.png
+ delete mode 100644 mwb/media/Blackpool_Port Vale_c.png
+ delete mode 100644 mwb/media/Blackpool_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Blackpool_Sheffield United_c.png
+ delete mode 100644 mwb/media/Blackpool_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Bolton_Blackburn_c.png
+ delete mode 100644 mwb/media/Bolton_Brentford_c.png
+ delete mode 100644 mwb/media/Bolton_Bristol City_c.png
+ delete mode 100644 mwb/media/Bolton_Burnley_c.png
+ delete mode 100644 mwb/media/Bolton_Cardiff_c.png
+ delete mode 100644 mwb/media/Bolton_Charlton_c.png
+ delete mode 100644 mwb/media/Bolton_Fulham_c.png
+ delete mode 100644 mwb/media/Bolton_Huddersfield_c.png
+ delete mode 100644 mwb/media/Bolton_Hull_c.png
+ delete mode 100644 mwb/media/Bolton_Ipswich_c.png
+ delete mode 100644 mwb/media/Bolton_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Bolton_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Bolton_Oldham_b.png
+ delete mode 100644 mwb/media/Bolton_Oldham_c.png
+ delete mode 100644 mwb/media/Bolton_Oldham_l.png
+ delete mode 100644 mwb/media/Bolton_Preston_c.png
+ delete mode 100644 mwb/media/Bolton_QPR_c.png
+ delete mode 100644 mwb/media/Bolton_Reading_c.png
+ delete mode 100644 mwb/media/Bolton_Rotherham_c.png
+ delete mode 100644 mwb/media/Bolton_Southend_b.png
+ delete mode 100644 mwb/media/Bolton_Southend_c.png
+ delete mode 100644 mwb/media/Bolton_Southend_l.png
+ delete mode 100644 mwb/media/Bournemouth_Arsenal_c.png
+ delete mode 100644 mwb/media/Bournemouth_Chelsea_c.png
+ delete mode 100644 mwb/media/Bournemouth_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Bournemouth_Everton_b.png
+ delete mode 100644 mwb/media/Bournemouth_Everton_c.png
+ delete mode 100644 mwb/media/Bournemouth_Everton_l.png
+ delete mode 100644 mwb/media/Bournemouth_Hull_b.png
+ delete mode 100644 mwb/media/Bournemouth_Hull_c.png
+ delete mode 100644 mwb/media/Bournemouth_Hull_l.png
+ delete mode 100644 mwb/media/Bournemouth_Liverpool_c.png
+ delete mode 100644 mwb/media/Bournemouth_Man City_c.png
+ delete mode 100644 mwb/media/Bournemouth_Man United_b.png
+ delete mode 100644 mwb/media/Bournemouth_Man United_c.png
+ delete mode 100644 mwb/media/Bournemouth_Newcastle_b.png
+ delete mode 100644 mwb/media/Bournemouth_Newcastle_c.png
+ delete mode 100644 mwb/media/Bournemouth_Norwich_c.png
+ delete mode 100644 mwb/media/Bournemouth_Southampton_c.png
+ delete mode 100644 mwb/media/Bournemouth_Stoke_c.png
+ delete mode 100644 mwb/media/Bournemouth_Swansea_c.png
+ delete mode 100644 mwb/media/Bournemouth_Tottenham_b.png
+ delete mode 100644 mwb/media/Bournemouth_Tottenham_c.png
+ delete mode 100644 mwb/media/Bournemouth_Tottenham_l.png
+ delete mode 100644 mwb/media/Bournemouth_West Brom_b.png
+ delete mode 100644 mwb/media/Bournemouth_West Brom_c.png
+ delete mode 100644 mwb/media/Bournemouth_West Brom_l.png
+ delete mode 100644 mwb/media/Bournemouth_West Ham_c.png
+ delete mode 100644 mwb/media/Bradford_Barnsley_c.png
+ delete mode 100644 mwb/media/Bradford_Blackpool_c.png
+ delete mode 100644 mwb/media/Bradford_Burton_c.png
+ delete mode 100644 mwb/media/Bradford_Colchester_c.png
+ delete mode 100644 mwb/media/Bradford_Coventry_c.png
+ delete mode 100644 mwb/media/Bradford_Crewe_c.png
+ delete mode 100644 mwb/media/Bradford_Doncaster_c.png
+ delete mode 100644 mwb/media/Bradford_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Bradford_Oldham_c.png
+ delete mode 100644 mwb/media/Bradford_Rochdale_c.png
+ delete mode 100644 mwb/media/Bradford_Southend_b.png
+ delete mode 100644 mwb/media/Bradford_Southend_c.png
+ delete mode 100644 mwb/media/Bradford_Southend_l.png
+ delete mode 100644 mwb/media/Brentford_Blackburn_c.png
+ delete mode 100644 mwb/media/Brentford_Bolton_c.png
+ delete mode 100644 mwb/media/Brentford_Brighton_c.png
+ delete mode 100644 mwb/media/Brentford_Bristol City_c.png
+ delete mode 100644 mwb/media/Brentford_Burnley_c.png
+ delete mode 100644 mwb/media/Brentford_Cardiff_c.png
+ delete mode 100644 mwb/media/Brentford_Charlton_c.png
+ delete mode 100644 mwb/media/Brentford_Derby_c.png
+ delete mode 100644 mwb/media/Brentford_Huddersfield_c.png
+ delete mode 100644 mwb/media/Brentford_Hull_c.png
+ delete mode 100644 mwb/media/Brentford_Ipswich_b.png
+ delete mode 100644 mwb/media/Brentford_Ipswich_c.png
+ delete mode 100644 mwb/media/Brentford_Ipswich_l.png
+ delete mode 100644 mwb/media/Brentford_Leeds_c.png
+ delete mode 100644 mwb/media/Brentford_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Brentford_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Brentford_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Brentford_Preston_b.png
+ delete mode 100644 mwb/media/Brentford_Preston_c.png
+ delete mode 100644 mwb/media/Brentford_Preston_l.png
+ delete mode 100644 mwb/media/Brentford_Wigan_b.png
+ delete mode 100644 mwb/media/Brentford_Wigan_c.png
+ delete mode 100644 mwb/media/Brentford_Wigan_l.png
+ delete mode 100644 mwb/media/Brentford_Wolves_c.png
+ delete mode 100644 mwb/media/Brighton_Barnsley_b.png
+ delete mode 100644 mwb/media/Brighton_Barnsley_c.png
+ delete mode 100644 mwb/media/Brighton_Barnsley_l.png
+ delete mode 100644 mwb/media/Brighton_Birmingham_c.png
+ delete mode 100644 mwb/media/Brighton_Bolton_c.png
+ delete mode 100644 mwb/media/Brighton_Brentford_b.png
+ delete mode 100644 mwb/media/Brighton_Brentford_c.png
+ delete mode 100644 mwb/media/Brighton_Brentford_l.png
+ delete mode 100644 mwb/media/Brighton_Burnley_c.png
+ delete mode 100644 mwb/media/Brighton_Charlton_c.png
+ delete mode 100644 mwb/media/Brighton_Fulham_c.png
+ delete mode 100644 mwb/media/Brighton_Huddersfield_b.png
+ delete mode 100644 mwb/media/Brighton_Huddersfield_c.png
+ delete mode 100644 mwb/media/Brighton_Huddersfield_l.png
+ delete mode 100644 mwb/media/Brighton_Ipswich_c.png
+ delete mode 100644 mwb/media/Brighton_Leeds_c.png
+ delete mode 100644 mwb/media/Brighton_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Brighton_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Brighton_Nott'm Forest_b.png
+ delete mode 100644 mwb/media/Brighton_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Brighton_Nott'm Forest_l.png
+ delete mode 100644 mwb/media/Brighton_Preston_b.png
+ delete mode 100644 mwb/media/Brighton_Preston_c.png
+ delete mode 100644 mwb/media/Brighton_Preston_l.png
+ delete mode 100644 mwb/media/Brighton_QPR_c.png
+ delete mode 100644 mwb/media/Brighton_Reading_c.png
+ delete mode 100644 mwb/media/Brighton_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Brighton_Wolves_b.png
+ delete mode 100644 mwb/media/Brighton_Wolves_c.png
+ delete mode 100644 mwb/media/Brighton_Wolves_l.png
+ delete mode 100644 mwb/media/Bristol City_Birmingham_c.png
+ delete mode 100644 mwb/media/Bristol City_Blackburn_c.png
+ delete mode 100644 mwb/media/Bristol City_Bolton_c.png
+ delete mode 100644 mwb/media/Bristol City_Cardiff_c.png
+ delete mode 100644 mwb/media/Bristol City_Charlton_c.png
+ delete mode 100644 mwb/media/Bristol City_Derby_c.png
+ delete mode 100644 mwb/media/Bristol City_Huddersfield_c.png
+ delete mode 100644 mwb/media/Bristol City_Hull_c.png
+ delete mode 100644 mwb/media/Bristol City_Ipswich_c.png
+ delete mode 100644 mwb/media/Bristol City_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Bristol City_Preston_c.png
+ delete mode 100644 mwb/media/Bristol City_QPR_c.png
+ delete mode 100644 mwb/media/Bristol City_Rotherham_c.png
+ delete mode 100644 mwb/media/Bristol City_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Bristol City_Wolves_c.png
+ delete mode 100644 mwb/media/Burnley_Arsenal_b.png
+ delete mode 100644 mwb/media/Burnley_Arsenal_c.png
+ delete mode 100644 mwb/media/Burnley_Arsenal_l.png
+ delete mode 100644 mwb/media/Burnley_Blackburn_c.png
+ delete mode 100644 mwb/media/Burnley_Brighton_c.png
+ delete mode 100644 mwb/media/Burnley_Bristol City_c.png
+ delete mode 100644 mwb/media/Burnley_Cardiff_c.png
+ delete mode 100644 mwb/media/Burnley_Charlton_c.png
+ delete mode 100644 mwb/media/Burnley_Derby_c.png
+ delete mode 100644 mwb/media/Burnley_Everton_b.png
+ delete mode 100644 mwb/media/Burnley_Everton_c.png
+ delete mode 100644 mwb/media/Burnley_Everton_l.png
+ delete mode 100644 mwb/media/Burnley_Fulham_c.png
+ delete mode 100644 mwb/media/Burnley_Hull_b.png
+ delete mode 100644 mwb/media/Burnley_Hull_c.png
+ delete mode 100644 mwb/media/Burnley_Hull_l.png
+ delete mode 100644 mwb/media/Burnley_Ipswich_c.png
+ delete mode 100644 mwb/media/Burnley_Leeds_c.png
+ delete mode 100644 mwb/media/Burnley_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Burnley_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Burnley_Preston_c.png
+ delete mode 100644 mwb/media/Burnley_Rotherham_c.png
+ delete mode 100644 mwb/media/Burnley_Watford_b.png
+ delete mode 100644 mwb/media/Burnley_Watford_c.png
+ delete mode 100644 mwb/media/Burnley_Watford_l.png
+ delete mode 100644 mwb/media/Burnley_Wolves_c.png
+ delete mode 100644 mwb/media/Burton_Birmingham_b.png
+ delete mode 100644 mwb/media/Burton_Birmingham_c.png
+ delete mode 100644 mwb/media/Burton_Birmingham_l.png
+ delete mode 100644 mwb/media/Burton_Blackpool_c.png
+ delete mode 100644 mwb/media/Burton_Bradford_c.png
+ delete mode 100644 mwb/media/Burton_Bristol City_b.png
+ delete mode 100644 mwb/media/Burton_Bristol City_c.png
+ delete mode 100644 mwb/media/Burton_Bristol City_l.png
+ delete mode 100644 mwb/media/Burton_Cardiff_b.png
+ delete mode 100644 mwb/media/Burton_Cardiff_c.png
+ delete mode 100644 mwb/media/Burton_Cardiff_l.png
+ delete mode 100644 mwb/media/Burton_Chesterfield_c.png
+ delete mode 100644 mwb/media/Burton_Colchester_c.png
+ delete mode 100644 mwb/media/Burton_Derby_b.png
+ delete mode 100644 mwb/media/Burton_Derby_c.png
+ delete mode 100644 mwb/media/Burton_Derby_l.png
+ delete mode 100644 mwb/media/Burton_Doncaster_c.png
+ delete mode 100644 mwb/media/Burton_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Burton_Millwall_c.png
+ delete mode 100644 mwb/media/Burton_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Burton_Swindon_c.png
+ delete mode 100644 mwb/media/Burton_Walsall_c.png
+ delete mode 100644 mwb/media/Bury_AFC Wimbledon_b.png
+ delete mode 100644 mwb/media/Bury_AFC Wimbledon_c.png
+ delete mode 100644 mwb/media/Bury_AFC Wimbledon_l.png
+ delete mode 100644 mwb/media/Bury_Barnsley_c.png
+ delete mode 100644 mwb/media/Bury_Bolton_b.png
+ delete mode 100644 mwb/media/Bury_Bolton_c.png
+ delete mode 100644 mwb/media/Bury_Bolton_l.png
+ delete mode 100644 mwb/media/Bury_Bradford_c.png
+ delete mode 100644 mwb/media/Bury_Burton_c.png
+ delete mode 100644 mwb/media/Bury_Chesterfield_c.png
+ delete mode 100644 mwb/media/Bury_Colchester_c.png
+ delete mode 100644 mwb/media/Bury_Crewe_c.png
+ delete mode 100644 mwb/media/Bury_Peterboro_c.png
+ delete mode 100644 mwb/media/Bury_Port Vale_b.png
+ delete mode 100644 mwb/media/Bury_Port Vale_c.png
+ delete mode 100644 mwb/media/Bury_Port Vale_l.png
+ delete mode 100644 mwb/media/Bury_Scunthorpe_b.png
+ delete mode 100644 mwb/media/Bury_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Bury_Scunthorpe_l.png
+ delete mode 100644 mwb/media/Bury_Sheffield United_c.png
+ delete mode 100644 mwb/media/Bury_Shrewsbury_b.png
+ delete mode 100644 mwb/media/Bury_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Bury_Shrewsbury_l.png
+ delete mode 100644 mwb/media/Bury_Walsall_c.png
+ delete mode 100644 mwb/media/Cardiff_Blackburn_c.png
+ delete mode 100644 mwb/media/Cardiff_Bolton_c.png
+ delete mode 100644 mwb/media/Cardiff_Brentford_c.png
+ delete mode 100644 mwb/media/Cardiff_Brighton_c.png
+ delete mode 100644 mwb/media/Cardiff_Bristol City_b.png
+ delete mode 100644 mwb/media/Cardiff_Bristol City_c.png
+ delete mode 100644 mwb/media/Cardiff_Bristol City_l.png
+ delete mode 100644 mwb/media/Cardiff_Burnley_c.png
+ delete mode 100644 mwb/media/Cardiff_Derby_c.png
+ delete mode 100644 mwb/media/Cardiff_Ipswich_c.png
+ delete mode 100644 mwb/media/Cardiff_Leeds_b.png
+ delete mode 100644 mwb/media/Cardiff_Leeds_c.png
+ delete mode 100644 mwb/media/Cardiff_Leeds_l.png
+ delete mode 100644 mwb/media/Cardiff_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Cardiff_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Cardiff_Preston_c.png
+ delete mode 100644 mwb/media/Cardiff_QPR_b.png
+ delete mode 100644 mwb/media/Cardiff_QPR_c.png
+ delete mode 100644 mwb/media/Cardiff_QPR_l.png
+ delete mode 100644 mwb/media/Cardiff_Reading_c.png
+ delete mode 100644 mwb/media/Cardiff_Rotherham_c.png
+ delete mode 100644 mwb/media/Cardiff_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Carlisle_Accrington_b.png
+ delete mode 100644 mwb/media/Carlisle_Accrington_c.png
+ delete mode 100644 mwb/media/Carlisle_Accrington_l.png
+ delete mode 100644 mwb/media/Carlisle_Cheltenham_b.png
+ delete mode 100644 mwb/media/Carlisle_Cheltenham_c.png
+ delete mode 100644 mwb/media/Carlisle_Cheltenham_l.png
+ delete mode 100644 mwb/media/Carlisle_Colchester_b.png
+ delete mode 100644 mwb/media/Carlisle_Colchester_c.png
+ delete mode 100644 mwb/media/Carlisle_Colchester_l.png
+ delete mode 100644 mwb/media/Carlisle_Hartlepool_b.png
+ delete mode 100644 mwb/media/Carlisle_Hartlepool_c.png
+ delete mode 100644 mwb/media/Carlisle_Hartlepool_l.png
+ delete mode 100644 mwb/media/Carlisle_Leyton Orient_b.png
+ delete mode 100644 mwb/media/Carlisle_Leyton Orient_c.png
+ delete mode 100644 mwb/media/Carlisle_Leyton Orient_l.png
+ delete mode 100644 mwb/media/Carlisle_Plymouth_b.png
+ delete mode 100644 mwb/media/Carlisle_Plymouth_c.png
+ delete mode 100644 mwb/media/Carlisle_Plymouth_l.png
+ delete mode 100644 mwb/media/Carlisle_Wycombe_b.png
+ delete mode 100644 mwb/media/Carlisle_Wycombe_c.png
+ delete mode 100644 mwb/media/Carlisle_Wycombe_l.png
+ delete mode 100644 mwb/media/Charlton_Birmingham_c.png
+ delete mode 100644 mwb/media/Charlton_Blackburn_c.png
+ delete mode 100644 mwb/media/Charlton_Bolton_c.png
+ delete mode 100644 mwb/media/Charlton_Brighton_c.png
+ delete mode 100644 mwb/media/Charlton_Bristol City_c.png
+ delete mode 100644 mwb/media/Charlton_Cardiff_c.png
+ delete mode 100644 mwb/media/Charlton_Coventry_b.png
+ delete mode 100644 mwb/media/Charlton_Coventry_c.png
+ delete mode 100644 mwb/media/Charlton_Coventry_l.png
+ delete mode 100644 mwb/media/Charlton_Derby_c.png
+ delete mode 100644 mwb/media/Charlton_Ipswich_c.png
+ delete mode 100644 mwb/media/Charlton_Leeds_c.png
+ delete mode 100644 mwb/media/Charlton_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Charlton_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Charlton_Northampton_b.png
+ delete mode 100644 mwb/media/Charlton_Northampton_c.png
+ delete mode 100644 mwb/media/Charlton_Northampton_l.png
+ delete mode 100644 mwb/media/Charlton_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Charlton_Reading_c.png
+ delete mode 100644 mwb/media/Charlton_Rochdale_b.png
+ delete mode 100644 mwb/media/Charlton_Rochdale_c.png
+ delete mode 100644 mwb/media/Charlton_Rochdale_l.png
+ delete mode 100644 mwb/media/Charlton_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Charlton_Wolves_c.png
+ delete mode 100644 mwb/media/Chelsea_Bournemouth_b.png
+ delete mode 100644 mwb/media/Chelsea_Bournemouth_c.png
+ delete mode 100644 mwb/media/Chelsea_Burnley_b.png
+ delete mode 100644 mwb/media/Chelsea_Burnley_c.png
+ delete mode 100644 mwb/media/Chelsea_Burnley_l.png
+ delete mode 100644 mwb/media/Chelsea_Leicester_b.png
+ delete mode 100644 mwb/media/Chelsea_Leicester_c.png
+ delete mode 100644 mwb/media/Chelsea_Leicester_l.png
+ delete mode 100644 mwb/media/Chelsea_Liverpool_b.png
+ delete mode 100644 mwb/media/Chelsea_Liverpool_c.png
+ delete mode 100644 mwb/media/Chelsea_Liverpool_l.png
+ delete mode 100644 mwb/media/Chelsea_Man City_c.png
+ delete mode 100644 mwb/media/Chelsea_Man United_c.png
+ delete mode 100644 mwb/media/Chelsea_Newcastle_c.png
+ delete mode 100644 mwb/media/Chelsea_Norwich_b.png
+ delete mode 100644 mwb/media/Chelsea_Norwich_c.png
+ delete mode 100644 mwb/media/Chelsea_Stoke_c.png
+ delete mode 100644 mwb/media/Chelsea_Sunderland_b.png
+ delete mode 100644 mwb/media/Chelsea_Sunderland_c.png
+ delete mode 100644 mwb/media/Chelsea_Watford_c.png
+ delete mode 100644 mwb/media/Chelsea_West Brom_c.png
+ delete mode 100644 mwb/media/Chelsea_West Ham_c.png
+ delete mode 100644 mwb/media/Cheltenham_Crawley Town_b.png
+ delete mode 100644 mwb/media/Cheltenham_Crawley Town_c.png
+ delete mode 100644 mwb/media/Cheltenham_Crawley Town_l.png
+ delete mode 100644 mwb/media/Cheltenham_Luton_b.png
+ delete mode 100644 mwb/media/Cheltenham_Luton_c.png
+ delete mode 100644 mwb/media/Cheltenham_Luton_l.png
+ delete mode 100644 mwb/media/Chesterfield_Blackpool_c.png
+ delete mode 100644 mwb/media/Chesterfield_Bradford_b.png
+ delete mode 100644 mwb/media/Chesterfield_Bradford_c.png
+ delete mode 100644 mwb/media/Chesterfield_Bradford_l.png
+ delete mode 100644 mwb/media/Chesterfield_Coventry_c.png
+ delete mode 100644 mwb/media/Chesterfield_Crewe_c.png
+ delete mode 100644 mwb/media/Chesterfield_Fleetwood Town_b.png
+ delete mode 100644 mwb/media/Chesterfield_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Chesterfield_Fleetwood Town_l.png
+ delete mode 100644 mwb/media/Chesterfield_Millwall_c.png
+ delete mode 100644 mwb/media/Chesterfield_Oldham_c.png
+ delete mode 100644 mwb/media/Chesterfield_Peterboro_c.png
+ delete mode 100644 mwb/media/Chesterfield_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Chesterfield_Swindon_b.png
+ delete mode 100644 mwb/media/Chesterfield_Swindon_c.png
+ delete mode 100644 mwb/media/Chesterfield_Swindon_l.png
+ delete mode 100644 mwb/media/Chesterfield_Walsall_c.png
+ delete mode 100644 mwb/media/Colchester_Accrington_b.png
+ delete mode 100644 mwb/media/Colchester_Accrington_c.png
+ delete mode 100644 mwb/media/Colchester_Accrington_l.png
+ delete mode 100644 mwb/media/Colchester_Barnsley_c.png
+ delete mode 100644 mwb/media/Colchester_Blackpool_b.png
+ delete mode 100644 mwb/media/Colchester_Blackpool_c.png
+ delete mode 100644 mwb/media/Colchester_Blackpool_l.png
+ delete mode 100644 mwb/media/Colchester_Chesterfield_c.png
+ delete mode 100644 mwb/media/Colchester_Coventry_c.png
+ delete mode 100644 mwb/media/Colchester_Crewe_c.png
+ delete mode 100644 mwb/media/Colchester_Doncaster_c.png
+ delete mode 100644 mwb/media/Colchester_Exeter_b.png
+ delete mode 100644 mwb/media/Colchester_Exeter_c.png
+ delete mode 100644 mwb/media/Colchester_Exeter_l.png
+ delete mode 100644 mwb/media/Colchester_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Colchester_Grimsby_b.png
+ delete mode 100644 mwb/media/Colchester_Grimsby_c.png
+ delete mode 100644 mwb/media/Colchester_Grimsby_l.png
+ delete mode 100644 mwb/media/Colchester_Newport County_b.png
+ delete mode 100644 mwb/media/Colchester_Newport County_c.png
+ delete mode 100644 mwb/media/Colchester_Newport County_l.png
+ delete mode 100644 mwb/media/Colchester_Sheffield United_c.png
+ delete mode 100644 mwb/media/Colchester_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Colchester_Southend_c.png
+ delete mode 100644 mwb/media/Colchester_Swindon_c.png
+ delete mode 100644 mwb/media/Colchester_Wigan_c.png
+ delete mode 100644 mwb/media/Conflict-Poetry.pdf
+ delete mode 100644 mwb/media/Coventry_Barnsley_c.png
+ delete mode 100644 mwb/media/Coventry_Burton_c.png
+ delete mode 100644 mwb/media/Coventry_Bury_c.png
+ delete mode 100644 mwb/media/Coventry_Doncaster_c.png
+ delete mode 100644 mwb/media/Coventry_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Coventry_Gillingham_c.png
+ delete mode 100644 mwb/media/Coventry_Oldham_c.png
+ delete mode 100644 mwb/media/Coventry_Port Vale_c.png
+ delete mode 100644 mwb/media/Coventry_Rochdale_c.png
+ delete mode 100644 mwb/media/Coventry_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Coventry_Shrewsbury_b.png
+ delete mode 100644 mwb/media/Coventry_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Coventry_Shrewsbury_l.png
+ delete mode 100644 mwb/media/Coventry_Swindon_c.png
+ delete mode 100644 mwb/media/Coventry_Walsall_c.png
+ delete mode 100644 mwb/media/Crawley Town_Blackpool_b.png
+ delete mode 100644 mwb/media/Crawley Town_Blackpool_c.png
+ delete mode 100644 mwb/media/Crawley Town_Blackpool_l.png
+ delete mode 100644 mwb/media/Crewe_Barnsley_c.png
+ delete mode 100644 mwb/media/Crewe_Blackpool_c.png
+ delete mode 100644 mwb/media/Crewe_Burton_c.png
+ delete mode 100644 mwb/media/Crewe_Coventry_c.png
+ delete mode 100644 mwb/media/Crewe_Doncaster_b.png
+ delete mode 100644 mwb/media/Crewe_Doncaster_c.png
+ delete mode 100644 mwb/media/Crewe_Doncaster_l.png
+ delete mode 100644 mwb/media/Crewe_Exeter_b.png
+ delete mode 100644 mwb/media/Crewe_Exeter_c.png
+ delete mode 100644 mwb/media/Crewe_Exeter_l.png
+ delete mode 100644 mwb/media/Crewe_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Crewe_Hartlepool_b.png
+ delete mode 100644 mwb/media/Crewe_Hartlepool_c.png
+ delete mode 100644 mwb/media/Crewe_Hartlepool_l.png
+ delete mode 100644 mwb/media/Crewe_Mansfield_b.png
+ delete mode 100644 mwb/media/Crewe_Mansfield_c.png
+ delete mode 100644 mwb/media/Crewe_Mansfield_l.png
+ delete mode 100644 mwb/media/Crewe_Oldham_c.png
+ delete mode 100644 mwb/media/Crewe_Peterboro_c.png
+ delete mode 100644 mwb/media/Crewe_Portsmouth_b.png
+ delete mode 100644 mwb/media/Crewe_Portsmouth_c.png
+ delete mode 100644 mwb/media/Crewe_Portsmouth_l.png
+ delete mode 100644 mwb/media/Crewe_Rochdale_c.png
+ delete mode 100644 mwb/media/Crewe_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Crewe_Walsall_c.png
+ delete mode 100644 mwb/media/Crewe_Wigan_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Bournemouth_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Chelsea_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Everton_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Leicester_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Liverpool_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Newcastle_b.png
+ delete mode 100644 mwb/media/Crystal Palace_Newcastle_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Norwich_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Southampton_b.png
+ delete mode 100644 mwb/media/Crystal Palace_Southampton_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Sunderland_b.png
+ delete mode 100644 mwb/media/Crystal Palace_Sunderland_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Swansea_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Tottenham_c.png
+ delete mode 100644 mwb/media/Crystal Palace_Watford_c.png
+ delete mode 100644 mwb/media/Derby_Aston Villa_b.png
+ delete mode 100644 mwb/media/Derby_Aston Villa_c.png
+ delete mode 100644 mwb/media/Derby_Aston Villa_l.png
+ delete mode 100644 mwb/media/Derby_Birmingham_c.png
+ delete mode 100644 mwb/media/Derby_Blackburn_b.png
+ delete mode 100644 mwb/media/Derby_Blackburn_c.png
+ delete mode 100644 mwb/media/Derby_Blackburn_l.png
+ delete mode 100644 mwb/media/Derby_Bolton_c.png
+ delete mode 100644 mwb/media/Derby_Brentford_b.png
+ delete mode 100644 mwb/media/Derby_Brentford_c.png
+ delete mode 100644 mwb/media/Derby_Brentford_l.png
+ delete mode 100644 mwb/media/Derby_Brighton_c.png
+ delete mode 100644 mwb/media/Derby_Bristol City_c.png
+ delete mode 100644 mwb/media/Derby_Cardiff_c.png
+ delete mode 100644 mwb/media/Derby_Fulham_c.png
+ delete mode 100644 mwb/media/Derby_Huddersfield_c.png
+ delete mode 100644 mwb/media/Derby_Hull_c.png
+ delete mode 100644 mwb/media/Derby_Ipswich_b.png
+ delete mode 100644 mwb/media/Derby_Ipswich_c.png
+ delete mode 100644 mwb/media/Derby_Ipswich_l.png
+ delete mode 100644 mwb/media/Derby_Leeds_b.png
+ delete mode 100644 mwb/media/Derby_Leeds_c.png
+ delete mode 100644 mwb/media/Derby_Leeds_l.png
+ delete mode 100644 mwb/media/Derby_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Derby_Newcastle_b.png
+ delete mode 100644 mwb/media/Derby_Newcastle_c.png
+ delete mode 100644 mwb/media/Derby_Newcastle_l.png
+ delete mode 100644 mwb/media/Derby_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Derby_Preston_c.png
+ delete mode 100644 mwb/media/Derby_QPR_c.png
+ delete mode 100644 mwb/media/Derby_Reading_c.png
+ delete mode 100644 mwb/media/Derby_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Doncaster_Barnet_b.png
+ delete mode 100644 mwb/media/Doncaster_Barnet_c.png
+ delete mode 100644 mwb/media/Doncaster_Barnet_l.png
+ delete mode 100644 mwb/media/Doncaster_Chesterfield_c.png
+ delete mode 100644 mwb/media/Doncaster_Colchester_b.png
+ delete mode 100644 mwb/media/Doncaster_Colchester_c.png
+ delete mode 100644 mwb/media/Doncaster_Colchester_l.png
+ delete mode 100644 mwb/media/Doncaster_Crawley Town_b.png
+ delete mode 100644 mwb/media/Doncaster_Crawley Town_c.png
+ delete mode 100644 mwb/media/Doncaster_Crawley Town_l.png
+ delete mode 100644 mwb/media/Doncaster_Crewe_c.png
+ delete mode 100644 mwb/media/Doncaster_Gillingham_c.png
+ delete mode 100644 mwb/media/Doncaster_Millwall_c.png
+ delete mode 100644 mwb/media/Doncaster_Peterboro_c.png
+ delete mode 100644 mwb/media/Doncaster_Port Vale_c.png
+ delete mode 100644 mwb/media/Doncaster_Rochdale_c.png
+ delete mode 100644 mwb/media/Doncaster_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Doncaster_Sheffield United_c.png
+ delete mode 100644 mwb/media/Doncaster_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Doncaster_Walsall_c.png
+ delete mode 100644 mwb/media/Everton_Arsenal_c.png
+ delete mode 100644 mwb/media/Everton_Aston Villa_b.png
+ delete mode 100644 mwb/media/Everton_Aston Villa_c.png
+ delete mode 100644 mwb/media/Everton_Bournemouth_c.png
+ delete mode 100644 mwb/media/Everton_Crystal Palace_b.png
+ delete mode 100644 mwb/media/Everton_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Everton_Leicester_b.png
+ delete mode 100644 mwb/media/Everton_Leicester_c.png
+ delete mode 100644 mwb/media/Everton_Newcastle_c.png
+ delete mode 100644 mwb/media/Everton_Southampton_c.png
+ delete mode 100644 mwb/media/Everton_Stoke_b.png
+ delete mode 100644 mwb/media/Everton_Stoke_c.png
+ delete mode 100644 mwb/media/Everton_Stoke_l.png
+ delete mode 100644 mwb/media/Everton_Sunderland_b.png
+ delete mode 100644 mwb/media/Everton_Sunderland_c.png
+ delete mode 100644 mwb/media/Everton_Swansea_c.png
+ delete mode 100644 mwb/media/Everton_Tottenham_c.png
+ delete mode 100644 mwb/media/Everton_West Brom_c.png
+ delete mode 100644 mwb/media/Everton_West Ham_b.png
+ delete mode 100644 mwb/media/Everton_West Ham_c.png
+ delete mode 100644 mwb/media/Everton_West Ham_l.png
+ delete mode 100644 mwb/media/Exeter_Crawley Town_b.png
+ delete mode 100644 mwb/media/Exeter_Crawley Town_c.png
+ delete mode 100644 mwb/media/Exeter_Crawley Town_l.png
+ delete mode 100644 mwb/media/Exeter_Hartlepool_b.png
+ delete mode 100644 mwb/media/Exeter_Hartlepool_c.png
+ delete mode 100644 mwb/media/Exeter_Hartlepool_l.png
+ delete mode 100644 mwb/media/Exeter_Plymouth_b.png
+ delete mode 100644 mwb/media/Exeter_Plymouth_c.png
+ delete mode 100644 mwb/media/Exeter_Plymouth_l.png
+ delete mode 100644 mwb/media/Fleetwood Town_Barnsley_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Bury_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Charlton_b.png
+ delete mode 100644 mwb/media/Fleetwood Town_Charlton_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Charlton_l.png
+ delete mode 100644 mwb/media/Fleetwood Town_Coventry_b.png
+ delete mode 100644 mwb/media/Fleetwood Town_Coventry_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Coventry_l.png
+ delete mode 100644 mwb/media/Fleetwood Town_Doncaster_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Gillingham_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Millwall_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Scunthorpe_b.png
+ delete mode 100644 mwb/media/Fleetwood Town_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Scunthorpe_l.png
+ delete mode 100644 mwb/media/Fleetwood Town_Sheffield United_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Swindon_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Walsall_c.png
+ delete mode 100644 mwb/media/Fleetwood Town_Wigan_c.png
+ delete mode 100644 mwb/media/Fulham_Birmingham_b.png
+ delete mode 100644 mwb/media/Fulham_Birmingham_c.png
+ delete mode 100644 mwb/media/Fulham_Birmingham_l.png
+ delete mode 100644 mwb/media/Fulham_Brentford_c.png
+ delete mode 100644 mwb/media/Fulham_Bristol City_b.png
+ delete mode 100644 mwb/media/Fulham_Bristol City_c.png
+ delete mode 100644 mwb/media/Fulham_Bristol City_l.png
+ delete mode 100644 mwb/media/Fulham_Burnley_c.png
+ delete mode 100644 mwb/media/Fulham_Burton_b.png
+ delete mode 100644 mwb/media/Fulham_Burton_c.png
+ delete mode 100644 mwb/media/Fulham_Burton_l.png
+ delete mode 100644 mwb/media/Fulham_Cardiff_c.png
+ delete mode 100644 mwb/media/Fulham_Charlton_c.png
+ delete mode 100644 mwb/media/Fulham_Derby_c.png
+ delete mode 100644 mwb/media/Fulham_Hull_c.png
+ delete mode 100644 mwb/media/Fulham_Ipswich_c.png
+ delete mode 100644 mwb/media/Fulham_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Fulham_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Fulham_Norwich_b.png
+ delete mode 100644 mwb/media/Fulham_Norwich_c.png
+ delete mode 100644 mwb/media/Fulham_Norwich_l.png
+ delete mode 100644 mwb/media/Fulham_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Fulham_Preston_c.png
+ delete mode 100644 mwb/media/Fulham_Rotherham_c.png
+ delete mode 100644 mwb/media/Fulham_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Gillingham_Barnsley_c.png
+ delete mode 100644 mwb/media/Gillingham_Bradford_b.png
+ delete mode 100644 mwb/media/Gillingham_Bradford_c.png
+ delete mode 100644 mwb/media/Gillingham_Bradford_l.png
+ delete mode 100644 mwb/media/Gillingham_Burton_c.png
+ delete mode 100644 mwb/media/Gillingham_Bury_b.png
+ delete mode 100644 mwb/media/Gillingham_Bury_c.png
+ delete mode 100644 mwb/media/Gillingham_Bury_l.png
+ delete mode 100644 mwb/media/Gillingham_Chesterfield_c.png
+ delete mode 100644 mwb/media/Gillingham_Colchester_c.png
+ delete mode 100644 mwb/media/Gillingham_Crewe_c.png
+ delete mode 100644 mwb/media/Gillingham_Oldham_b.png
+ delete mode 100644 mwb/media/Gillingham_Oldham_c.png
+ delete mode 100644 mwb/media/Gillingham_Oldham_l.png
+ delete mode 100644 mwb/media/Gillingham_Peterboro_c.png
+ delete mode 100644 mwb/media/Gillingham_Rochdale_c.png
+ delete mode 100644 mwb/media/Gillingham_Swindon_c.png
+ delete mode 100644 mwb/media/Gillingham_Walsall_b.png
+ delete mode 100644 mwb/media/Gillingham_Walsall_c.png
+ delete mode 100644 mwb/media/Gillingham_Walsall_l.png
+ delete mode 100644 mwb/media/Grimsby_Hartlepool_b.png
+ delete mode 100644 mwb/media/Grimsby_Hartlepool_c.png
+ delete mode 100644 mwb/media/Grimsby_Hartlepool_l.png
+ delete mode 100644 mwb/media/Hartlepool_Crawley Town_b.png
+ delete mode 100644 mwb/media/Hartlepool_Crawley Town_c.png
+ delete mode 100644 mwb/media/Hartlepool_Crawley Town_l.png
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center.html
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/469-original.jpg
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/51b6483a434bba0f0c000016.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/a.gif
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/a_002.gif
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/a_003.gif
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/a_004.gif
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/ae43571cb3
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/analytics
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/analytics.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/ga.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/gtm.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/inpage_linkid.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/nr-632.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/pd.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/print-17a7ac04141ea2c31450a2dd7de9c40f.css
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/public-451ade1429051316f92e8f8d0d2fa3d5.css
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/public-5748dc691c3c44f9152776a61bf61ebc.js
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/seg.gif
+ delete mode 100644 mwb/media/Heroku Postgres | Heroku Dev Center_files/tagjs
+ delete mode 100644 mwb/media/Huddersfield_Bristol City_c.png
+ delete mode 100644 mwb/media/Huddersfield_Burnley_c.png
+ delete mode 100644 mwb/media/Huddersfield_Cardiff_c.png
+ delete mode 100644 mwb/media/Huddersfield_Charlton_c.png
+ delete mode 100644 mwb/media/Huddersfield_Fulham_c.png
+ delete mode 100644 mwb/media/Huddersfield_Hull_c.png
+ delete mode 100644 mwb/media/Huddersfield_Ipswich_c.png
+ delete mode 100644 mwb/media/Huddersfield_Leeds_c.png
+ delete mode 100644 mwb/media/Huddersfield_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Huddersfield_Preston_c.png
+ delete mode 100644 mwb/media/Huddersfield_QPR_b.png
+ delete mode 100644 mwb/media/Huddersfield_QPR_c.png
+ delete mode 100644 mwb/media/Huddersfield_QPR_l.png
+ delete mode 100644 mwb/media/Huddersfield_Reading_c.png
+ delete mode 100644 mwb/media/Huddersfield_Rotherham_c.png
+ delete mode 100644 mwb/media/Huddersfield_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Huddersfield_Wolves_c.png
+ delete mode 100644 mwb/media/Hull_Bolton_c.png
+ delete mode 100644 mwb/media/Hull_Brentford_c.png
+ delete mode 100644 mwb/media/Hull_Brighton_c.png
+ delete mode 100644 mwb/media/Hull_Bristol City_c.png
+ delete mode 100644 mwb/media/Hull_Burnley_c.png
+ delete mode 100644 mwb/media/Hull_Cardiff_c.png
+ delete mode 100644 mwb/media/Hull_Charlton_c.png
+ delete mode 100644 mwb/media/Hull_Derby_c.png
+ delete mode 100644 mwb/media/Hull_Leeds_c.png
+ delete mode 100644 mwb/media/Hull_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Hull_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Hull_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Hull_Reading_c.png
+ delete mode 100644 mwb/media/Hull_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Hull_Stoke_b.png
+ delete mode 100644 mwb/media/Hull_Stoke_c.png
+ delete mode 100644 mwb/media/Hull_Stoke_l.png
+ delete mode 100644 mwb/media/Hull_Wolves_c.png
+ delete mode 100644 mwb/media/Ipswich_Aston Villa_b.png
+ delete mode 100644 mwb/media/Ipswich_Aston Villa_c.png
+ delete mode 100644 mwb/media/Ipswich_Aston Villa_l.png
+ delete mode 100644 mwb/media/Ipswich_Blackburn_c.png
+ delete mode 100644 mwb/media/Ipswich_Bolton_c.png
+ delete mode 100644 mwb/media/Ipswich_Brentford_c.png
+ delete mode 100644 mwb/media/Ipswich_Burton_b.png
+ delete mode 100644 mwb/media/Ipswich_Burton_c.png
+ delete mode 100644 mwb/media/Ipswich_Burton_l.png
+ delete mode 100644 mwb/media/Ipswich_Charlton_c.png
+ delete mode 100644 mwb/media/Ipswich_Derby_c.png
+ delete mode 100644 mwb/media/Ipswich_Fulham_c.png
+ delete mode 100644 mwb/media/Ipswich_Hull_c.png
+ delete mode 100644 mwb/media/Ipswich_Leeds_c.png
+ delete mode 100644 mwb/media/Ipswich_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Ipswich_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Ipswich_Norwich_b.png
+ delete mode 100644 mwb/media/Ipswich_Norwich_c.png
+ delete mode 100644 mwb/media/Ipswich_Norwich_l.png
+ delete mode 100644 mwb/media/Ipswich_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Ipswich_Preston_c.png
+ delete mode 100644 mwb/media/Ipswich_QPR_c.png
+ delete mode 100644 mwb/media/Ipswich_Reading_c.png
+ delete mode 100644 mwb/media/Ipswich_Rotherham_c.png
+ delete mode 100644 mwb/media/Ipswich_Wolves_c.png
+ delete mode 100644 mwb/media/Leeds_Barnsley_b.png
+ delete mode 100644 mwb/media/Leeds_Barnsley_c.png
+ delete mode 100644 mwb/media/Leeds_Barnsley_l.png
+ delete mode 100644 mwb/media/Leeds_Birmingham_b.png
+ delete mode 100644 mwb/media/Leeds_Birmingham_c.png
+ delete mode 100644 mwb/media/Leeds_Birmingham_l.png
+ delete mode 100644 mwb/media/Leeds_Blackburn_b.png
+ delete mode 100644 mwb/media/Leeds_Blackburn_c.png
+ delete mode 100644 mwb/media/Leeds_Blackburn_l.png
+ delete mode 100644 mwb/media/Leeds_Bolton_c.png
+ delete mode 100644 mwb/media/Leeds_Bristol City_c.png
+ delete mode 100644 mwb/media/Leeds_Cardiff_c.png
+ delete mode 100644 mwb/media/Leeds_Charlton_c.png
+ delete mode 100644 mwb/media/Leeds_Derby_c.png
+ delete mode 100644 mwb/media/Leeds_Fulham_c.png
+ delete mode 100644 mwb/media/Leeds_Huddersfield_b.png
+ delete mode 100644 mwb/media/Leeds_Huddersfield_c.png
+ delete mode 100644 mwb/media/Leeds_Huddersfield_l.png
+ delete mode 100644 mwb/media/Leeds_Hull_c.png
+ delete mode 100644 mwb/media/Leeds_Ipswich_b.png
+ delete mode 100644 mwb/media/Leeds_Ipswich_c.png
+ delete mode 100644 mwb/media/Leeds_Ipswich_l.png
+ delete mode 100644 mwb/media/Leeds_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Leeds_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Leeds_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Leeds_Preston_c.png
+ delete mode 100644 mwb/media/Leeds_QPR_c.png
+ delete mode 100644 mwb/media/Leeds_Reading_c.png
+ delete mode 100644 mwb/media/Leeds_Rotherham_c.png
+ delete mode 100644 mwb/media/Leeds_Wigan_b.png
+ delete mode 100644 mwb/media/Leeds_Wigan_c.png
+ delete mode 100644 mwb/media/Leeds_Wigan_l.png
+ delete mode 100644 mwb/media/Leeds_Wolves_c.png
+ delete mode 100644 mwb/media/Leicester_Bournemouth_c.png
+ delete mode 100644 mwb/media/Leicester_Burnley_b.png
+ delete mode 100644 mwb/media/Leicester_Burnley_c.png
+ delete mode 100644 mwb/media/Leicester_Burnley_l.png
+ delete mode 100644 mwb/media/Leicester_Chelsea_b.png
+ delete mode 100644 mwb/media/Leicester_Chelsea_c.png
+ delete mode 100644 mwb/media/Leicester_Liverpool_c.png
+ delete mode 100644 mwb/media/Leicester_Man City_c.png
+ delete mode 100644 mwb/media/Leicester_Man United_b.png
+ delete mode 100644 mwb/media/Leicester_Man United_c.png
+ delete mode 100644 mwb/media/Leicester_Newcastle_c.png
+ delete mode 100644 mwb/media/Leicester_Norwich_c.png
+ delete mode 100644 mwb/media/Leicester_Southampton_b.png
+ delete mode 100644 mwb/media/Leicester_Southampton_c.png
+ delete mode 100644 mwb/media/Leicester_Southampton_l.png
+ delete mode 100644 mwb/media/Leicester_Stoke_c.png
+ delete mode 100644 mwb/media/Leicester_Swansea_b.png
+ delete mode 100644 mwb/media/Leicester_Swansea_c.png
+ delete mode 100644 mwb/media/Leicester_Swansea_l.png
+ delete mode 100644 mwb/media/Leicester_Watford_b.png
+ delete mode 100644 mwb/media/Leicester_Watford_c.png
+ delete mode 100644 mwb/media/Leicester_West Brom_c.png
+ delete mode 100644 mwb/media/Leicester_West Ham_c.png
+ delete mode 100644 mwb/media/Leyton Orient_Luton_b.png
+ delete mode 100644 mwb/media/Leyton Orient_Luton_c.png
+ delete mode 100644 mwb/media/Leyton Orient_Luton_l.png
+ delete mode 100644 mwb/media/Leyton Orient_Newport County_b.png
+ delete mode 100644 mwb/media/Leyton Orient_Newport County_c.png
+ delete mode 100644 mwb/media/Leyton Orient_Newport County_l.png
+ delete mode 100644 mwb/media/Liverpool_Arsenal_c.png
+ delete mode 100644 mwb/media/Liverpool_Crystal Palace_b.png
+ delete mode 100644 mwb/media/Liverpool_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Liverpool_Everton_c.png
+ delete mode 100644 mwb/media/Liverpool_Hull_b.png
+ delete mode 100644 mwb/media/Liverpool_Hull_c.png
+ delete mode 100644 mwb/media/Liverpool_Hull_l.png
+ delete mode 100644 mwb/media/Liverpool_Leicester_b.png
+ delete mode 100644 mwb/media/Liverpool_Leicester_c.png
+ delete mode 100644 mwb/media/Liverpool_Leicester_l.png
+ delete mode 100644 mwb/media/Liverpool_Man City_c.png
+ delete mode 100644 mwb/media/Liverpool_Man United_c.png
+ delete mode 100644 mwb/media/Liverpool_Newcastle_c.png
+ delete mode 100644 mwb/media/Liverpool_Stoke_c.png
+ delete mode 100644 mwb/media/Liverpool_Sunderland_c.png
+ delete mode 100644 mwb/media/Liverpool_Swansea_b.png
+ delete mode 100644 mwb/media/Liverpool_Swansea_c.png
+ delete mode 100644 mwb/media/Liverpool_Tottenham_c.png
+ delete mode 100644 mwb/media/Liverpool_West Brom_b.png
+ delete mode 100644 mwb/media/Liverpool_West Brom_c.png
+ delete mode 100644 mwb/media/Liverpool_West Brom_l.png
+ delete mode 100644 mwb/media/Luton_Crewe_b.png
+ delete mode 100644 mwb/media/Luton_Crewe_c.png
+ delete mode 100644 mwb/media/Luton_Crewe_l.png
+ delete mode 100644 mwb/media/Luton_Doncaster_b.png
+ delete mode 100644 mwb/media/Luton_Doncaster_c.png
+ delete mode 100644 mwb/media/Luton_Doncaster_l.png
+ delete mode 100644 mwb/media/Luton_Grimsby_b.png
+ delete mode 100644 mwb/media/Luton_Grimsby_c.png
+ delete mode 100644 mwb/media/Luton_Grimsby_l.png
+ delete mode 100644 mwb/media/Luton_Wycombe_b.png
+ delete mode 100644 mwb/media/Luton_Wycombe_c.png
+ delete mode 100644 mwb/media/Luton_Wycombe_l.png
+ delete mode 100644 mwb/media/Luton_Yeovil_b.png
+ delete mode 100644 mwb/media/Luton_Yeovil_c.png
+ delete mode 100644 mwb/media/Luton_Yeovil_l.png
+ delete mode 100644 mwb/media/Man City_Aston Villa_c.png
+ delete mode 100644 mwb/media/Man City_Bournemouth_b.png
+ delete mode 100644 mwb/media/Man City_Bournemouth_c.png
+ delete mode 100644 mwb/media/Man City_Bournemouth_l.png
+ delete mode 100644 mwb/media/Man City_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Man City_Everton_b.png
+ delete mode 100644 mwb/media/Man City_Everton_c.png
+ delete mode 100644 mwb/media/Man City_Everton_l.png
+ delete mode 100644 mwb/media/Man City_Leicester_c.png
+ delete mode 100644 mwb/media/Man City_Liverpool_b.png
+ delete mode 100644 mwb/media/Man City_Liverpool_c.png
+ delete mode 100644 mwb/media/Man City_Man United_c.png
+ delete mode 100644 mwb/media/Man City_Southampton_b.png
+ delete mode 100644 mwb/media/Man City_Southampton_c.png
+ delete mode 100644 mwb/media/Man City_Southampton_l.png
+ delete mode 100644 mwb/media/Man City_Stoke_c.png
+ delete mode 100644 mwb/media/Man City_Sunderland_c.png
+ delete mode 100644 mwb/media/Man City_Swansea_b.png
+ delete mode 100644 mwb/media/Man City_Swansea_c.png
+ delete mode 100644 mwb/media/Man City_Tottenham_c.png
+ delete mode 100644 mwb/media/Man City_West Brom_c.png
+ delete mode 100644 mwb/media/Man City_West Ham_b.png
+ delete mode 100644 mwb/media/Man City_West Ham_c.png
+ delete mode 100644 mwb/media/Man City_West Ham_l.png
+ delete mode 100644 mwb/media/Man United_Arsenal_c.png
+ delete mode 100644 mwb/media/Man United_Aston Villa_c.png
+ delete mode 100644 mwb/media/Man United_Chelsea_c.png
+ delete mode 100644 mwb/media/Man United_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Man United_Everton_c.png
+ delete mode 100644 mwb/media/Man United_Leicester_c.png
+ delete mode 100644 mwb/media/Man United_Norwich_b.png
+ delete mode 100644 mwb/media/Man United_Norwich_c.png
+ delete mode 100644 mwb/media/Man United_Southampton_c.png
+ delete mode 100644 mwb/media/Man United_Stoke_c.png
+ delete mode 100644 mwb/media/Man United_Swansea_c.png
+ delete mode 100644 mwb/media/Man United_Watford_c.png
+ delete mode 100644 mwb/media/Man United_West Brom_b.png
+ delete mode 100644 mwb/media/Man United_West Brom_c.png
+ delete mode 100644 mwb/media/Man United_West Ham_b.png
+ delete mode 100644 mwb/media/Man United_West Ham_c.png
+ delete mode 100644 mwb/media/Mansfield_Barnet_b.png
+ delete mode 100644 mwb/media/Mansfield_Barnet_c.png
+ delete mode 100644 mwb/media/Mansfield_Barnet_l.png
+ delete mode 100644 mwb/media/Mansfield_Cheltenham_b.png
+ delete mode 100644 mwb/media/Mansfield_Cheltenham_c.png
+ delete mode 100644 mwb/media/Mansfield_Cheltenham_l.png
+ delete mode 100644 mwb/media/Mansfield_Grimsby_b.png
+ delete mode 100644 mwb/media/Mansfield_Grimsby_c.png
+ delete mode 100644 mwb/media/Mansfield_Grimsby_l.png
+ delete mode 100644 mwb/media/Mansfield_Wycombe_b.png
+ delete mode 100644 mwb/media/Mansfield_Wycombe_c.png
+ delete mode 100644 mwb/media/Mansfield_Wycombe_l.png
+ delete mode 100644 mwb/media/Middlesbrough_Birmingham_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Blackburn_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Bournemouth_b.png
+ delete mode 100644 mwb/media/Middlesbrough_Bournemouth_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Bournemouth_l.png
+ delete mode 100644 mwb/media/Middlesbrough_Burnley_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Cardiff_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Derby_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Huddersfield_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Hull_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Ipswich_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Preston_c.png
+ delete mode 100644 mwb/media/Middlesbrough_QPR_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Reading_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Rotherham_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Tottenham_b.png
+ delete mode 100644 mwb/media/Middlesbrough_Tottenham_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Tottenham_l.png
+ delete mode 100644 mwb/media/Middlesbrough_Watford_b.png
+ delete mode 100644 mwb/media/Middlesbrough_Watford_c.png
+ delete mode 100644 mwb/media/Middlesbrough_Watford_l.png
+ delete mode 100644 mwb/media/Middlesbrough_Wolves_c.png
+ delete mode 100644 mwb/media/Millwall_Blackpool_c.png
+ delete mode 100644 mwb/media/Millwall_Bolton_b.png
+ delete mode 100644 mwb/media/Millwall_Bolton_c.png
+ delete mode 100644 mwb/media/Millwall_Bolton_l.png
+ delete mode 100644 mwb/media/Millwall_Bradford_b.png
+ delete mode 100644 mwb/media/Millwall_Bradford_c.png
+ delete mode 100644 mwb/media/Millwall_Bradford_l.png
+ delete mode 100644 mwb/media/Millwall_Bury_c.png
+ delete mode 100644 mwb/media/Millwall_Colchester_c.png
+ delete mode 100644 mwb/media/Millwall_Coventry_b.png
+ delete mode 100644 mwb/media/Millwall_Coventry_c.png
+ delete mode 100644 mwb/media/Millwall_Coventry_l.png
+ delete mode 100644 mwb/media/Millwall_Crewe_c.png
+ delete mode 100644 mwb/media/Millwall_Gillingham_c.png
+ delete mode 100644 mwb/media/Millwall_Peterboro_c.png
+ delete mode 100644 mwb/media/Millwall_Port Vale_c.png
+ delete mode 100644 mwb/media/Millwall_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Millwall_Sheffield United_c.png
+ delete mode 100644 mwb/media/Millwall_Walsall_c.png
+ delete mode 100644 mwb/media/Millwall_Wigan_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Brentford_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Brighton_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Bristol City_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Burnley_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Cardiff_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Charlton_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Fulham_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Huddersfield_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Ipswich_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Millwall_b.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Millwall_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Millwall_l.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_QPR_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Reading_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Rotherham_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Milton Keynes Dons_Wolves_c.png
+ delete mode 100644 mwb/media/Morecambe_Blackpool_b.png
+ delete mode 100644 mwb/media/Morecambe_Blackpool_c.png
+ delete mode 100644 mwb/media/Morecambe_Blackpool_l.png
+ delete mode 100644 mwb/media/Morecambe_Carlisle_b.png
+ delete mode 100644 mwb/media/Morecambe_Carlisle_c.png
+ delete mode 100644 mwb/media/Morecambe_Carlisle_l.png
+ delete mode 100644 mwb/media/Morecambe_Doncaster_b.png
+ delete mode 100644 mwb/media/Morecambe_Doncaster_c.png
+ delete mode 100644 mwb/media/Morecambe_Doncaster_l.png
+ delete mode 100644 mwb/media/Morecambe_Leyton Orient_b.png
+ delete mode 100644 mwb/media/Morecambe_Leyton Orient_c.png
+ delete mode 100644 mwb/media/Morecambe_Leyton Orient_l.png
+ delete mode 100644 mwb/media/Morecambe_Portsmouth_b.png
+ delete mode 100644 mwb/media/Morecambe_Portsmouth_c.png
+ delete mode 100644 mwb/media/Morecambe_Portsmouth_l.png
+ delete mode 100644 mwb/media/Morecambe_Stevenage_b.png
+ delete mode 100644 mwb/media/Morecambe_Stevenage_c.png
+ delete mode 100644 mwb/media/Morecambe_Stevenage_l.png
+ delete mode 100644 mwb/media/Newcastle_Aston Villa_b.png
+ delete mode 100644 mwb/media/Newcastle_Aston Villa_c.png
+ delete mode 100644 mwb/media/Newcastle_Bournemouth_c.png
+ delete mode 100644 mwb/media/Newcastle_Brentford_b.png
+ delete mode 100644 mwb/media/Newcastle_Brentford_c.png
+ delete mode 100644 mwb/media/Newcastle_Brentford_l.png
+ delete mode 100644 mwb/media/Newcastle_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Newcastle_Everton_c.png
+ delete mode 100644 mwb/media/Newcastle_Huddersfield_b.png
+ delete mode 100644 mwb/media/Newcastle_Huddersfield_c.png
+ delete mode 100644 mwb/media/Newcastle_Huddersfield_l.png
+ delete mode 100644 mwb/media/Newcastle_Leicester_b.png
+ delete mode 100644 mwb/media/Newcastle_Leicester_c.png
+ delete mode 100644 mwb/media/Newcastle_Liverpool_b.png
+ delete mode 100644 mwb/media/Newcastle_Liverpool_c.png
+ delete mode 100644 mwb/media/Newcastle_Man City_c.png
+ delete mode 100644 mwb/media/Newcastle_Man United_c.png
+ delete mode 100644 mwb/media/Newcastle_Sunderland_c.png
+ delete mode 100644 mwb/media/Newcastle_Swansea_c.png
+ delete mode 100644 mwb/media/Newcastle_West Brom_c.png
+ delete mode 100644 mwb/media/Newcastle_West Ham_c.png
+ delete mode 100644 mwb/media/Newport County_Barnet_b.png
+ delete mode 100644 mwb/media/Newport County_Barnet_c.png
+ delete mode 100644 mwb/media/Newport County_Barnet_l.png
+ delete mode 100644 mwb/media/Newport County_Cheltenham_b.png
+ delete mode 100644 mwb/media/Newport County_Cheltenham_c.png
+ delete mode 100644 mwb/media/Newport County_Cheltenham_l.png
+ delete mode 100644 mwb/media/Newport County_Stevenage_b.png
+ delete mode 100644 mwb/media/Newport County_Stevenage_c.png
+ delete mode 100644 mwb/media/Newport County_Stevenage_l.png
+ delete mode 100644 mwb/media/Northampton_Millwall_b.png
+ delete mode 100644 mwb/media/Northampton_Millwall_c.png
+ delete mode 100644 mwb/media/Northampton_Millwall_l.png
+ delete mode 100644 mwb/media/Northampton_Walsall_b.png
+ delete mode 100644 mwb/media/Northampton_Walsall_c.png
+ delete mode 100644 mwb/media/Northampton_Walsall_l.png
+ delete mode 100644 mwb/media/Norwich_Arsenal_b.png
+ delete mode 100644 mwb/media/Norwich_Arsenal_c.png
+ delete mode 100644 mwb/media/Norwich_Aston Villa_c.png
+ delete mode 100644 mwb/media/Norwich_Burton_b.png
+ delete mode 100644 mwb/media/Norwich_Burton_c.png
+ delete mode 100644 mwb/media/Norwich_Burton_l.png
+ delete mode 100644 mwb/media/Norwich_Cardiff_b.png
+ delete mode 100644 mwb/media/Norwich_Cardiff_c.png
+ delete mode 100644 mwb/media/Norwich_Cardiff_l.png
+ delete mode 100644 mwb/media/Norwich_Chelsea_c.png
+ delete mode 100644 mwb/media/Norwich_Everton_b.png
+ delete mode 100644 mwb/media/Norwich_Everton_c.png
+ delete mode 100644 mwb/media/Norwich_Liverpool_c.png
+ delete mode 100644 mwb/media/Norwich_Man City_c.png
+ delete mode 100644 mwb/media/Norwich_Newcastle_c.png
+ delete mode 100644 mwb/media/Norwich_Rotherham_b.png
+ delete mode 100644 mwb/media/Norwich_Rotherham_c.png
+ delete mode 100644 mwb/media/Norwich_Rotherham_l.png
+ delete mode 100644 mwb/media/Norwich_Sheffield Weds_b.png
+ delete mode 100644 mwb/media/Norwich_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Norwich_Sheffield Weds_l.png
+ delete mode 100644 mwb/media/Norwich_Southampton_c.png
+ delete mode 100644 mwb/media/Norwich_Sunderland_c.png
+ delete mode 100644 mwb/media/Norwich_Swansea_b.png
+ delete mode 100644 mwb/media/Norwich_Swansea_c.png
+ delete mode 100644 mwb/media/Norwich_Tottenham_c.png
+ delete mode 100644 mwb/media/Norwich_West Ham_c.png
+ delete mode 100644 mwb/media/Norwich_Wigan_b.png
+ delete mode 100644 mwb/media/Norwich_Wigan_c.png
+ delete mode 100644 mwb/media/Norwich_Wigan_l.png
+ delete mode 100644 mwb/media/Nott'm Forest_Birmingham_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Blackburn_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Bolton_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Brentford_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Brighton_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Bristol City_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Derby_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Fulham_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Huddersfield_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Leeds_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Preston_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_QPR_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Reading_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Nott'm Forest_Wolves_c.png
+ delete mode 100644 mwb/media/Notts County_Plymouth_b.png
+ delete mode 100644 mwb/media/Notts County_Plymouth_c.png
+ delete mode 100644 mwb/media/Notts County_Plymouth_l.png
+ delete mode 100644 mwb/media/Notts County_Stevenage_b.png
+ delete mode 100644 mwb/media/Notts County_Stevenage_c.png
+ delete mode 100644 mwb/media/Notts County_Stevenage_l.png
+ delete mode 100644 mwb/media/Oldham_Barnsley_c.png
+ delete mode 100644 mwb/media/Oldham_Blackpool_c.png
+ delete mode 100644 mwb/media/Oldham_Bury_c.png
+ delete mode 100644 mwb/media/Oldham_Chesterfield_b.png
+ delete mode 100644 mwb/media/Oldham_Chesterfield_c.png
+ delete mode 100644 mwb/media/Oldham_Chesterfield_l.png
+ delete mode 100644 mwb/media/Oldham_Colchester_c.png
+ delete mode 100644 mwb/media/Oldham_Doncaster_c.png
+ delete mode 100644 mwb/media/Oldham_Gillingham_c.png
+ delete mode 100644 mwb/media/Oldham_Millwall_c.png
+ delete mode 100644 mwb/media/Oldham_Port Vale_c.png
+ delete mode 100644 mwb/media/Oldham_Rochdale_c.png
+ delete mode 100644 mwb/media/Oldham_Scunthorpe_b.png
+ delete mode 100644 mwb/media/Oldham_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Oldham_Scunthorpe_l.png
+ delete mode 100644 mwb/media/Oldham_Shrewsbury_b.png
+ delete mode 100644 mwb/media/Oldham_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Oldham_Shrewsbury_l.png
+ delete mode 100644 mwb/media/Oldham_Southend_c.png
+ delete mode 100644 mwb/media/Oldham_Walsall_b.png
+ delete mode 100644 mwb/media/Oldham_Walsall_c.png
+ delete mode 100644 mwb/media/Oldham_Walsall_l.png
+ delete mode 100644 mwb/media/Peterboro_Barnsley_c.png
+ delete mode 100644 mwb/media/Peterboro_Bradford_b.png
+ delete mode 100644 mwb/media/Peterboro_Bradford_c.png
+ delete mode 100644 mwb/media/Peterboro_Bradford_l.png
+ delete mode 100644 mwb/media/Peterboro_Burton_c.png
+ delete mode 100644 mwb/media/Peterboro_Chesterfield_c.png
+ delete mode 100644 mwb/media/Peterboro_Coventry_c.png
+ delete mode 100644 mwb/media/Peterboro_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Peterboro_Millwall_b.png
+ delete mode 100644 mwb/media/Peterboro_Millwall_c.png
+ delete mode 100644 mwb/media/Peterboro_Millwall_l.png
+ delete mode 100644 mwb/media/Peterboro_Oldham_c.png
+ delete mode 100644 mwb/media/Peterboro_Port Vale_c.png
+ delete mode 100644 mwb/media/Peterboro_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Peterboro_Southend_c.png
+ delete mode 100644 mwb/media/Peterboro_Swindon_c.png
+ delete mode 100644 mwb/media/Plymouth_Cheltenham_b.png
+ delete mode 100644 mwb/media/Plymouth_Cheltenham_c.png
+ delete mode 100644 mwb/media/Plymouth_Cheltenham_l.png
+ delete mode 100644 mwb/media/Plymouth_Hartlepool_b.png
+ delete mode 100644 mwb/media/Plymouth_Hartlepool_c.png
+ delete mode 100644 mwb/media/Plymouth_Hartlepool_l.png
+ delete mode 100644 mwb/media/Plymouth_Portsmouth_b.png
+ delete mode 100644 mwb/media/Plymouth_Portsmouth_c.png
+ delete mode 100644 mwb/media/Plymouth_Portsmouth_l.png
+ delete mode 100644 mwb/media/Port Vale_Blackpool_c.png
+ delete mode 100644 mwb/media/Port Vale_Bradford_c.png
+ delete mode 100644 mwb/media/Port Vale_Burton_c.png
+ delete mode 100644 mwb/media/Port Vale_Bury_c.png
+ delete mode 100644 mwb/media/Port Vale_Charlton_b.png
+ delete mode 100644 mwb/media/Port Vale_Charlton_c.png
+ delete mode 100644 mwb/media/Port Vale_Charlton_l.png
+ delete mode 100644 mwb/media/Port Vale_Chesterfield_c.png
+ delete mode 100644 mwb/media/Port Vale_Colchester_c.png
+ delete mode 100644 mwb/media/Port Vale_Coventry_b.png
+ delete mode 100644 mwb/media/Port Vale_Coventry_c.png
+ delete mode 100644 mwb/media/Port Vale_Coventry_l.png
+ delete mode 100644 mwb/media/Port Vale_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Port Vale_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Port Vale_Southend_b.png
+ delete mode 100644 mwb/media/Port Vale_Southend_c.png
+ delete mode 100644 mwb/media/Port Vale_Southend_l.png
+ delete mode 100644 mwb/media/Port Vale_Swindon_c.png
+ delete mode 100644 mwb/media/Portsmouth_Barnet_b.png
+ delete mode 100644 mwb/media/Portsmouth_Barnet_c.png
+ delete mode 100644 mwb/media/Portsmouth_Barnet_l.png
+ delete mode 100644 mwb/media/Portsmouth_Crawley Town_b.png
+ delete mode 100644 mwb/media/Portsmouth_Crawley Town_c.png
+ delete mode 100644 mwb/media/Portsmouth_Crawley Town_l.png
+ delete mode 100644 mwb/media/Portsmouth_Doncaster_b.png
+ delete mode 100644 mwb/media/Portsmouth_Doncaster_c.png
+ delete mode 100644 mwb/media/Portsmouth_Doncaster_l.png
+ delete mode 100644 mwb/media/Portsmouth_Wycombe_b.png
+ delete mode 100644 mwb/media/Portsmouth_Wycombe_c.png
+ delete mode 100644 mwb/media/Portsmouth_Wycombe_l.png
+ delete mode 100644 mwb/media/Preston_Aston Villa_b.png
+ delete mode 100644 mwb/media/Preston_Aston Villa_c.png
+ delete mode 100644 mwb/media/Preston_Aston Villa_l.png
+ delete mode 100644 mwb/media/Preston_Barnsley_b.png
+ delete mode 100644 mwb/media/Preston_Barnsley_c.png
+ delete mode 100644 mwb/media/Preston_Barnsley_l.png
+ delete mode 100644 mwb/media/Preston_Birmingham_c.png
+ delete mode 100644 mwb/media/Preston_Blackburn_c.png
+ delete mode 100644 mwb/media/Preston_Brentford_c.png
+ delete mode 100644 mwb/media/Preston_Brighton_c.png
+ delete mode 100644 mwb/media/Preston_Burnley_c.png
+ delete mode 100644 mwb/media/Preston_Cardiff_b.png
+ delete mode 100644 mwb/media/Preston_Cardiff_c.png
+ delete mode 100644 mwb/media/Preston_Cardiff_l.png
+ delete mode 100644 mwb/media/Preston_Charlton_c.png
+ delete mode 100644 mwb/media/Preston_Fulham_b.png
+ delete mode 100644 mwb/media/Preston_Fulham_c.png
+ delete mode 100644 mwb/media/Preston_Fulham_l.png
+ delete mode 100644 mwb/media/Preston_Huddersfield_b.png
+ delete mode 100644 mwb/media/Preston_Huddersfield_c.png
+ delete mode 100644 mwb/media/Preston_Huddersfield_l.png
+ delete mode 100644 mwb/media/Preston_Hull_c.png
+ delete mode 100644 mwb/media/Preston_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Preston_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Preston_QPR_c.png
+ delete mode 100644 mwb/media/Preston_Reading_c.png
+ delete mode 100644 mwb/media/Preston_Rotherham_c.png
+ delete mode 100644 mwb/media/Preston_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Preston_Wigan_b.png
+ delete mode 100644 mwb/media/Preston_Wigan_c.png
+ delete mode 100644 mwb/media/Preston_Wigan_l.png
+ delete mode 100644 mwb/media/QPR_Birmingham_b.png
+ delete mode 100644 mwb/media/QPR_Birmingham_c.png
+ delete mode 100644 mwb/media/QPR_Birmingham_l.png
+ delete mode 100644 mwb/media/QPR_Blackburn_b.png
+ delete mode 100644 mwb/media/QPR_Blackburn_c.png
+ delete mode 100644 mwb/media/QPR_Blackburn_l.png
+ delete mode 100644 mwb/media/QPR_Brentford_c.png
+ delete mode 100644 mwb/media/QPR_Brighton_c.png
+ delete mode 100644 mwb/media/QPR_Bristol City_b.png
+ delete mode 100644 mwb/media/QPR_Bristol City_c.png
+ delete mode 100644 mwb/media/QPR_Bristol City_l.png
+ delete mode 100644 mwb/media/QPR_Burnley_c.png
+ delete mode 100644 mwb/media/QPR_Charlton_c.png
+ delete mode 100644 mwb/media/QPR_Derby_c.png
+ delete mode 100644 mwb/media/QPR_Fulham_c.png
+ delete mode 100644 mwb/media/QPR_Huddersfield_c.png
+ delete mode 100644 mwb/media/QPR_Hull_c.png
+ delete mode 100644 mwb/media/QPR_Ipswich_c.png
+ delete mode 100644 mwb/media/QPR_Leeds_b.png
+ delete mode 100644 mwb/media/QPR_Leeds_c.png
+ delete mode 100644 mwb/media/QPR_Leeds_l.png
+ delete mode 100644 mwb/media/QPR_Middlesbrough_c.png
+ delete mode 100644 mwb/media/QPR_Newcastle_b.png
+ delete mode 100644 mwb/media/QPR_Newcastle_c.png
+ delete mode 100644 mwb/media/QPR_Newcastle_l.png
+ delete mode 100644 mwb/media/QPR_Preston_c.png
+ delete mode 100644 mwb/media/QPR_Reading_b.png
+ delete mode 100644 mwb/media/QPR_Reading_c.png
+ delete mode 100644 mwb/media/QPR_Reading_l.png
+ delete mode 100644 mwb/media/QPR_Wolves_c.png
+ delete mode 100644 mwb/media/Reading_Aston Villa_b.png
+ delete mode 100644 mwb/media/Reading_Aston Villa_c.png
+ delete mode 100644 mwb/media/Reading_Aston Villa_l.png
+ delete mode 100644 mwb/media/Reading_Birmingham_b.png
+ delete mode 100644 mwb/media/Reading_Birmingham_c.png
+ delete mode 100644 mwb/media/Reading_Birmingham_l.png
+ delete mode 100644 mwb/media/Reading_Blackburn_c.png
+ delete mode 100644 mwb/media/Reading_Bolton_c.png
+ delete mode 100644 mwb/media/Reading_Brentford_c.png
+ delete mode 100644 mwb/media/Reading_Bristol City_c.png
+ delete mode 100644 mwb/media/Reading_Burnley_c.png
+ delete mode 100644 mwb/media/Reading_Cardiff_c.png
+ delete mode 100644 mwb/media/Reading_Derby_b.png
+ delete mode 100644 mwb/media/Reading_Derby_c.png
+ delete mode 100644 mwb/media/Reading_Derby_l.png
+ delete mode 100644 mwb/media/Reading_Fulham_c.png
+ delete mode 100644 mwb/media/Reading_Huddersfield_b.png
+ delete mode 100644 mwb/media/Reading_Huddersfield_c.png
+ delete mode 100644 mwb/media/Reading_Huddersfield_l.png
+ delete mode 100644 mwb/media/Reading_Hull_c.png
+ delete mode 100644 mwb/media/Reading_Ipswich_b.png
+ delete mode 100644 mwb/media/Reading_Ipswich_c.png
+ delete mode 100644 mwb/media/Reading_Ipswich_l.png
+ delete mode 100644 mwb/media/Reading_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Reading_Preston_c.png
+ delete mode 100644 mwb/media/Reading_QPR_c.png
+ delete mode 100644 mwb/media/Reading_Rotherham_c.png
+ delete mode 100644 mwb/media/Reading_Sheffield Weds_c.png
+ delete mode 100644 mwb/media/Reading_Wolves_c.png
+ delete mode 100644 mwb/media/Rochdale_Burton_c.png
+ delete mode 100644 mwb/media/Rochdale_Bury_b.png
+ delete mode 100644 mwb/media/Rochdale_Bury_c.png
+ delete mode 100644 mwb/media/Rochdale_Bury_l.png
+ delete mode 100644 mwb/media/Rochdale_Chesterfield_c.png
+ delete mode 100644 mwb/media/Rochdale_Colchester_c.png
+ delete mode 100644 mwb/media/Rochdale_Crewe_c.png
+ delete mode 100644 mwb/media/Rochdale_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Rochdale_Millwall_c.png
+ delete mode 100644 mwb/media/Rochdale_Port Vale_c.png
+ delete mode 100644 mwb/media/Rochdale_Sheffield United_c.png
+ delete mode 100644 mwb/media/Rochdale_Southend_b.png
+ delete mode 100644 mwb/media/Rochdale_Southend_c.png
+ delete mode 100644 mwb/media/Rochdale_Southend_l.png
+ delete mode 100644 mwb/media/Rochdale_Wigan_c.png
+ delete mode 100644 mwb/media/Rotherham_Birmingham_c.png
+ delete mode 100644 mwb/media/Rotherham_Blackburn_c.png
+ delete mode 100644 mwb/media/Rotherham_Bolton_c.png
+ delete mode 100644 mwb/media/Rotherham_Brentford_c.png
+ delete mode 100644 mwb/media/Rotherham_Brighton_c.png
+ delete mode 100644 mwb/media/Rotherham_Bristol City_b.png
+ delete mode 100644 mwb/media/Rotherham_Bristol City_c.png
+ delete mode 100644 mwb/media/Rotherham_Bristol City_l.png
+ delete mode 100644 mwb/media/Rotherham_Cardiff_b.png
+ delete mode 100644 mwb/media/Rotherham_Cardiff_c.png
+ delete mode 100644 mwb/media/Rotherham_Cardiff_l.png
+ delete mode 100644 mwb/media/Rotherham_Charlton_c.png
+ delete mode 100644 mwb/media/Rotherham_Derby_c.png
+ delete mode 100644 mwb/media/Rotherham_Huddersfield_c.png
+ delete mode 100644 mwb/media/Rotherham_Hull_c.png
+ delete mode 100644 mwb/media/Rotherham_Ipswich_c.png
+ delete mode 100644 mwb/media/Rotherham_Leeds_c.png
+ delete mode 100644 mwb/media/Rotherham_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Rotherham_Newcastle_b.png
+ delete mode 100644 mwb/media/Rotherham_Newcastle_c.png
+ delete mode 100644 mwb/media/Rotherham_Newcastle_l.png
+ delete mode 100644 mwb/media/Rotherham_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Rotherham_QPR_c.png
+ delete mode 100644 mwb/media/Rotherham_Wolves_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Bradford_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Charlton_b.png
+ delete mode 100644 mwb/media/Scunthorpe_Charlton_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Charlton_l.png
+ delete mode 100644 mwb/media/Scunthorpe_Chesterfield_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Colchester_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Doncaster_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Gillingham_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Oldham_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Peterboro_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Rochdale_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Sheffield United_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Southend_b.png
+ delete mode 100644 mwb/media/Scunthorpe_Southend_c.png
+ delete mode 100644 mwb/media/Scunthorpe_Southend_l.png
+ delete mode 100644 mwb/media/Scunthorpe_Wigan_c.png
+ delete mode 100644 mwb/media/Sheffield United_Bradford_c.png
+ delete mode 100644 mwb/media/Sheffield United_Burton_c.png
+ delete mode 100644 mwb/media/Sheffield United_Coventry_c.png
+ delete mode 100644 mwb/media/Sheffield United_Oldham_c.png
+ delete mode 100644 mwb/media/Sheffield United_Peterboro_c.png
+ delete mode 100644 mwb/media/Sheffield United_Port Vale_c.png
+ delete mode 100644 mwb/media/Sheffield United_Rochdale_b.png
+ delete mode 100644 mwb/media/Sheffield United_Rochdale_c.png
+ delete mode 100644 mwb/media/Sheffield United_Rochdale_l.png
+ delete mode 100644 mwb/media/Sheffield United_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Sheffield United_Southend_b.png
+ delete mode 100644 mwb/media/Sheffield United_Southend_c.png
+ delete mode 100644 mwb/media/Sheffield United_Southend_l.png
+ delete mode 100644 mwb/media/Sheffield United_Swindon_c.png
+ delete mode 100644 mwb/media/Sheffield United_Wigan_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Aston Villa_b.png
+ delete mode 100644 mwb/media/Sheffield Weds_Aston Villa_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Aston Villa_l.png
+ delete mode 100644 mwb/media/Sheffield Weds_Birmingham_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Blackburn_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Bolton_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Brentford_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Brighton_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Burnley_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Cardiff_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Charlton_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Derby_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Huddersfield_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Ipswich_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Leeds_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_QPR_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Rotherham_c.png
+ delete mode 100644 mwb/media/Sheffield Weds_Wolves_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Barnsley_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Coventry_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Fleetwood Town_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Gillingham_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Oldham_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Rochdale_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Southend_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Swindon_b.png
+ delete mode 100644 mwb/media/Shrewsbury_Swindon_c.png
+ delete mode 100644 mwb/media/Shrewsbury_Swindon_l.png
+ delete mode 100644 mwb/media/Shrewsbury_Walsall_c.png
+ delete mode 100644 mwb/media/Southampton_Arsenal_c.png
+ delete mode 100644 mwb/media/Southampton_Aston Villa_b.png
+ delete mode 100644 mwb/media/Southampton_Aston Villa_c.png
+ delete mode 100644 mwb/media/Southampton_Bournemouth_b.png
+ delete mode 100644 mwb/media/Southampton_Bournemouth_c.png
+ delete mode 100644 mwb/media/Southampton_Burnley_b.png
+ delete mode 100644 mwb/media/Southampton_Burnley_c.png
+ delete mode 100644 mwb/media/Southampton_Burnley_l.png
+ delete mode 100644 mwb/media/Southampton_Liverpool_c.png
+ delete mode 100644 mwb/media/Southampton_Man City_c.png
+ delete mode 100644 mwb/media/Southampton_Newcastle_c.png
+ delete mode 100644 mwb/media/Southampton_Stoke_b.png
+ delete mode 100644 mwb/media/Southampton_Stoke_c.png
+ delete mode 100644 mwb/media/Southampton_Sunderland_b.png
+ delete mode 100644 mwb/media/Southampton_Sunderland_c.png
+ delete mode 100644 mwb/media/Southampton_Sunderland_l.png
+ delete mode 100644 mwb/media/Southampton_Swansea_b.png
+ delete mode 100644 mwb/media/Southampton_Swansea_c.png
+ delete mode 100644 mwb/media/Southampton_Swansea_l.png
+ delete mode 100644 mwb/media/Southampton_Tottenham_b.png
+ delete mode 100644 mwb/media/Southampton_Tottenham_c.png
+ delete mode 100644 mwb/media/Southampton_Watford_c.png
+ delete mode 100644 mwb/media/Southampton_West Brom_c.png
+ delete mode 100644 mwb/media/Southampton_West Ham_c.png
+ delete mode 100644 mwb/media/Southend_Blackpool_c.png
+ delete mode 100644 mwb/media/Southend_Burton_c.png
+ delete mode 100644 mwb/media/Southend_Bury_c.png
+ delete mode 100644 mwb/media/Southend_Chesterfield_b.png
+ delete mode 100644 mwb/media/Southend_Chesterfield_c.png
+ delete mode 100644 mwb/media/Southend_Chesterfield_l.png
+ delete mode 100644 mwb/media/Southend_Colchester_c.png
+ delete mode 100644 mwb/media/Southend_Coventry_c.png
+ delete mode 100644 mwb/media/Southend_Crewe_c.png
+ delete mode 100644 mwb/media/Southend_Doncaster_c.png
+ delete mode 100644 mwb/media/Southend_Gillingham_c.png
+ delete mode 100644 mwb/media/Southend_Millwall_b.png
+ delete mode 100644 mwb/media/Southend_Millwall_c.png
+ delete mode 100644 mwb/media/Southend_Millwall_l.png
+ delete mode 100644 mwb/media/Southend_Wigan_c.png
+ delete mode 100644 mwb/media/Stevenage_Crawley Town_b.png
+ delete mode 100644 mwb/media/Stevenage_Crawley Town_c.png
+ delete mode 100644 mwb/media/Stevenage_Crawley Town_l.png
+ delete mode 100644 mwb/media/Stevenage_Exeter_b.png
+ delete mode 100644 mwb/media/Stevenage_Exeter_c.png
+ delete mode 100644 mwb/media/Stevenage_Exeter_l.png
+ delete mode 100644 mwb/media/Stevenage_Hartlepool_b.png
+ delete mode 100644 mwb/media/Stevenage_Hartlepool_c.png
+ delete mode 100644 mwb/media/Stevenage_Hartlepool_l.png
+ delete mode 100644 mwb/media/Stevenage_Plymouth_b.png
+ delete mode 100644 mwb/media/Stevenage_Plymouth_c.png
+ delete mode 100644 mwb/media/Stevenage_Plymouth_l.png
+ delete mode 100644 mwb/media/Stoke_Arsenal_c.png
+ delete mode 100644 mwb/media/Stoke_Aston Villa_c.png
+ delete mode 100644 mwb/media/Stoke_Chelsea_b.png
+ delete mode 100644 mwb/media/Stoke_Chelsea_c.png
+ delete mode 100644 mwb/media/Stoke_Crystal Palace_b.png
+ delete mode 100644 mwb/media/Stoke_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Stoke_Everton_c.png
+ delete mode 100644 mwb/media/Stoke_Man City_b.png
+ delete mode 100644 mwb/media/Stoke_Man City_c.png
+ delete mode 100644 mwb/media/Stoke_Man United_c.png
+ delete mode 100644 mwb/media/Stoke_Newcastle_c.png
+ delete mode 100644 mwb/media/Stoke_Norwich_c.png
+ delete mode 100644 mwb/media/Stoke_Southampton_c.png
+ delete mode 100644 mwb/media/Stoke_Sunderland_b.png
+ delete mode 100644 mwb/media/Stoke_Sunderland_c.png
+ delete mode 100644 mwb/media/Stoke_Sunderland_l.png
+ delete mode 100644 mwb/media/Stoke_Tottenham_b.png
+ delete mode 100644 mwb/media/Stoke_Tottenham_c.png
+ delete mode 100644 mwb/media/Stoke_Tottenham_l.png
+ delete mode 100644 mwb/media/Stoke_West Brom_b.png
+ delete mode 100644 mwb/media/Stoke_West Brom_c.png
+ delete mode 100644 mwb/media/Stoke_West Brom_l.png
+ delete mode 100644 mwb/media/Sunderland_Arsenal_b.png
+ delete mode 100644 mwb/media/Sunderland_Arsenal_c.png
+ delete mode 100644 mwb/media/Sunderland_Arsenal_l.png
+ delete mode 100644 mwb/media/Sunderland_Aston Villa_c.png
+ delete mode 100644 mwb/media/Sunderland_Bournemouth_c.png
+ delete mode 100644 mwb/media/Sunderland_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Sunderland_Everton_b.png
+ delete mode 100644 mwb/media/Sunderland_Everton_c.png
+ delete mode 100644 mwb/media/Sunderland_Everton_l.png
+ delete mode 100644 mwb/media/Sunderland_Leicester_c.png
+ delete mode 100644 mwb/media/Sunderland_Liverpool_c.png
+ delete mode 100644 mwb/media/Sunderland_Man City_c.png
+ delete mode 100644 mwb/media/Sunderland_Man United_c.png
+ delete mode 100644 mwb/media/Sunderland_Middlesbrough_b.png
+ delete mode 100644 mwb/media/Sunderland_Middlesbrough_c.png
+ delete mode 100644 mwb/media/Sunderland_Middlesbrough_l.png
+ delete mode 100644 mwb/media/Sunderland_Southampton_b.png
+ delete mode 100644 mwb/media/Sunderland_Southampton_c.png
+ delete mode 100644 mwb/media/Sunderland_Stoke_b.png
+ delete mode 100644 mwb/media/Sunderland_Stoke_c.png
+ delete mode 100644 mwb/media/Sunderland_Watford_b.png
+ delete mode 100644 mwb/media/Sunderland_Watford_c.png
+ delete mode 100644 mwb/media/Sunderland_West Brom_c.png
+ delete mode 100644 mwb/media/Swansea_Aston Villa_c.png
+ delete mode 100644 mwb/media/Swansea_Bournemouth_b.png
+ delete mode 100644 mwb/media/Swansea_Bournemouth_c.png
+ delete mode 100644 mwb/media/Swansea_Chelsea_b.png
+ delete mode 100644 mwb/media/Swansea_Chelsea_c.png
+ delete mode 100644 mwb/media/Swansea_Chelsea_l.png
+ delete mode 100644 mwb/media/Swansea_Crystal Palace_c.png
+ delete mode 100644 mwb/media/Swansea_Leicester_b.png
+ delete mode 100644 mwb/media/Swansea_Leicester_c.png
+ delete mode 100644 mwb/media/Swansea_Liverpool_c.png
+ delete mode 100644 mwb/media/Swansea_Man City_b.png
+ delete mode 100644 mwb/media/Swansea_Man City_c.png
+ delete mode 100644 mwb/media/Swansea_Man City_l.png
+ delete mode 100644 mwb/media/Swansea_Norwich_c.png
+ delete mode 100644 mwb/media/Swansea_Southampton_c.png
+ delete mode 100644 mwb/media/Swansea_Sunderland_c.png
+ delete mode 100644 mwb/media/Swansea_Watford_b.png
+ delete mode 100644 mwb/media/Swansea_Watford_c.png
+ delete mode 100644 mwb/media/Swansea_Watford_l.png
+ delete mode 100644 mwb/media/Swansea_West Brom_c.png
+ delete mode 100644 mwb/media/Swansea_West Ham_b.png
+ delete mode 100644 mwb/media/Swansea_West Ham_c.png
+ delete mode 100644 mwb/media/Swindon_Barnsley_c.png
+ delete mode 100644 mwb/media/Swindon_Blackpool_c.png
+ delete mode 100644 mwb/media/Swindon_Bolton_b.png
+ delete mode 100644 mwb/media/Swindon_Bolton_c.png
+ delete mode 100644 mwb/media/Swindon_Bolton_l.png
+ delete mode 100644 mwb/media/Swindon_Crewe_c.png
+ delete mode 100644 mwb/media/Swindon_Doncaster_c.png
+ delete mode 100644 mwb/media/Swindon_Gillingham_c.png
+ delete mode 100644 mwb/media/Swindon_Millwall_c.png
+ delete mode 100644 mwb/media/Swindon_Rochdale_b.png
+ delete mode 100644 mwb/media/Swindon_Rochdale_c.png
+ delete mode 100644 mwb/media/Swindon_Rochdale_l.png
+ delete mode 100644 mwb/media/Swindon_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Swindon_Southend_c.png
+ delete mode 100644 mwb/media/Swindon_Walsall_c.png
+ delete mode 100644 mwb/media/Tottenham_Arsenal_c.png
+ delete mode 100644 mwb/media/Tottenham_Aston Villa_b.png
+ delete mode 100644 mwb/media/Tottenham_Aston Villa_c.png
+ delete mode 100644 mwb/media/Tottenham_Bournemouth_c.png
+ delete mode 100644 mwb/media/Tottenham_Chelsea_b.png
+ delete mode 100644 mwb/media/Tottenham_Chelsea_c.png
+ delete mode 100644 mwb/media/Tottenham_Leicester_b.png
+ delete mode 100644 mwb/media/Tottenham_Leicester_c.png
+ delete mode 100644 mwb/media/Tottenham_Leicester_l.png
+ delete mode 100644 mwb/media/Tottenham_Liverpool_b.png
+ delete mode 100644 mwb/media/Tottenham_Liverpool_c.png
+ delete mode 100644 mwb/media/Tottenham_Liverpool_l.png
+ delete mode 100644 mwb/media/Tottenham_Man City_b.png
+ delete mode 100644 mwb/media/Tottenham_Man City_c.png
+ delete mode 100644 mwb/media/Tottenham_Man City_l.png
+ delete mode 100644 mwb/media/Tottenham_Man United_c.png
+ delete mode 100644 mwb/media/Tottenham_Newcastle_b.png
+ delete mode 100644 mwb/media/Tottenham_Newcastle_c.png
+ delete mode 100644 mwb/media/Tottenham_Norwich_c.png
+ delete mode 100644 mwb/media/Tottenham_Sunderland_b.png
+ delete mode 100644 mwb/media/Tottenham_Sunderland_c.png
+ delete mode 100644 mwb/media/Tottenham_Sunderland_l.png
+ delete mode 100644 mwb/media/Tottenham_Swansea_c.png
+ delete mode 100644 mwb/media/Tottenham_Watford_c.png
+ delete mode 100644 mwb/media/Tottenham_West Brom_c.png
+ delete mode 100644 mwb/media/Tottenham_West Ham_b.png
+ delete mode 100644 mwb/media/Tottenham_West Ham_c.png
+ delete mode 100644 mwb/media/Walsall_Barnsley_c.png
+ delete mode 100644 mwb/media/Walsall_Blackpool_c.png
+ delete mode 100644 mwb/media/Walsall_Bradford_c.png
+ delete mode 100644 mwb/media/Walsall_Colchester_c.png
+ delete mode 100644 mwb/media/Walsall_Millwall_b.png
+ delete mode 100644 mwb/media/Walsall_Millwall_c.png
+ delete mode 100644 mwb/media/Walsall_Millwall_l.png
+ delete mode 100644 mwb/media/Walsall_Peterboro_c.png
+ delete mode 100644 mwb/media/Walsall_Port Vale_c.png
+ delete mode 100644 mwb/media/Walsall_Rochdale_c.png
+ delete mode 100644 mwb/media/Walsall_Scunthorpe_c.png
+ delete mode 100644 mwb/media/Walsall_Sheffield United_c.png
+ delete mode 100644 mwb/media/Walsall_Shrewsbury_b.png
+ delete mode 100644 mwb/media/Walsall_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Walsall_Shrewsbury_l.png
+ delete mode 100644 mwb/media/Walsall_Wigan_c.png
+ delete mode 100644 mwb/media/Watford_Arsenal_b.png
+ delete mode 100644 mwb/media/Watford_Arsenal_c.png
+ delete mode 100644 mwb/media/Watford_Arsenal_l.png
+ delete mode 100644 mwb/media/Watford_Aston Villa_c.png
+ delete mode 100644 mwb/media/Watford_Bournemouth_b.png
+ delete mode 100644 mwb/media/Watford_Bournemouth_c.png
+ delete mode 100644 mwb/media/Watford_Bournemouth_l.png
+ delete mode 100644 mwb/media/Watford_Chelsea_c.png
+ delete mode 100644 mwb/media/Watford_Everton_c.png
+ delete mode 100644 mwb/media/Watford_Hull_b.png
+ delete mode 100644 mwb/media/Watford_Hull_c.png
+ delete mode 100644 mwb/media/Watford_Hull_l.png
+ delete mode 100644 mwb/media/Watford_Leicester_c.png
+ delete mode 100644 mwb/media/Watford_Liverpool_b.png
+ delete mode 100644 mwb/media/Watford_Liverpool_c.png
+ delete mode 100644 mwb/media/Watford_Man City_c.png
+ delete mode 100644 mwb/media/Watford_Man United_b.png
+ delete mode 100644 mwb/media/Watford_Man United_c.png
+ delete mode 100644 mwb/media/Watford_Newcastle_c.png
+ delete mode 100644 mwb/media/Watford_Norwich_b.png
+ delete mode 100644 mwb/media/Watford_Norwich_c.png
+ delete mode 100644 mwb/media/Watford_Stoke_c.png
+ delete mode 100644 mwb/media/Watford_Tottenham_c.png
+ delete mode 100644 mwb/media/West Brom_Arsenal_b.png
+ delete mode 100644 mwb/media/West Brom_Arsenal_c.png
+ delete mode 100644 mwb/media/West Brom_Aston Villa_c.png
+ delete mode 100644 mwb/media/West Brom_Bournemouth_b.png
+ delete mode 100644 mwb/media/West Brom_Bournemouth_c.png
+ delete mode 100644 mwb/media/West Brom_Crystal Palace_c.png
+ delete mode 100644 mwb/media/West Brom_Man City_b.png
+ delete mode 100644 mwb/media/West Brom_Man City_c.png
+ delete mode 100644 mwb/media/West Brom_Man City_l.png
+ delete mode 100644 mwb/media/West Brom_Man United_c.png
+ delete mode 100644 mwb/media/West Brom_Middlesbrough_b.png
+ delete mode 100644 mwb/media/West Brom_Middlesbrough_c.png
+ delete mode 100644 mwb/media/West Brom_Middlesbrough_l.png
+ delete mode 100644 mwb/media/West Brom_Newcastle_c.png
+ delete mode 100644 mwb/media/West Brom_Norwich_c.png
+ delete mode 100644 mwb/media/West Brom_Stoke_c.png
+ delete mode 100644 mwb/media/West Brom_Swansea_c.png
+ delete mode 100644 mwb/media/West Brom_Tottenham_b.png
+ delete mode 100644 mwb/media/West Brom_Tottenham_c.png
+ delete mode 100644 mwb/media/West Brom_Tottenham_l.png
+ delete mode 100644 mwb/media/West Brom_Watford_c.png
+ delete mode 100644 mwb/media/West Brom_West Ham_b.png
+ delete mode 100644 mwb/media/West Brom_West Ham_c.png
+ delete mode 100644 mwb/media/West Brom_West Ham_l.png
+ delete mode 100644 mwb/media/West Ham_Arsenal_c.png
+ delete mode 100644 mwb/media/West Ham_Aston Villa_c.png
+ delete mode 100644 mwb/media/West Ham_Bournemouth_b.png
+ delete mode 100644 mwb/media/West Ham_Bournemouth_c.png
+ delete mode 100644 mwb/media/West Ham_Bournemouth_l.png
+ delete mode 100644 mwb/media/West Ham_Crystal Palace_c.png
+ delete mode 100644 mwb/media/West Ham_Everton_b.png
+ delete mode 100644 mwb/media/West Ham_Everton_c.png
+ delete mode 100644 mwb/media/West Ham_Liverpool_c.png
+ delete mode 100644 mwb/media/West Ham_Man City_c.png
+ delete mode 100644 mwb/media/West Ham_Middlesbrough_b.png
+ delete mode 100644 mwb/media/West Ham_Middlesbrough_c.png
+ delete mode 100644 mwb/media/West Ham_Middlesbrough_l.png
+ delete mode 100644 mwb/media/West Ham_Southampton_b.png
+ delete mode 100644 mwb/media/West Ham_Southampton_c.png
+ delete mode 100644 mwb/media/West Ham_Southampton_l.png
+ delete mode 100644 mwb/media/West Ham_Sunderland_b.png
+ delete mode 100644 mwb/media/West Ham_Sunderland_c.png
+ delete mode 100644 mwb/media/West Ham_Sunderland_l.png
+ delete mode 100644 mwb/media/West Ham_Tottenham_c.png
+ delete mode 100644 mwb/media/West Ham_Watford_b.png
+ delete mode 100644 mwb/media/West Ham_Watford_c.png
+ delete mode 100644 mwb/media/West Ham_Watford_l.png
+ delete mode 100644 mwb/media/West Ham_West Brom_b.png
+ delete mode 100644 mwb/media/West Ham_West Brom_c.png
+ delete mode 100644 mwb/media/Wigan_Birmingham_b.png
+ delete mode 100644 mwb/media/Wigan_Birmingham_c.png
+ delete mode 100644 mwb/media/Wigan_Birmingham_l.png
+ delete mode 100644 mwb/media/Wigan_Blackburn_b.png
+ delete mode 100644 mwb/media/Wigan_Blackburn_c.png
+ delete mode 100644 mwb/media/Wigan_Blackburn_l.png
+ delete mode 100644 mwb/media/Wigan_Blackpool_c.png
+ delete mode 100644 mwb/media/Wigan_Bradford_c.png
+ delete mode 100644 mwb/media/Wigan_Burton_b.png
+ delete mode 100644 mwb/media/Wigan_Burton_c.png
+ delete mode 100644 mwb/media/Wigan_Burton_l.png
+ delete mode 100644 mwb/media/Wigan_Bury_c.png
+ delete mode 100644 mwb/media/Wigan_Chesterfield_c.png
+ delete mode 100644 mwb/media/Wigan_Gillingham_c.png
+ delete mode 100644 mwb/media/Wigan_Oldham_c.png
+ delete mode 100644 mwb/media/Wigan_Peterboro_c.png
+ delete mode 100644 mwb/media/Wigan_Port Vale_c.png
+ delete mode 100644 mwb/media/Wigan_Sheffield United_c.png
+ delete mode 100644 mwb/media/Wigan_Shrewsbury_c.png
+ delete mode 100644 mwb/media/Wolves_Barnsley_b.png
+ delete mode 100644 mwb/media/Wolves_Barnsley_c.png
+ delete mode 100644 mwb/media/Wolves_Barnsley_l.png
+ delete mode 100644 mwb/media/Wolves_Birmingham_c.png
+ delete mode 100644 mwb/media/Wolves_Blackburn_c.png
+ delete mode 100644 mwb/media/Wolves_Bolton_c.png
+ delete mode 100644 mwb/media/Wolves_Brentford_b.png
+ delete mode 100644 mwb/media/Wolves_Brentford_c.png
+ delete mode 100644 mwb/media/Wolves_Brentford_l.png
+ delete mode 100644 mwb/media/Wolves_Bristol City_c.png
+ delete mode 100644 mwb/media/Wolves_Burnley_c.png
+ delete mode 100644 mwb/media/Wolves_Burton_b.png
+ delete mode 100644 mwb/media/Wolves_Burton_c.png
+ delete mode 100644 mwb/media/Wolves_Burton_l.png
+ delete mode 100644 mwb/media/Wolves_Cardiff_c.png
+ delete mode 100644 mwb/media/Wolves_Fulham_c.png
+ delete mode 100644 mwb/media/Wolves_Ipswich_c.png
+ delete mode 100644 mwb/media/Wolves_Leeds_c.png
+ delete mode 100644 mwb/media/Wolves_Milton Keynes Dons_c.png
+ delete mode 100644 mwb/media/Wolves_Nott'm Forest_c.png
+ delete mode 100644 mwb/media/Wolves_Preston_c.png
+ delete mode 100644 mwb/media/Wolves_Reading_b.png
+ delete mode 100644 mwb/media/Wolves_Reading_c.png
+ delete mode 100644 mwb/media/Wolves_Reading_l.png
+ delete mode 100644 mwb/media/Wolves_Rotherham_c.png
+ delete mode 100644 mwb/media/Wycombe_Accrington_b.png
+ delete mode 100644 mwb/media/Wycombe_Accrington_c.png
+ delete mode 100644 mwb/media/Wycombe_Accrington_l.png
+ delete mode 100644 mwb/media/Wycombe_Exeter_b.png
+ delete mode 100644 mwb/media/Wycombe_Exeter_c.png
+ delete mode 100644 mwb/media/Wycombe_Exeter_l.png
+ delete mode 100644 mwb/media/Wycombe_Grimsby_b.png
+ delete mode 100644 mwb/media/Wycombe_Grimsby_c.png
+ delete mode 100644 mwb/media/Wycombe_Grimsby_l.png
+ delete mode 100644 mwb/media/Yeovil_Blackpool_b.png
+ delete mode 100644 mwb/media/Yeovil_Blackpool_c.png
+ delete mode 100644 mwb/media/Yeovil_Blackpool_l.png
+ delete mode 100644 mwb/media/Yeovil_Cheltenham_b.png
+ delete mode 100644 mwb/media/Yeovil_Cheltenham_c.png
+ delete mode 100644 mwb/media/Yeovil_Cheltenham_l.png
+ delete mode 100644 mwb/media/Yeovil_Hartlepool_b.png
+ delete mode 100644 mwb/media/Yeovil_Hartlepool_c.png
+ delete mode 100644 mwb/media/Yeovil_Hartlepool_l.png
+ delete mode 100644 mwb/media/Yeovil_Newport County_b.png
+ delete mode 100644 mwb/media/Yeovil_Newport County_c.png
+ delete mode 100644 mwb/media/Yeovil_Newport County_l.png
+ delete mode 100644 mwb/media/accrington.png
+ delete mode 100644 mwb/media/accringtonstanley.png
+ delete mode 100644 mwb/media/afcwimbledon.png
+ delete mode 100644 mwb/media/aldershottown.png
+ delete mode 100644 mwb/media/arsenal.png
+ delete mode 100644 mwb/media/astonvilla.png
+ delete mode 100644 mwb/media/aw.png
+ delete mode 100644 mwb/media/awimbledon.png
+ delete mode 100644 mwb/media/b2.jpg
+ delete mode 100644 mwb/media/b3.jpg
+ delete mode 100644 mwb/media/barnet.png
+ delete mode 100644 mwb/media/barnsley.png
+ delete mode 100644 mwb/media/bet-at-home-button.png
+ delete mode 100644 mwb/media/bet365.jpg
+ delete mode 100644 mwb/media/bet365.png
+ delete mode 100644 mwb/media/betfair.jpg
+ delete mode 100644 mwb/media/betfair.png
+ delete mode 100644 mwb/media/betfred.png
+ delete mode 100644 mwb/media/betvictor.png
+ delete mode 100644 mwb/media/bg.png
+ delete mode 100644 mwb/media/birmingham.png
+ delete mode 100644 mwb/media/blackburn.png
+ delete mode 100644 mwb/media/blackburnrovers.png
+ delete mode 100644 mwb/media/blackpool.png
+ delete mode 100644 mwb/media/boffin.jpg
+ delete mode 100644 mwb/media/bolton.png
+ delete mode 100644 mwb/media/bournemouth.png
+ delete mode 100644 mwb/media/bradford.png
+ delete mode 100644 mwb/media/brentford.png
+ delete mode 100644 mwb/media/brighton.png
+ delete mode 100644 mwb/media/bristolcity.png
+ delete mode 100644 mwb/media/bristolrovers.png
+ delete mode 100644 mwb/media/bristolrvs.png
+ delete mode 100644 mwb/media/burnley.png
+ delete mode 100644 mwb/media/burton.png
+ delete mode 100644 mwb/media/bury.png
+ delete mode 100644 mwb/media/cardifity.png
+ delete mode 100644 mwb/media/carlisle.png
+ delete mode 100644 mwb/media/charlton.png
+ delete mode 100644 mwb/media/chelsea.png
+ delete mode 100644 mwb/media/cheltenham.png
+ delete mode 100644 mwb/media/chesterfield.png
+ delete mode 100644 mwb/media/colchester.png
+ delete mode 100644 mwb/media/coral.png
+ delete mode 100644 mwb/media/coventrycity.png
+ delete mode 100644 mwb/media/cpalace.png
+ delete mode 100644 mwb/media/crawleytown.png
+ delete mode 100644 mwb/media/crewe.png
+ delete mode 100644 mwb/media/crystalpalace.png
+ delete mode 100644 mwb/media/dagandred.png
+ delete mode 100644 mwb/media/dagred.png
+ delete mode 100644 mwb/media/derby.png
+ delete mode 100644 mwb/media/doncaster.png
+ delete mode 100644 mwb/media/everton.png
+ delete mode 100644 mwb/media/exeter.png
+ delete mode 100755 mwb/media/f.sh
+ delete mode 100644 mwb/media/fleetwoodtown.png
+ delete mode 100644 mwb/media/focus.png
+ delete mode 100644 mwb/media/fsq0.png
+ delete mode 100644 mwb/media/fsq07081.png
+ delete mode 100644 mwb/media/fsq08081.png
+ delete mode 100644 mwb/media/fsq08083.png
+ delete mode 100644 mwb/media/fsq9.png
+ delete mode 100644 mwb/media/fsqfg1.png
+ delete mode 100644 mwb/media/fsqgame.png
+ delete mode 100644 mwb/media/fsqgauche.png
+ delete mode 100644 mwb/media/fsqpopf.png
+ delete mode 100644 mwb/media/fsqyell.png
+ delete mode 100644 mwb/media/fulham.png
+ delete mode 100644 mwb/media/gillingham.png
+ delete mode 100644 mwb/media/hartlepool.png
+ delete mode 100644 mwb/media/hereford.png
+ delete mode 100644 mwb/media/homeBtnImg.png
+ delete mode 100644 mwb/media/huddersfield.png
+ delete mode 100644 mwb/media/hull.png
+ delete mode 100644 mwb/media/hullcity.png
+ delete mode 100644 mwb/media/ic_launcher.png
+ delete mode 100644 mwb/media/icon-close-open.png
+ delete mode 100644 mwb/media/ipswich.png
+ delete mode 100644 mwb/media/ladbrokes.png
+ delete mode 100644 mwb/media/leeds.png
+ delete mode 100644 mwb/media/leedsunited.png
+ delete mode 100644 mwb/media/leicester.png
+ delete mode 100644 mwb/media/leicestercity.png
+ delete mode 100644 mwb/media/level1.png
+ delete mode 100644 mwb/media/levellock.png
+ delete mode 100644 mwb/media/leytonorient.png
+ delete mode 100644 mwb/media/liverpool.png
+ delete mode 100644 mwb/media/lock.png
+ delete mode 100644 mwb/media/luton.png
+ delete mode 100644 mwb/media/macclesfield.png
+ delete mode 100644 mwb/media/manchestercity.png
+ delete mode 100644 mwb/media/manchesterunited.png
+ delete mode 100644 mwb/media/manchesterutd.png
+ delete mode 100644 mwb/media/mancity.png
+ delete mode 100644 mwb/media/mansfield.png
+ delete mode 100644 mwb/media/manutd.png
+ delete mode 100644 mwb/media/mb.jpg
+ delete mode 100644 mwb/media/mb1.jpg
+ delete mode 100644 mwb/media/mb1.png
+ delete mode 100644 mwb/media/mb2.jpg
+ delete mode 100644 mwb/media/mb2.png
+ delete mode 100644 mwb/media/mb2a.jpg
+ delete mode 100644 mwb/media/mb2b.jpg
+ delete mode 100644 mwb/media/mb3.jpg
+ delete mode 100644 mwb/media/mb3.png
+ delete mode 100644 mwb/media/mb3a.jpg
+ delete mode 100644 mwb/media/mb3b.jpg
+ delete mode 100644 mwb/media/mb4.jpg
+ delete mode 100644 mwb/media/mb4.png
+ delete mode 100644 mwb/media/mb4a.jpg
+ delete mode 100644 mwb/media/mb4b.jpg
+ delete mode 100644 mwb/media/mb5.jpg
+ delete mode 100644 mwb/media/mb5.png
+ delete mode 100644 mwb/media/mb6.jpg
+ delete mode 100644 mwb/media/mb6.png
+ delete mode 100644 mwb/media/mb6a.jpg
+ delete mode 100644 mwb/media/mb7.jpg
+ delete mode 100644 mwb/media/mb8.jpg
+ delete mode 100644 mwb/media/mb9(2).jpg
+ delete mode 100644 mwb/media/mb9.jpg
+ delete mode 100644 mwb/media/middlesbrough.png
+ delete mode 100644 mwb/media/millwall.png
+ delete mode 100644 mwb/media/miltonkeynesdons.png
+ delete mode 100644 mwb/media/mkdons.png
+ delete mode 100644 mwb/media/morecambe.png
+ delete mode 100644 mwb/media/mwb1.png
+ delete mode 100644 mwb/media/mwb2.png
+ delete mode 100644 mwb/media/mwb3.png
+ delete mode 100644 mwb/media/mwb4.png
+ delete mode 100644 mwb/media/mwb5.png
+ delete mode 100644 mwb/media/mwb6.png
+ delete mode 100644 mwb/media/mwbbeach.jpg
+ delete mode 100644 mwb/media/mwbbeach.png
+ delete mode 100644 mwb/media/mwbbeach2.jpg
+ delete mode 100644 mwb/media/mwbbeach4.png
+ delete mode 100644 mwb/media/mwbbeach5.png
+ delete mode 100644 mwb/media/mwbtop.jpg
+ delete mode 100644 mwb/media/mwbtop2.jpg
+ delete mode 100644 mwb/media/newcastle.png
+ delete mode 100644 mwb/media/newcastleunited.png
+ delete mode 100644 mwb/media/newcastleutd.png
+ delete mode 100644 mwb/media/newportcounty.png
+ delete mode 100644 mwb/media/northampton.png
+ delete mode 100644 mwb/media/norwich.png
+ delete mode 100644 mwb/media/nottinghamforest.png
+ delete mode 100644 mwb/media/nottmforest.png
+ delete mode 100644 mwb/media/nottsco.png
+ delete mode 100644 mwb/media/nottscounty.png
+ delete mode 100644 mwb/media/nottsforest.png
+ delete mode 100644 mwb/media/oldham.png
+ delete mode 100644 mwb/media/options-strategies-quick-guide.pdf
+ delete mode 100644 mwb/media/oxford.png
+ delete mode 100644 mwb/media/peterboro.png
+ delete mode 100644 mwb/media/peterborough.png
+ delete mode 100644 mwb/media/place.jpg
+ delete mode 100644 mwb/media/plymouth.png
+ delete mode 100644 mwb/media/portsmouth.png
+ delete mode 100644 mwb/media/portvale.png
+ delete mode 100644 mwb/media/preston.png
+ delete mode 100644 mwb/media/qpr.png
+ delete mode 100644 mwb/media/queensparkrangers.png
+ delete mode 100644 mwb/media/reading.png
+ delete mode 100644 mwb/media/reg.png
+ delete mode 100644 mwb/media/register.jpg
+ delete mode 100644 mwb/media/rochdale.png
+ delete mode 100644 mwb/media/rotherham.png
+ delete mode 100644 mwb/media/scunthorpe.png
+ delete mode 100644 mwb/media/sheffield.png
+ delete mode 100644 mwb/media/sheffieldunited.png
+ delete mode 100644 mwb/media/sheffieldweds.png
+ delete mode 100644 mwb/media/sheffieldwendesday.png
+ delete mode 100644 mwb/media/sheffwed.png
+ delete mode 100644 mwb/media/shrewsbury.png
+ delete mode 100644 mwb/media/skybet.png
+ delete mode 100644 mwb/media/socstad.png
+ delete mode 100644 mwb/media/southampton.png
+ delete mode 100644 mwb/media/southend.png
+ delete mode 100644 mwb/media/stattastic2.png
+ delete mode 100644 mwb/media/stevenage.png
+ delete mode 100644 mwb/media/stoke.png
+ delete mode 100644 mwb/media/stokecity.png
+ delete mode 100644 mwb/media/sunderland.png
+ delete mode 100644 mwb/media/sunderlanda.png
+ delete mode 100644 mwb/media/swansea.png
+ delete mode 100644 mwb/media/swanseacity.png
+ delete mode 100644 mwb/media/swindon.png
+ delete mode 100644 mwb/media/torquayunited.png
+ delete mode 100644 mwb/media/totesport.png
+ delete mode 100644 mwb/media/tottenham.png
+ delete mode 100644 mwb/media/tottenhamhotspur.png
+ delete mode 100644 mwb/media/tranmere.png
+ delete mode 100644 mwb/media/walsall.png
+ delete mode 100644 mwb/media/watford.png
+ delete mode 100644 mwb/media/westbrom.png
+ delete mode 100644 mwb/media/westbromwichalbion.png
+ delete mode 100644 mwb/media/westham.png
+ delete mode 100644 mwb/media/westhamunited.png
+ delete mode 100644 mwb/media/wigan.png
+ delete mode 100644 mwb/media/wiganathletic.png
+ delete mode 100644 mwb/media/williamhill.png
+ delete mode 100644 mwb/media/wolves.png
+ delete mode 100644 mwb/media/wrong.png
+ delete mode 100644 mwb/media/wycombe.png
+ delete mode 100644 mwb/media/yeovil.png
+ delete mode 100644 mwb/media/york.png
+
+commit 1f5ff08d5d2232c3789340f3e0803a7a00bc3684
+Author: andybnsn <andybnsn@gmail.com>
+Date:   Sat Jun 4 11:15:55 2016 +0100
+
+    Reinitialize3360
+
+ delete mode 100644 mwb/media/mwbbeach.jpg

@@ -1,0 +1,7 @@
+{
+  "name": "mwb",
+  "_source": "/home/andy/django/mwb/mwb/static/mwb",
+  "_target": "*",
+  "_originalSource": "/home/andy/django/mwb/mwb/static/mwb",
+  "_direct": true
+}
